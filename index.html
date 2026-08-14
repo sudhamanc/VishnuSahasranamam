@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#120c0a" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Sahasranamam" />
+    <meta
+      name="description"
+      content="Learn Śrī Viṣṇu Sahasranāmam one śloka at a time, and listen with a calm teleprompter."
+    />
+    <title>Śrī Viṣṇu Sahasranāmam</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Noto+Sans:wght@400;500;600&family=Noto+Serif+Devanagari:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/app.css" />
+  </head>
+  <body>
+    <div class="sanctum" aria-hidden="true"></div>
+    <div id="app" class="app">
+      <header class="topbar">
+        <button class="icon-btn" id="backBtn" type="button" hidden aria-label="Back">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M15 5l-7 7 7 7" />
+          </svg>
+        </button>
+        <div class="brand">
+          <p class="brand-om">ॐ</p>
+          <p class="brand-title">Viṣṇu Sahasranāmam</p>
+        </div>
+        <button class="icon-btn" id="settingsBtn" type="button" aria-label="Settings">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.7">
+            <path d="M5 8h14M5 16h14" />
+            <circle cx="9" cy="8" r="2.2" fill="currentColor" />
+            <circle cx="15" cy="16" r="2.2" fill="currentColor" />
+          </svg>
+        </button>
+      </header>
+
+      <main id="view-home" class="view view-home">
+        <section class="hero">
+          <p class="eyebrow">A sanctum for slow learning</p>
+          <h1>One name, then another.<br />Until the heart knows them.</h1>
+          <p class="lede">
+            Sit with a single śloka — Sanskrit, a simple English meaning, and
+            M. S. Subbulakshmi’s recitation — or let the whole hymn rise like a lamp-lit teleprompter.
+          </p>
+        </section>
+
+        <section class="paths">
+          <button class="path-card" id="goLearn" type="button">
+            <span class="path-kicker">Learn</span>
+            <strong>One śloka at a time</strong>
+            <span>Read, hear, and understand each verse before you move on.</span>
+          </button>
+          <button class="path-card" id="goListen" type="button">
+            <span class="path-kicker">Listen</span>
+            <strong>Recitation teleprompter</strong>
+            <span>Verses rise with the audio, so the ear and the eye stay together.</span>
+          </button>
+        </section>
+
+        <section class="progress-card" id="homeProgress">
+          <div>
+            <p class="eyebrow">Your sitting</p>
+            <p class="progress-copy" id="progressCopy">Begin with the first verse when you are ready.</p>
+          </div>
+          <div class="ring" id="progressRing" aria-hidden="true">
+            <svg viewBox="0 0 72 72">
+              <circle cx="36" cy="36" r="30" class="ring-bg" />
+              <circle cx="36" cy="36" r="30" class="ring-fg" id="ringFg" />
+            </svg>
+            <span id="ringLabel">0</span>
+          </div>
+        </section>
+
+        <p class="dedication">ॐ नमो भगवते वासुदेवाय</p>
+      </main>
+
+      <main id="view-learn" class="view view-learn" hidden>
+        <div class="learn-head">
+          <p class="eyebrow" id="learnKicker">Śloka 1 of 108</p>
+          <input id="learnSlider" type="range" min="1" max="108" value="1" aria-label="Choose śloka" />
+        </div>
+        <article class="verse-card" id="learnCard">
+          <p class="sanskrit" id="learnSa"></p>
+          <p class="iast" id="learnIast"></p>
+          <div class="player-row">
+            <button class="play-orb" id="learnPlay" type="button" aria-label="Play this verse">
+              <svg class="icon-play" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <svg class="icon-pause" viewBox="0 0 24 24" width="26" height="26" fill="currentColor" hidden>
+                <path d="M7 5h4v14H7zM13 5h4v14h-4z" />
+              </svg>
+            </button>
+            <div class="player-meta">
+              <p id="learnAudioLabel">Load Subbulakshmi’s recitation in Settings to hear this verse.</p>
+              <label class="check">
+                <input type="checkbox" id="learnLoop" checked />
+                Repeat this śloka
+              </label>
+            </div>
+          </div>
+          <div class="meaning">
+            <p class="eyebrow">In simple English</p>
+            <p id="learnEn"></p>
+          </div>
+          <details class="names" id="learnNamesWrap">
+            <summary>Names in this verse</summary>
+            <ol id="learnNames"></ol>
+          </details>
+        </article>
+        <nav class="learn-nav">
+          <button class="text-btn" id="prevVerse" type="button">Previous</button>
+          <button class="mark-btn" id="markLearned" type="button">Mark as learned</button>
+          <button class="text-btn" id="nextVerse" type="button">Next</button>
+        </nav>
+      </main>
+
+      <main id="view-listen" class="view view-listen" hidden>
+        <div class="prompter-stage">
+          <div class="focus-band" aria-hidden="true"></div>
+          <div class="prompter" id="prompter">
+            <div class="prompter-track" id="prompterTrack"></div>
+          </div>
+        </div>
+        <div class="listen-dock">
+          <p class="listen-now" id="listenNow">Dhyānam</p>
+          <input id="listenSeek" type="range" min="0" max="1000" value="0" aria-label="Recitation position" />
+          <div class="listen-controls">
+            <button class="icon-btn" id="listenBack" type="button" aria-label="Back ten seconds">−10s</button>
+            <button class="play-orb small" id="listenPlay" type="button" aria-label="Play recitation">
+              <svg class="icon-play" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <svg class="icon-pause" viewBox="0 0 24 24" width="22" height="22" fill="currentColor" hidden>
+                <path d="M7 5h4v14H7zM13 5h4v14h-4z" />
+              </svg>
+            </button>
+            <button class="icon-btn" id="listenFwd" type="button" aria-label="Forward ten seconds">+10s</button>
+            <span class="time" id="listenTime">0:00</span>
+            <label class="size-ctrl">
+              Type
+              <input id="fontScale" type="range" min="0.85" max="1.35" step="0.05" value="1" />
+            </label>
+          </div>
+        </div>
+      </main>
+
+      <main id="view-settings" class="view view-settings" hidden>
+        <h1>Settings</h1>
+        <section class="panel">
+          <h2>M. S. Subbulakshmi recitation</h2>
+          <p>
+            Her recording is not included in this app. Load a copy you already have — the familiar
+            Saregama recitation of about thirty minutes — and the verses will keep time with her voice.
+          </p>
+          <label class="file-btn">
+            Choose audio file
+            <input id="audioFile" type="file" accept="audio/*,.mp3,.m4a,.wav,.ogg" hidden />
+          </label>
+          <p class="status" id="audioStatus">No recitation loaded yet.</p>
+          <button class="text-btn" id="clearAudio" type="button">Remove saved audio</button>
+        </section>
+        <section class="panel">
+          <h2>Keep the verses with the voice</h2>
+          <p>
+            If the scrolling runs a little early or late, tap while the recording plays, or nudge the timing.
+          </p>
+          <label class="field">
+            Names begin (Vishvam Vishnur…)
+            <input id="namesStart" type="number" min="0" step="1" />
+            <span>seconds from the start</span>
+          </label>
+          <label class="field">
+            Names end (Vanamālī…)
+            <input id="namesEnd" type="number" min="0" step="1" />
+            <span>seconds from the start</span>
+          </label>
+          <div class="row-btns">
+            <button class="text-btn" id="markStart" type="button">Mark names start now</button>
+            <button class="text-btn" id="markEnd" type="button">Mark names end now</button>
+          </div>
+        </section>
+        <section class="panel">
+          <h2>Reading</h2>
+          <label class="check">
+            <input type="checkbox" id="showIast" checked />
+            Show transliteration under the Sanskrit
+          </label>
+          <button class="text-btn danger" id="resetProgress" type="button">Clear learned verses</button>
+        </section>
+        <p class="fine-print">
+          The thousand names are from the Mahābhārata. Meanings are offered in plain English as a
+          doorway, not as a substitute for traditional commentary.
+        </p>
+      </main>
+    </div>
+
+    <audio id="recitation" preload="metadata" playsinline></audio>
+    <script src="./data/stotram.js"></script>
+    <script src="./js/store.js"></script>
+    <script src="./js/audio.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
