@@ -1,5 +1,6 @@
 const Store = (() => {
-  const KEY = "vs-sahasranamam-v1";
+  const KEY = "vs-sahasranamam-v2";
+  const LEGACY_KEY = "vs-sahasranamam-v1";
   const DB_NAME = "vs-audio";
   const DB_STORE = "files";
 
@@ -16,7 +17,21 @@ const Store = (() => {
 
   function read() {
     try {
-      return { ...defaults(), ...JSON.parse(localStorage.getItem(KEY) || "{}") };
+      const raw = localStorage.getItem(KEY);
+      if (raw) return { ...defaults(), ...JSON.parse(raw) };
+      const legacyRaw = localStorage.getItem(LEGACY_KEY);
+      if (legacyRaw) {
+        const old = JSON.parse(legacyRaw);
+        const migrated = {
+          ...defaults(),
+          showIast: old.showIast !== false,
+          audioName: old.audioName || "",
+          fontScale: old.fontScale || 1,
+        };
+        localStorage.setItem(KEY, JSON.stringify(migrated));
+        return migrated;
+      }
+      return defaults();
     } catch {
       return defaults();
     }
