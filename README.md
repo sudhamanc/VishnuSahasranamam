@@ -4,8 +4,10 @@ A quiet progressive web app for sitting with the thousand names of Vishnu.
 
 It has two paths:
 
-1. **Learn** — one verse at a time, from *Śuklāmbaradharam* through dhyānam and the 108 name-ślokas. Sanskrit, simple English, the names in that verse, and the matching stretch of M. S. Subbulakshmi’s recitation, which starts and stops with that verse.
-2. **Listen** — a teleprompter synced to her recording (opening, dhyānam, the thousand names, phalaśruti). The Mahābhārata *pūrva pīṭhikā* is not in her recitation, so it is not shown here.
+1. **Learn** — one verse at a time, from *Śuklāmbaradharam* through the whole recitation. Sanskrit, simple English, the names in that verse, and the matching stretch of M. S. Subbulakshmi’s recording, which starts and stops with that verse.
+2. **Listen** — a teleprompter synced to her recording. The script follows exactly what she sings, in her order: opening verses, the Bhīṣma–Yudhiṣṭhira dialogue, the nyāsa, dhyānam, the 108 name-ślokas, and the phalaśruti.
+
+Every verse carries a measured timestamp from her 29:41 recording (derived by breath-gap analysis and speech alignment), so both views stay on her voice without any manual timing.
 
 The design is meant to feel like a small inner shrine: lamp-light, gold, unhurried type. No clutter.
 
@@ -15,7 +17,9 @@ M. S. Subbulakshmi’s recording is still under copyright, so it is **not stored
 
 The app plays `audio/recitation.mp3` automatically when that file is present on the site. You can also load a file in **Settings**; it stays on that device only.
 
-If the thousand names drift from her voice, open Settings and tap **Mark names start now** when you hear *Vishvam Vishnur…*, then **Mark names end now** at *Vanamālī…*.
+If your copy of the recording has extra leading silence, open Settings and tap **She is starting Viśvam now** at the first name-śloka, or type a timing nudge in seconds.
+
+To re-derive the per-verse timestamps (only needed for a different recording), see `scripts/make_timing.py`, then run `scripts/build_data.py`.
 
 ## Deploy on Netlify
 

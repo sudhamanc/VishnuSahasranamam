@@ -3,6 +3,7 @@
   const learnVerses = window.STOTRAM.learn;
   const SECTION_LABEL = {
     opening: "Opening",
+    purva: "Pūrva pīṭhikā",
     dhyana: "Dhyānam",
     stotram: "Sahasranāmam",
     phalashruti: "Phalaśruti",
@@ -203,8 +204,7 @@
   }
 
   function renderSettings() {
-    $("namesStart").value = String(Math.round(state.namesStart));
-    $("namesEnd").value = String(Math.round(state.namesEnd));
+    $("timeOffset").value = String(state.timeOffset || 0);
     $("showIast").checked = state.showIast !== false;
     if (state.audioName) {
       $("audioStatus").textContent = `Saved on this device: ${state.audioName}`;
@@ -303,21 +303,19 @@
     state = Store.read();
     renderSettings();
   };
-  $("namesStart").onchange = (e) => {
-    state = Store.write({ namesStart: Number(e.target.value) });
+  $("timeOffset").onchange = (e) => {
+    state = Store.write({ timeOffset: Number(e.target.value) || 0 });
     Recitation.buildTimeline();
   };
-  $("namesEnd").onchange = (e) => {
-    state = Store.write({ namesEnd: Number(e.target.value) });
-    Recitation.buildTimeline();
-  };
-  $("markStart").onclick = () => {
-    state = Store.write({ namesStart: Recitation.current() });
+  $("markShloka1").onclick = () => {
+    // Her Viśvaṃ Viṣṇur… begins at 403.05s in the reference recording.
+    const offset = Recitation.current() - 403.05;
+    state = Store.write({ timeOffset: Math.round(offset * 10) / 10 });
     renderSettings();
     Recitation.buildTimeline();
   };
-  $("markEnd").onclick = () => {
-    state = Store.write({ namesEnd: Recitation.current() });
+  $("resetOffset").onclick = () => {
+    state = Store.write({ timeOffset: 0 });
     renderSettings();
     Recitation.buildTimeline();
   };
