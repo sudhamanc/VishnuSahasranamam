@@ -2,7 +2,7 @@
   const $ = (id) => document.getElementById(id);
   const learnVerses = window.STOTRAM.learn;
   const SECTION_LABEL = {
-    purva: "Pūrva pīṭhikā",
+    opening: "Opening",
     dhyana: "Dhyānam",
     stotram: "Sahasranāmam",
     phalashruti: "Phalaśruti",
@@ -26,10 +26,11 @@
       Recitation.releaseWake();
       stopPrompter();
     }
-    if (name === "home" || name === "settings") {
+    if (name === "home" || name === "settings" || name === "learn") {
       Recitation.audio().pause();
       Recitation.clearRange();
     }
+    if (name === "listen") Recitation.clearRange();
     if (name === "learn") renderLearn();
     if (name === "listen") renderListen();
     if (name === "settings") renderSettings();
@@ -46,9 +47,9 @@
     $("ringLabel").textContent = String(done);
     $("ringFg").style.strokeDashoffset = String(188.4 * (1 - done / total));
     if (done === 0) {
-      $("progressCopy").textContent = "Begin with the first verse when you are ready.";
+      $("progressCopy").textContent = "Begin with Śuklāmbaradharam when you are ready.";
     } else if (done >= total) {
-      $("progressCopy").textContent = "All 108 verses have been sat with. You may begin again.";
+      $("progressCopy").textContent = "Every verse has been sat with. You may begin again.";
     } else {
       $("progressCopy").textContent = `${done} of ${total} verses marked as learned.`;
     }
@@ -58,9 +59,19 @@
     return learnVerses[state.learnIndex] || learnVerses[0];
   }
 
+  function learnKicker(verse) {
+    if (verse.section === "stotram" && verse.shloka) {
+      return `Śloka ${verse.shloka} of ${window.STOTRAM.meta.stotramCount || 108}`;
+    }
+    const label = SECTION_LABEL[verse.section] || verse.section;
+    const inSection = learnVerses.filter((v) => v.section === verse.section);
+    const i = inSection.findIndex((v) => v.id === verse.id) + 1;
+    return `${label} · ${i} of ${inSection.length}`;
+  }
+
   function renderLearn() {
     const verse = currentLearn();
-    $("learnKicker").textContent = `Śloka ${verse.n} of ${learnVerses.length}`;
+    $("learnKicker").textContent = learnKicker(verse);
     $("learnSlider").max = String(learnVerses.length);
     $("learnSlider").value = String(verse.n);
     $("learnSa").textContent = verse.sa.replace(/\s*॥\s*/g, " ॥\n").trim();
@@ -241,6 +252,7 @@
   };
   $("learnLoop").onchange = (e) => {
     learnLoop = e.target.checked;
+    Recitation.setLooping(learnLoop);
   };
   $("learnPlay").onclick = async () => {
     if (Recitation.playing() && Recitation.audio().dataset.loopStart) {

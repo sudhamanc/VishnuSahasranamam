@@ -3,6 +3,8 @@ const Recitation = (() => {
   let objectUrl = null;
   let timeline = [];
   let wakeLock = null;
+  let rangeRaf = 0;
+  let rangeSeeking = false;
 
   const BUNDLED_CANDIDATES = [
     "./audio/recitation.mp3",
@@ -126,12 +128,79 @@ const Recitation = (() => {
     return v ? { start: v.start, end: v.end } : null;
   }
 
+  function stopRangeWatch() {
+    if (rangeRaf) {
+      cancelAnimationFrame(rangeRaf);
+      rangeRaf = 0;
+    }
+  }
+
+  function waitSeeked(el) {
+    return new Promise((resolve) => {
+      let settled = false;
+      const done = () => {
+        if (settled) return;
+        settled = true;
+        el.removeEventListener("seeked", done);
+        resolve();
+      };
+      el.addEventListener("seeked", done);
+      window.setTimeout(done, 400);
+    });
+  }
+
+  function hitRangeEnd(el) {
+    if (el.dataset.loopOn == null || rangeSeeking) return false;
+    const start = Number(el.dataset.loopStart);
+    const clipEnd = Number(el.dataset.clipEnd || el.dataset.loopEnd);
+    if (!Number.isFinite(clipEnd) || el.currentTime < clipEnd - 0.02) return false;
+    if (el.dataset.loopOn === "1") {
+      rangeSeeking = true;
+      el.currentTime = start;
+      waitSeeked(el).then(() => {
+        rangeSeeking = false;
+      });
+      return true;
+    }
+    el.pause();
+    el.currentTime = start;
+    stopRangeWatch();
+    return true;
+  }
+
+  function watchRange(el) {
+    stopRangeWatch();
+    const tick = () => {
+      if (el.dataset.loopOn == null) {
+        rangeRaf = 0;
+        return;
+      }
+      hitRangeEnd(el);
+      if (el.dataset.loopOn == null) {
+        rangeRaf = 0;
+        return;
+      }
+      rangeRaf = requestAnimationFrame(tick);
+    };
+    rangeRaf = requestAnimationFrame(tick);
+  }
+
   async function playRange(start, end, loop) {
     const el = audio();
+    const clipEnd = Math.max(start + 0.3, end - 0.18);
     el.dataset.loopStart = String(start);
     el.dataset.loopEnd = String(end);
+    el.dataset.clipEnd = String(clipEnd);
     el.dataset.loopOn = loop ? "1" : "0";
-    el.currentTime = start;
+    el.pause();
+    if (Math.abs(el.currentTime - start) > 0.04) {
+      el.currentTime = start;
+      await waitSeeked(el);
+    } else {
+      el.currentTime = start;
+    }
+    rangeSeeking = false;
+    watchRange(el);
     try {
       await el.play();
     } catch (err) {
@@ -141,9 +210,17 @@ const Recitation = (() => {
 
   function clearRange() {
     const el = audio();
+    stopRangeWatch();
     delete el.dataset.loopStart;
     delete el.dataset.loopEnd;
+    delete el.dataset.clipEnd;
     delete el.dataset.loopOn;
+  }
+
+  function setLooping(loop) {
+    const el = audio();
+    if (el.dataset.loopOn == null) return;
+    el.dataset.loopOn = loop ? "1" : "0";
   }
 
   function seek(delta) {
@@ -166,15 +243,8 @@ const Recitation = (() => {
     }
   }
 
-  audio().addEventListener("timeupdate", () => {
-    const el = audio();
-    if (el.dataset.loopOn !== "1") return;
-    const end = Number(el.dataset.loopEnd);
-    const start = Number(el.dataset.loopStart);
-    if (el.currentTime >= end - 0.05) {
-      el.currentTime = start;
-    }
-  });
+  audio().addEventListener("timeupdate", () => hitRangeEnd(audio()));
+  audio().addEventListener("ended", () => hitRangeEnd(audio()));
 
   audio().addEventListener("loadedmetadata", buildTimeline);
 
@@ -209,6 +279,7 @@ const Recitation = (() => {
     boundsForLearn,
     playRange,
     clearRange,
+    setLooping,
     seek,
     setTime,
     toggle,
