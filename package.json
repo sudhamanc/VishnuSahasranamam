@@ -1,0 +1,9 @@
+{
+  "name": "vishnu-sahasranamam",
+  "private": true,
+  "description": "PWA for learning Śrī Viṣṇu Sahasranāmam",
+  "scripts": {
+    "start": "python3 -m http.server 4173",
+    "build": "node scripts/prepare-audio.mjs"
+  }
+}
