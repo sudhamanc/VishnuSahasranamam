@@ -4,8 +4,14 @@ const Recitation = (() => {
   let timeline = [];
   let wakeLock = null;
 
+  const BUNDLED_CANDIDATES = [
+    "./audio/recitation.mp3",
+    "./audio/recitation.m4a",
+    "./audio/ms-subbulakshmi.mp3",
+  ];
+
   function hasSource() {
-    return Boolean(audio().src);
+    return Boolean(audio().getAttribute("src"));
   }
 
   function duration() {
@@ -21,12 +27,55 @@ const Recitation = (() => {
     return !audio().paused && !audio().ended;
   }
 
+  function waitForAudio() {
+    const el = audio();
+    return new Promise((resolve) => {
+      const done = () => {
+        el.removeEventListener("loadedmetadata", done);
+        el.removeEventListener("error", done);
+        resolve();
+      };
+      el.addEventListener("loadedmetadata", done, { once: true });
+      el.addEventListener("error", done, { once: true });
+    });
+  }
+
   async function attachFile(file) {
     if (objectUrl) URL.revokeObjectURL(objectUrl);
     objectUrl = URL.createObjectURL(file);
     audio().src = objectUrl;
     await audio().play().then(() => audio().pause()).catch(() => {});
     buildTimeline();
+  }
+
+  async function attachUrl(url) {
+    if (objectUrl) {
+      URL.revokeObjectURL(objectUrl);
+      objectUrl = null;
+    }
+    const ready = waitForAudio();
+    audio().src = url;
+    audio().load();
+    await ready;
+    if (audio().duration && Number.isFinite(audio().duration)) buildTimeline();
+  }
+
+  async function probeBundled() {
+    for (const path of BUNDLED_CANDIDATES) {
+      try {
+        const head = await fetch(path, { method: "HEAD" });
+        if (head.ok) return path;
+      } catch {
+        /* some hosts reject HEAD */
+      }
+      try {
+        const range = await fetch(path, { headers: { Range: "bytes=0-1" } });
+        if (range.ok || range.status === 206) return path;
+      } catch {
+        /* try next */
+      }
+    }
+    return null;
   }
 
   function buildTimeline() {
@@ -153,6 +202,8 @@ const Recitation = (() => {
     current,
     playing,
     attachFile,
+    attachUrl,
+    probeBundled,
     buildTimeline,
     verseAt,
     boundsForLearn,

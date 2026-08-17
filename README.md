@@ -11,13 +11,44 @@ The design is meant to feel like a small inner shrine: lamp-light, gold, unhurri
 
 ## Recitation audio
 
-M. S. Subbulakshmi’s recording is still under copyright, so it is **not bundled** in this repository. Load your own copy in **Settings** (the familiar Saregama recitation of about thirty minutes). The file stays on your device in IndexedDB and can be used offline.
+M. S. Subbulakshmi’s recording is still under copyright, so it is **not stored in GitHub**. Use a copy you already have.
+
+The app plays `audio/recitation.mp3` automatically when that file is present on the site. You can also load a file in **Settings**; it stays on that device only.
 
 If the verses drift from her voice, open Settings and tap **Mark names start now** when you hear *Vishvam Vishnur…*, then **Mark names end now** at *Vanamālī…*.
 
-## Run locally
+## Deploy on Netlify
 
-The app is static. From this folder:
+This is a static site. The fastest path:
+
+1. In [Netlify](https://app.netlify.com), choose **Add new site → Import an existing project**.
+2. Connect the GitHub repo `sudhamanc/VishnuSahasranamam`.
+3. Use these settings (already in `netlify.toml`):
+   - **Build command:** `node scripts/prepare-audio.mjs`
+   - **Publish directory:** `.`
+4. Deploy.
+
+Then add the recitation in one of these ways (pick one):
+
+**A. Environment variable (works with Git deploys)**  
+Site settings → Environment variables → add `RECITATION_URL` with a direct link to your MP3. Trigger a new deploy. The build copies the file into `audio/recitation.mp3` on Netlify only.
+
+**B. Netlify Drop / CLI (file never goes to GitHub)**  
+Copy your MP3 to `audio/recitation.mp3` on your computer, then:
+
+```bash
+npx netlify-cli login
+npx netlify-cli init
+npx netlify-cli deploy --prod --dir .
+```
+
+Or drag the project folder onto [app.netlify.com/drop](https://app.netlify.com/drop).
+
+Until the MP3 is on the site, visitors can still load it in Settings.
+
+For a household shrine, consider Netlify **password protection** so the recording is not openly indexed.
+
+## Run locally
 
 ```bash
 python3 -m http.server 4173

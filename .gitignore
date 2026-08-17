@@ -3,3 +3,10 @@
 .vscode
 node_modules
 *.log
+.netlify
+audio/*.mp3
+audio/*.m4a
+audio/*.wav
+audio/*.ogg
+audio/*.flac
+!audio/.gitkeep

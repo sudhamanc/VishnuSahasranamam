@@ -87,7 +87,7 @@
   function updateLearnAudioLabel() {
     if (!Recitation.hasSource()) {
       $("learnAudioLabel").textContent =
-        "Load Subbulakshmi’s recitation in Settings to hear this verse.";
+        "Add the recitation in Settings, or deploy audio/recitation.mp3 with the site.";
       return;
     }
     $("learnAudioLabel").textContent =
@@ -140,7 +140,7 @@
     requestAnimationFrame(updatePrompter);
     syncPlayButtons();
     if (!Recitation.hasSource()) {
-      $("listenNow").textContent = "Load the recitation in Settings to begin.";
+      $("listenNow").textContent = "Add the recitation in Settings to begin.";
     }
   }
 
@@ -195,9 +195,14 @@
     $("namesStart").value = String(Math.round(state.namesStart));
     $("namesEnd").value = String(Math.round(state.namesEnd));
     $("showIast").checked = state.showIast !== false;
-    $("audioStatus").textContent = state.audioName
-      ? `Saved: ${state.audioName}`
-      : "No recitation loaded yet.";
+    if (state.audioName) {
+      $("audioStatus").textContent = `Saved on this device: ${state.audioName}`;
+    } else if (Recitation.hasSource()) {
+      $("audioStatus").textContent =
+        "Using the site recitation — M. S. Subbulakshmi.";
+    } else {
+      $("audioStatus").textContent = "No recitation loaded yet.";
+    }
   }
 
   $("goLearn").onclick = () => setView("learn");
@@ -274,9 +279,15 @@
     renderSettings();
   };
   $("clearAudio").onclick = async () => {
-    Recitation.audio().removeAttribute("src");
-    Recitation.audio().load();
+    Recitation.audio().pause();
     await Store.clearAudio();
+    const bundled = await Recitation.probeBundled();
+    if (bundled) {
+      await Recitation.attachUrl(bundled);
+    } else {
+      Recitation.audio().removeAttribute("src");
+      Recitation.audio().load();
+    }
     state = Store.read();
     renderSettings();
   };
@@ -322,7 +333,12 @@
 
   async function restoreAudio() {
     const file = await Store.loadAudio();
-    if (file) await Recitation.attachFile(file);
+    if (file) {
+      await Recitation.attachFile(file);
+      return;
+    }
+    const bundled = await Recitation.probeBundled();
+    if (bundled) await Recitation.attachUrl(bundled);
   }
 
   if ("serviceWorker" in navigator) {

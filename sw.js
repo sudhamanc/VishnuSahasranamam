@@ -1,4 +1,4 @@
-const CACHE = "vs-sahasranamam-v1";
+const CACHE = "vs-sahasranamam-v2";
 const ASSETS = [
   "./",
   "./index.html",
@@ -30,6 +30,8 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const req = event.request;
   if (req.method !== "GET") return;
+  const path = new URL(req.url).pathname;
+  if (path.includes("/audio/")) return;
   event.respondWith(
     caches.match(req).then((cached) => {
       const fetched = fetch(req)
