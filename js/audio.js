@@ -3,7 +3,7 @@ const Recitation = (() => {
   let objectUrl = null;
   let timeline = [];
   let wakeLock = null;
-  let rangeRaf = 0;
+  let rangeTimer = 0;
   let rangeSeeking = false;
 
   const BUNDLED_CANDIDATES = [
@@ -119,13 +119,13 @@ const Recitation = (() => {
   }
 
   function stopRangeWatch() {
-    if (rangeRaf) {
-      cancelAnimationFrame(rangeRaf);
-      rangeRaf = 0;
+    if (rangeTimer) {
+      clearInterval(rangeTimer);
+      rangeTimer = 0;
     }
   }
 
-  function waitSeeked(el) {
+  function waitSeeked(el, timeoutMs) {
     return new Promise((resolve) => {
       let settled = false;
       const done = () => {
@@ -135,8 +135,17 @@ const Recitation = (() => {
         resolve();
       };
       el.addEventListener("seeked", done);
-      window.setTimeout(done, 400);
+      window.setTimeout(done, timeoutMs || 2000);
     });
+  }
+
+  async function seekConfirmed(el, t) {
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      el.currentTime = t;
+      await waitSeeked(el);
+      if (Math.abs(el.currentTime - t) < 1) return true;
+    }
+    return Math.abs(el.currentTime - t) < 1;
   }
 
   function hitRangeEnd(el) {
@@ -158,21 +167,17 @@ const Recitation = (() => {
     return true;
   }
 
+  // An interval timer keeps watching even when the tab is unfocused,
+  // where requestAnimationFrame would throttle and let the clip overrun.
   function watchRange(el) {
     stopRangeWatch();
-    const tick = () => {
+    rangeTimer = window.setInterval(() => {
       if (el.dataset.loopOn == null) {
-        rangeRaf = 0;
+        stopRangeWatch();
         return;
       }
       hitRangeEnd(el);
-      if (el.dataset.loopOn == null) {
-        rangeRaf = 0;
-        return;
-      }
-      rangeRaf = requestAnimationFrame(tick);
-    };
-    rangeRaf = requestAnimationFrame(tick);
+    }, 60);
   }
 
   async function playRange(start, end, loop) {
@@ -183,12 +188,8 @@ const Recitation = (() => {
     el.dataset.clipEnd = String(clipEnd);
     el.dataset.loopOn = loop ? "1" : "0";
     el.pause();
-    if (Math.abs(el.currentTime - start) > 0.04) {
-      el.currentTime = start;
-      await waitSeeked(el);
-    } else {
-      el.currentTime = start;
-    }
+    rangeSeeking = true;
+    await seekConfirmed(el, start);
     rangeSeeking = false;
     watchRange(el);
     try {
