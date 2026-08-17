@@ -4,8 +4,8 @@ A quiet progressive web app for sitting with the thousand names of Vishnu.
 
 It has two paths:
 
-1. **Learn** — one śloka at a time. Sanskrit, simple English, the names in that verse, and the matching stretch of M. S. Subbulakshmi’s recitation.
-2. **Listen** — a teleprompter. The verses rise as the full recitation plays, so the eye stays with the ear.
+1. **Learn** — one verse at a time, from *Śuklāmbaradharam* through dhyānam and the 108 name-ślokas. Sanskrit, simple English, the names in that verse, and the matching stretch of M. S. Subbulakshmi’s recitation, which starts and stops with that verse.
+2. **Listen** — a teleprompter synced to her recording (opening, dhyānam, the thousand names, phalaśruti). The Mahābhārata *pūrva pīṭhikā* is not in her recitation, so it is not shown here.
 
 The design is meant to feel like a small inner shrine: lamp-light, gold, unhurried type. No clutter.
 
@@ -15,7 +15,7 @@ M. S. Subbulakshmi’s recording is still under copyright, so it is **not stored
 
 The app plays `audio/recitation.mp3` automatically when that file is present on the site. You can also load a file in **Settings**; it stays on that device only.
 
-If the verses drift from her voice, open Settings and tap **Mark names start now** when you hear *Vishvam Vishnur…*, then **Mark names end now** at *Vanamālī…*.
+If the thousand names drift from her voice, open Settings and tap **Mark names start now** when you hear *Vishvam Vishnur…*, then **Mark names end now** at *Vanamālī…*.
 
 ## Deploy on Netlify
 

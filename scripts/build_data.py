@@ -163,24 +163,18 @@ DHYANA_EN = {
     7: "In the shade of the Parijata tree, on a golden throne, dark as a cloud, moon-faced, four-armed, with Rukmini and Satyabhama — I take refuge in Krishna.",
 }
 
-PURVA_EN = {
-    "ॐ श्रीपरमात्मने": "Om. Salutation to the Supreme Self. Bowing to Nārāyaṇa, Nara, Sarasvatī and Vyāsa, the recitation begins.",
+OPENING_EN = {
     "शुक्लाम्बरधरं": "Meditate on Vishnu in white, moon-bright, four-armed, with a peaceful face, so that every obstacle may settle.",
     "यस्य द्विरदवक्त्राद्याः": "I take refuge in Vishvaksena, whose elephant-faced attendants always destroy obstacles.",
     "व्यासं वसिष्ठनप्तारं": "I bow to Vyasa, grandson of Shakti, son of Parashara, father of Shuka, a treasure of tapas.",
     "व्यासाय विष्णुरूपाय": "Salutation to Vyasa, who is Vishnu’s form, and to Vishnu, who is Vyasa’s form — treasure of Brahman, of Vasishtha’s line.",
     "अविकाराय शुद्धाय": "Salutation to Vishnu, unchanged, pure, eternal, the Supreme Self, of one form always, victorious over all.",
     "यस्य स्मरणमात्रेण": "Even remembering Him frees a person from the knot of birth and worldly life. Salutation to that all-powerful Vishnu.",
-    "किमेकं दैवतं": "Yudhishthira asks: Who is the one God? What is the one true refuge? By praising and worshipping whom do people find the highest good?",
-    "को धर्मः सर्वधर्माणां": "What dharma do you hold as the highest of all dharmas? By repeating what does a being get free from the knot of birth?",
-    "जगत्प्रभुं देवदेवमनन्तं": "Bhishma answers: By always praising the Lord of the world, the God of gods, the endless Supreme Person, with His thousand names.",
-    "तमेव चार्चयन्नित्यं": "Worship that unchanging Person every day with devotion — meditating, praising, bowing, and offering — and that is enough.",
-    "अनादिनिधनं विष्णुं": "Praise Vishnu, without beginning or end, Lord of all worlds, watcher of the worlds, and all sorrow falls away.",
-    "एष मे सर्वधर्माणां": "This, says Bhishma, is the highest dharma: to worship the lotus-eyed Lord always with hymns, in love.",
-    "पवित्राणां पवित्रं यो": "He is the purity of the pure, the blessing of blessings, God of gods, and the unchanging father of all beings.",
-    "तस्य लोकप्रधानस्य": "Listen, O king, to the thousand names of that Lord of the world — names that take away sin and fear.",
     "विष्णुं जिष्णुं महाविष्णुं": "I bow to the Supreme Person — Vishnu, the victorious, the great Vishnu, the powerful, the great Lord, who takes many forms and ends the demons.",
 }
+
+# Verses M. S. Subbulakshmi sings before the thousand names (not the Mahābhārata dialogue).
+OPENING_PREFIXES = tuple(OPENING_EN.keys())
 
 PHALA_EN = {
     "इतीदं कीर्तनीयस्य": "Thus the thousand divine names of the great Keshava, worthy of praise, have been fully told.",
@@ -271,7 +265,51 @@ def main() -> None:
     if vanamali is None:
         raise SystemExit("vanamali verse missing")
 
+    opening_verses = [
+        v for v in purva if any(v["sa"].startswith(p) for p in OPENING_PREFIXES)
+    ]
+    if not opening_verses:
+        raise SystemExit("opening verses (Śuklāmbaradharam…) not found")
+
     learn = []
+    listen = []
+
+    def add_learn(section: str, v: dict, en: str, names=None):
+        item = {
+            "id": f"{section}-{len(learn)+1:03d}",
+            "n": len(learn) + 1,
+            "section": section,
+            "sa": v["sa"],
+            "iast": v["iast"],
+            "en": en,
+            "names": names or [],
+        }
+        if section == "stotram":
+            item["shloka"] = sum(1 for x in learn if x["section"] == "stotram") + 1
+        learn.append(item)
+        listen.append(
+            {
+                "section": section,
+                "sa": item["sa"],
+                "iast": item["iast"],
+                "en": item["en"],
+                "weight": 2.2 if len(item["sa"]) > 120 else 1.15 if section != "stotram" else 1.0,
+                "learnId": item["id"],
+            }
+        )
+
+    for v in opening_verses:
+        add_learn("opening", v, pick_en(v["sa"], OPENING_EN, "An opening verse of the recitation."))
+
+    for i, v in enumerate(dhyana):
+        if is_speaker(v["sa"]) or is_om_iti(v["sa"]):
+            continue
+        add_learn(
+            "dhyana",
+            v,
+            DHYANA_EN.get(i, "A meditation verse on the form of Vishnu."),
+        )
+
     for i, v in enumerate(numbered):
         start, end = NAME_RANGES[i]
         names = []
@@ -284,97 +322,28 @@ def main() -> None:
                     "en": simplify_meaning(item["meaning"]),
                 }
             )
+        sa = re.sub(r"^हरिः ॐ । ॐ ", "", v["sa"])
+        iast = re.sub(r"^hariḥ oṃ \| oṃ ", "", v["iast"])
+        add_learn("stotram", {"sa": sa, "iast": iast}, ESSENCES[i], names)
+    add_learn("stotram", vanamali, ESSENCES[107], [])
+
+    for v in phala:
         sa = v["sa"]
-        sa = re.sub(r"^हरिः ॐ । ॐ ", "", sa)
-        learn.append(
+        if is_speaker(sa) or is_om_iti(sa):
+            continue
+        listen.append(
             {
-                "id": f"s{i+1:03d}",
-                "n": i + 1,
-                "section": "stotram",
+                "section": "phalashruti",
                 "sa": sa,
-                "iast": re.sub(r"^hariḥ oṃ \| oṃ ", "", v["iast"]),
-                "en": ESSENCES[i],
-                "names": names,
-            }
-        )
-    learn.append(
-        {
-            "id": "s108",
-            "n": 108,
-            "section": "stotram",
-            "sa": vanamali["sa"],
-            "iast": vanamali["iast"],
-            "en": ESSENCES[107],
-            "names": [],
-        }
-    )
-
-    listen = []
-
-    def add_listen(section: str, verses: list, en_map, default_en: str, weight_fn):
-        for v in verses:
-            sa = v["sa"]
-            if is_speaker(sa) or is_om_iti(sa):
-                continue
-            if sa in ("ॐ नमो विष्णवे प्रभविष्णवे ॥", "ॐ श्रीपरमात्मने नमः । नारायणं नमस्कृत्य नरं चैव नरोत्तमम् । देवीं सरस्वतीं व्यासं ततो जयमुदीरयेत् ॥"):
-                # keep invocatory
-                pass
-            if sa.startswith("ॐ अथ सकल"):
-                continue
-            listen.append(
-                {
-                    "section": section,
-                    "sa": sa,
-                    "iast": v["iast"],
-                    "en": pick_en(sa, en_map, default_en) if isinstance(en_map, dict) else en_map,
-                    "weight": weight_fn(sa),
-                }
-            )
-
-    def purva_weight(sa: str) -> float:
-        if "।" not in sa:
-            return 0.6
-        return 1.0
-
-    def dhyana_weight(sa: str) -> float:
-        if "ॐ नमो भगवते" in sa:
-            return 0.5
-        if sa.count("।") >= 2 or len(sa) > 120:
-            return 2.2
-        return 1.4
-
-    add_listen("purva", purva, PURVA_EN, "An opening verse of the recitation.", purva_weight)
-
-    for i, v in enumerate(dhyana):
-        listen.append(
-            {
-                "section": "dhyana",
-                "sa": v["sa"],
                 "iast": v["iast"],
-                "en": DHYANA_EN.get(i, "A meditation verse on the form of Vishnu."),
-                "weight": dhyana_weight(v["sa"]),
+                "en": pick_en(
+                    sa,
+                    PHALA_EN,
+                    "A closing verse on the fruit of hearing and reciting these names.",
+                ),
+                "weight": 1.6 if len(sa) > 140 else 1.0,
             }
         )
-
-    for item in learn:
-        listen.append(
-            {
-                "section": "stotram",
-                "sa": item["sa"],
-                "iast": item["iast"],
-                "en": item["en"],
-                "weight": 1.0,
-                "learnId": item["id"],
-            }
-        )
-
-    add_listen(
-        "phalashruti",
-        phala,
-        PHALA_EN,
-        "A closing verse on the fruit of hearing and reciting these names.",
-        lambda sa: 1.6 if len(sa) > 140 else 1.0,
-    )
 
     payload = {
         "meta": {
@@ -385,12 +354,13 @@ def main() -> None:
             "audioNote": "M. S. Subbulakshmi’s recitation is still under copyright, so it is not bundled here. Load your own copy of her recording (many households already have it). The listen view will scroll with the audio.",
             "reciter": "M. S. Subbulakshmi",
             "timing": {
-                "id": "mss-saregama-full",
-                "label": "M. S. Subbulakshmi — Saregama full recitation (~30 min)",
+                "id": "mss-from-shuklam",
+                "label": "M. S. Subbulakshmi — from Śuklāmbaradharam (~30 min)",
                 "expectedDuration": 1790,
-                "namesStart": 468,
-                "namesEnd": 1495,
+                "namesStart": 200,
+                "namesEnd": 1240,
             },
+            "stotramCount": 108,
         },
         "learn": learn,
         "listen": listen,
