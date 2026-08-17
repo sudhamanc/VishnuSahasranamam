@@ -1,6 +1,6 @@
 const Store = (() => {
-  const KEY = "vs-sahasranamam-v2";
-  const LEGACY_KEY = "vs-sahasranamam-v1";
+  const KEY = "vs-sahasranamam-v3";
+  const LEGACY_KEYS = ["vs-sahasranamam-v2", "vs-sahasranamam-v1"];
   const DB_NAME = "vs-audio";
   const DB_STORE = "files";
 
@@ -9,8 +9,7 @@ const Store = (() => {
     learnIndex: 0,
     learned: [],
     showIast: true,
-    namesStart: window.STOTRAM.meta.timing.namesStart,
-    namesEnd: window.STOTRAM.meta.timing.namesEnd,
+    timeOffset: 0,
     audioName: "",
     fontScale: 1,
   });
@@ -19,8 +18,9 @@ const Store = (() => {
     try {
       const raw = localStorage.getItem(KEY);
       if (raw) return { ...defaults(), ...JSON.parse(raw) };
-      const legacyRaw = localStorage.getItem(LEGACY_KEY);
-      if (legacyRaw) {
+      for (const legacy of LEGACY_KEYS) {
+        const legacyRaw = localStorage.getItem(legacy);
+        if (!legacyRaw) continue;
         const old = JSON.parse(legacyRaw);
         const migrated = {
           ...defaults(),

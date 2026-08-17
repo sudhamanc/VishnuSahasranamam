@@ -10,6 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SRC_TS = ROOT / "scripts" / "source" / "vishnu.ts.txt"
 NAMES_JSON = ROOT / "scripts" / "source" / "names_1000.json"
+TIMING_JSON = ROOT / "scripts" / "source" / "mss_timing.json"
 OUT = ROOT / "data" / "stotram.js"
 
 NAME_RANGES = [
@@ -163,29 +164,79 @@ DHYANA_EN = {
     7: "In the shade of the Parijata tree, on a golden throne, dark as a cloud, moon-faced, four-armed, with Rukmini and Satyabhama — I take refuge in Krishna.",
 }
 
-OPENING_EN = {
-    "शुक्लाम्बरधरं": "Meditate on Vishnu in white, moon-bright, four-armed, with a peaceful face, so that every obstacle may settle.",
-    "यस्य द्विरदवक्त्राद्याः": "I take refuge in Vishvaksena, whose elephant-faced attendants always destroy obstacles.",
-    "व्यासं वसिष्ठनप्तारं": "I bow to Vyasa, grandson of Shakti, son of Parashara, father of Shuka, a treasure of tapas.",
-    "व्यासाय विष्णुरूपाय": "Salutation to Vyasa, who is Vishnu’s form, and to Vishnu, who is Vyasa’s form — treasure of Brahman, of Vasishtha’s line.",
-    "अविकाराय शुद्धाय": "Salutation to Vishnu, unchanged, pure, eternal, the Supreme Self, of one form always, victorious over all.",
-    "यस्य स्मरणमात्रेण": "Even remembering Him frees a person from the knot of birth and worldly life. Salutation to that all-powerful Vishnu.",
-    "विष्णुं जिष्णुं महाविष्णुं": "I bow to the Supreme Person — Vishnu, the victorious, the great Vishnu, the powerful, the great Lord, who takes many forms and ends the demons.",
+# Opening verses in her recitation, keyed by purva source index.
+# She does NOT sing index 0 (oṃ śrīparamātmane), 1 (atha sakala…) or 3 (Vishvaksena).
+OPENING_IDX = [2, 4, 5, 6, 7]
+OPENING_EN = [
+    "Meditate on Vishnu in white, moon-bright, four-armed, with a peaceful face, so that every obstacle may settle.",
+    "I bow to Vyasa, grandson of Vasishtha and Shakti, son of Parashara, father of Shuka, a treasure of tapas.",
+    "Salutation to Vyasa, who is Vishnu’s form, and to Vishnu, who is Vyasa’s form — treasure of Brahman, of Vasishtha’s line.",
+    "Salutation to Vishnu, unchanged, pure, eternal, the Supreme Self, of one form always, victorious over all.",
+    "Even remembering Him frees a person from the knot of birth and worldly life. Salutation to that all-powerful Vishnu. Om, salutation to Vishnu, the all-powerful.",
+]
+
+# Pūrva pīṭhikā dialogue as she sings it: (source indices to merge, English).
+PURVA_ITEMS = [
+    ((9, 10), "Vaishampayana said: having heard all the purifying teachings on dharma, Yudhishthira asked Bhishma, son of Shantanu, once more."),
+    ((11, 12), "Yudhishthira asked: who is the one deity in the world? What is the one highest refuge? Praising whom, worshipping whom, do people reach what is good?"),
+    ((13,), "Which dharma, in your view, is the highest of all? Chanting what may a soul go free from the bonds of birth and this world?"),
+    ((14, 15), "Bhishma said: the person who, always rising, praises with the thousand names the Lord of the world, God of gods, endless and supreme —"),
+    ((16,), "— and who always worships that unchanging Person with devotion: meditating on Him, praising Him, bowing to Him, offering to Him —"),
+    ((17,), "— praising Vishnu, who has no beginning or end, the great Lord and overseer of all worlds, that person passes beyond all sorrow."),
+    ((18,), "Devoted to the Veda, knower of every dharma, He increases the fame of the worlds — Lord of the worlds, the great being, the origin of all beings."),
+    ((19,), "This I hold the highest of all dharmas: that a person always worship the lotus-eyed Lord with devotion and with hymns."),
+    ((20,), "He who is the highest light, the highest austerity, the highest Brahman — He is the highest refuge."),
+    ((21,), "The purest of the pure, the most auspicious of the auspicious, God of gods, the undying father of all beings."),
+    ((22,), "From whom all beings arise at the dawn of the first age, and in whom they dissolve again when the age ends."),
+    ((23,), "Hear from me, O king, the thousand names of that Vishnu, foremost Lord of the world — names that carry away sin and fear."),
+    ((24,), "Those names, famed and sung by the seers for the great-souled one, I will recount for well-being."),
+    ((25,), "The seer of the thousand names is Vedavyasa, the great sage; the metre is anushtubh; the deity is the Lord, son of Devaki."),
+    ((26,), "The seed is the moon-born one, the power is Devaki’s son, the heart is Trisama. It is employed for the sake of peace."),
+    ((27,), "I bow to the Supreme Person — Vishnu, the victorious, the great Vishnu, the powerful, the great Lord, who takes many forms and ends the demons."),
+]
+
+NYASA = {
+    "sa": "अस्य श्रीविष्णोर्दिव्यसहस्रनामस्तोत्रमहामन्त्रस्य । श्रीवेदव्यासो भगवानृषिः । अनुष्टुप् छन्दः । श्रीमहाविष्णुः परमात्मा श्रीमन्नारायणो देवता । अमृतांशूद्भवो भानुरिति बीजम् । देवकीनन्दनः स्रष्टेति शक्तिः । उद्भवः क्षोभणो देव इति परममन्त्रः । शङ्खभृन्नन्दकी चक्रीति कीलकम् । शार्ङ्गधन्वा गदाधर इत्यस्त्रम् । रथाङ्गपाणी रक्षोभ्य इति नेत्रम् । त्रिसामा सामगः सामेति कवचम् । आनन्दं परब्रह्मेति योनिः । ऋतुः सुदर्शनः काल इति दिग्बन्धः । श्रीविश्वरूप इति ध्यानम् । श्रीमहाविष्णुप्रीत्यर्थे सहस्रनामजपे विनियोगः ॥",
+    "iast": "asya śrīviṣṇordivyasahasranāmastotramahāmantrasya | śrīvedavyāso bhagavānṛṣiḥ | anuṣṭup chandaḥ | śrīmahāviṣṇuḥ paramātmā śrīmannārāyaṇo devatā | amṛtāṃśūdbhavo bhānuriti bījam | devakīnandanaḥ sraṣṭeti śaktiḥ | udbhavaḥ kṣobhaṇo deva iti paramamantraḥ | śaṅkhabhṛnnandakī cakrīti kīlakam | śārṅgadhanvā gadādhara ityastram | rathāṅgapāṇī rakṣobhya iti netram | trisāmā sāmagaḥ sāmeti kavacam | ānandaṃ parabrahmeti yoniḥ | ṛtuḥ sudarśanaḥ kāla iti digbandhaḥ | śrīviśvarūpa iti dhyānam | śrīmahāviṣṇuprītyarthe sahasranāmajape viniyogaḥ ||",
+    "en": "The nyasa, the ritual frame of the mantra: its seer is Vedavyasa, its metre anushtubh, its deity the great Vishnu, Narayana himself. Its seed, power, heart, armour, weapon, eye and protection are drawn from the names themselves, and it is employed in recitation to please the great Vishnu.",
 }
 
-# Verses M. S. Subbulakshmi sings before the thousand names (not the Mahābhārata dialogue).
-OPENING_PREFIXES = tuple(OPENING_EN.keys())
-
-PHALA_EN = {
-    "इतीदं कीर्तनीयस्य": "Thus the thousand divine names of the great Keshava, worthy of praise, have been fully told.",
-    "य इदं शृणुयान्नित्यं": "Whoever hears this every day, and whoever recites it, meets no harm here or in the world after.",
-    "रोगार्तो मुच्यते": "The sick are freed from illness, the bound from bondage, the frightened from fear, and the distressed from danger.",
-    "न वासुदेवभक्तानामशुभं": "For devotees of Vasudeva, nothing inauspicious remains — not the fear of birth, death, old age, or disease.",
-    "श्रीरामरामरामेति": "O fair-faced one, I delight in the name Rama, Rama, Rama. That one name is equal to the whole thousand names.",
-    "आर्ता विषण्णाः": "The hurting, the weary, the shaken, and the sick become free of sorrow and find joy by simply saying the name Narayana.",
-    "कायेन वाचा मनसेन्द्रियैर्वा": "Whatever I do with body, speech, mind, senses, intellect, or nature — I offer it all to Narayana.",
-    "परित्राणाय साधूनां": "To protect the good, to end the wicked, and to set dharma on its feet, I am born age after age.",
-}
+# Phalaśruti as she sings it: (source indices to merge, English).
+PHALA_ITEMS = [
+    ((1,), "Thus the thousand divine names of the great Keshava, worthy of praise, have been fully told."),
+    ((2,), "Whoever hears this every day, and whoever recites it, meets no harm here or in the world after."),
+    ((3,), "By this a brahmana reaches the end of the Veda, a kshatriya gains victory, a vaishya wealth, a shudra happiness."),
+    ((4,), "The seeker of dharma gains dharma, the seeker of wealth gains wealth, the seeker of pleasures gains them, and the seeker of children gains children."),
+    ((5,), "Whoever, devoted, rising early and pure in heart, recites these thousand names of Vasudeva —"),
+    ((6,), "— wins wide fame, first place among kin, unshakable prosperity, and the highest good."),
+    ((7,), "Fear finds that person nowhere. Courage and radiance come, freedom from illness, beauty, strength, and character."),
+    ((8,), "The sick are freed from illness, the bound from bondage, the frightened from fear, and the distressed from danger."),
+    ((9,), "One who praises the Supreme Person with the thousand names, ever joined with devotion, swiftly crosses every difficulty."),
+    ((10,), "A mortal who takes refuge in Vasudeva, devoted to Him, is cleansed of every sin and reaches the eternal Brahman."),
+    ((11,), "For devotees of Vasudeva, nothing inauspicious remains — not the fear of birth, death, old age, or disease."),
+    ((12,), "Whoever recites this hymn with faith and devotion gains happiness of self, patience, prosperity, steadiness, memory, and fame."),
+    ((13,), "No anger, no envy, no greed, no impure thought remain in those devotees of the Supreme Person who have earned merit."),
+    ((14,), "The sky with moon, sun and stars, the directions, the earth and the great ocean are upheld by the power of the great-souled Vasudeva."),
+    ((15,), "With gods, demons and gandharvas, with yakshas, serpents and rakshasas — this whole world moves under Krishna’s sway."),
+    ((16,), "The senses, mind, intellect, vitality, radiance, strength and firmness have Vasudeva as their self; He is the field and its knower."),
+    ((17,), "Right conduct comes first in all scriptures; dharma is born of conduct, and the Lord of dharma is Achyuta."),
+    ((18,), "The seers, the ancestors, the gods, the great elements, the substances — this whole moving and unmoving world is born of Narayana."),
+    ((19,), "Yoga and its knowledge, sankhya, the arts, the Vedas, the scriptures, all knowing — all of it comes from Janardana."),
+    ((20,), "Vishnu is the one great being appearing as the many. Pervading the three worlds, He, the Self of beings, enjoys all, undying."),
+    ((21,), "Whoever wishes happiness and the good should recite this hymn to the Lord Vishnu, sung by Vyasa."),
+    ((22, 23), "Those who worship the lotus-eyed Lord of the universe — unborn, undying master of the world — never come to defeat."),
+    ((24, 25), "Arjuna said: O wide lotus-eyed one, lotus-naveled, best of gods — be the refuge of the devotees who love You, Janardana."),
+    ((26, 27), "The Blessed Lord said: whoever wishes to praise Me with the thousand names, Pandava — know that I am fully praised by one verse alone. There is no doubt."),
+    ((28, 29, 30), "Vyasa said: the three worlds are pervaded by the dwelling of Vasudeva. O Vasudeva, You are the home of all beings — salutation to You."),
+    ((31,), "Parvati asked: by what simple means may the wise recite the thousand names of Vishnu each day? I wish to hear it, Lord."),
+    ((32, 33, 34), "Shiva said: O fair-faced one, I delight in the name Rama, Rama, Rama. That one name is equal to the whole thousand names."),
+    ((35, 36), "Brahma said: salutation to You, the endless one of a thousand forms, a thousand feet, eyes, heads and arms — the eternal Person, bearer of a thousand crores of ages."),
+    ((38, 39), "Sanjaya said: where Krishna, the Lord of yoga, is, and where Arjuna the archer is — there are fortune, victory, prosperity, and firm justice."),
+    ((40,), "The Blessed Lord said: for those who think of nothing else and worship Me all around, ever joined with Me — I carry what they need and protect what they have."),
+    ((41,), "To protect the good, to end the wicked, and to set dharma on its feet, I am born age after age."),
+    ((42,), "The hurting, the weary, the shaken, and the sick become free of sorrow and find joy by simply saying the name Narayana."),
+    ((43,), "Whatever I do with body, speech, mind, senses, intellect, or nature — I offer it all to Narayana."),
+]
 
 
 def extract_section(text: str, key: str) -> list[dict[str, str]]:
@@ -211,46 +262,33 @@ def simplify_meaning(text: str) -> str:
     return t
 
 
-def is_speaker(sa: str) -> bool:
-    return "उवाच" in sa and "।" not in sa and len(sa) < 40
-
-
-def is_om_iti(sa: str) -> bool:
-    return "ॐ नम इति" in sa or sa.endswith("ॐ नमः ॥")
-
-
-def pick_en(sa: str, table: dict[str, str], fallback: str) -> str:
-    for key, val in table.items():
-        if sa.startswith(key) or key in sa[:24]:
-            return val
-    return fallback
+def merge_verses(verses: list[dict], idxs: tuple) -> dict:
+    sa = " ".join(verses[i]["sa"].strip() for i in idxs)
+    iast = " ".join(verses[i]["iast"].strip() for i in idxs)
+    return {"sa": sa, "iast": iast}
 
 
 def main() -> None:
     text = SRC_TS.read_text(encoding="utf-8")
     names_raw = json.loads(NAMES_JSON.read_text(encoding="utf-8"))
     names_by_n = {int(x["n"]): x for x in names_raw}
+    timing = json.loads(TIMING_JSON.read_text(encoding="utf-8"))
+    cues = timing["cues"]
 
     purva = extract_section(text, "purva")
     dhyana = extract_section(text, "dhyana")
     stotram = extract_section(text, "stotram")
     phala = extract_section(text, "phalashruti")
 
-    # Stotram verses: skip harih om prefix-only extras after 108
+    # Stotram verses: keep the 107 numbered shlokas + vanamali as 108
     name_verses = []
-    extras = []
-    for i, v in enumerate(stotram):
+    for v in stotram:
         sa = v["sa"]
         if sa.startswith("हरिः ॐ") or re.search(r"॥\s*[१]?[०-९]+॥", sa) or "वनमाली" in sa:
             if "ॐ नम इति" in sa or sa.startswith("सर्वप्रहरणायुध ॐ") or sa.startswith("श्रीवासुदेवोऽभिरक्षतु ॐ"):
-                extras.append(v)
-            else:
-                name_verses.append(v)
-        else:
-            extras.append(v)
+                continue
+            name_verses.append(v)
 
-    # Keep first 108 name shlokas (1–107 numbered + vanamali as 108)
-    # The source has: 107 numbered, then om nama iti, then 108 vanamali, then om nama iti
     numbered = []
     vanamali = None
     for v in name_verses:
@@ -265,16 +303,9 @@ def main() -> None:
     if vanamali is None:
         raise SystemExit("vanamali verse missing")
 
-    opening_verses = [
-        v for v in purva if any(v["sa"].startswith(p) for p in OPENING_PREFIXES)
-    ]
-    if not opening_verses:
-        raise SystemExit("opening verses (Śuklāmbaradharam…) not found")
-
     learn = []
-    listen = []
 
-    def add_learn(section: str, v: dict, en: str, names=None):
+    def add(section: str, v: dict, en: str, cue, names=None):
         item = {
             "id": f"{section}-{len(learn)+1:03d}",
             "n": len(learn) + 1,
@@ -282,35 +313,32 @@ def main() -> None:
             "sa": v["sa"],
             "iast": v["iast"],
             "en": en,
+            "start": cue[0],
+            "end": cue[1],
             "names": names or [],
         }
         if section == "stotram":
             item["shloka"] = sum(1 for x in learn if x["section"] == "stotram") + 1
         learn.append(item)
-        listen.append(
-            {
-                "section": section,
-                "sa": item["sa"],
-                "iast": item["iast"],
-                "en": item["en"],
-                "weight": 2.2 if len(item["sa"]) > 120 else 1.15 if section != "stotram" else 1.0,
-                "learnId": item["id"],
-            }
-        )
 
-    for v in opening_verses:
-        add_learn("opening", v, pick_en(v["sa"], OPENING_EN, "An opening verse of the recitation."))
+    # Opening — Śuklāmbaradharam through yasya smaraṇa (+ oṃ namo viṣṇave)
+    opening_verses = [purva[i] for i in OPENING_IDX]
+    opening_verses[-1] = merge_verses(purva, (7, 8))
+    for v, en, cue in zip(opening_verses, OPENING_EN, cues["opening"]):
+        add("opening", v, en, cue)
 
-    for i, v in enumerate(dhyana):
-        if is_speaker(v["sa"]) or is_om_iti(v["sa"]):
-            continue
-        add_learn(
-            "dhyana",
-            v,
-            DHYANA_EN.get(i, "A meditation verse on the form of Vishnu."),
-        )
+    # Pūrva pīṭhikā dialogue + nyāsa — all sung in her recording
+    purva_cues = cues["purva"]
+    for (idxs, en), cue in zip(PURVA_ITEMS, purva_cues[:-1]):
+        add("purva", merge_verses(purva, idxs), en, cue)
+    add("purva", NYASA, NYASA["en"], purva_cues[-1])
 
-    for i, v in enumerate(numbered):
+    # Dhyānam — all eight, as sung
+    for i, (v, cue) in enumerate(zip(dhyana, cues["dhyana"])):
+        add("dhyana", v, DHYANA_EN.get(i, "A meditation verse on the form of Vishnu."), cue)
+
+    # The 108 name-ślokas
+    for i, (v, cue) in enumerate(zip(numbered, cues["stotram"][:107])):
         start, end = NAME_RANGES[i]
         names = []
         for n in range(start, end + 1):
@@ -322,28 +350,37 @@ def main() -> None:
                     "en": simplify_meaning(item["meaning"]),
                 }
             )
-        sa = re.sub(r"^हरिः ॐ । ॐ ", "", v["sa"])
-        iast = re.sub(r"^hariḥ oṃ \| oṃ ", "", v["iast"])
-        add_learn("stotram", {"sa": sa, "iast": iast}, ESSENCES[i], names)
-    add_learn("stotram", vanamali, ESSENCES[107], [])
+        sa = re.sub(r"^हरिः ॐ । ॐ ", "ॐ ", v["sa"])
+        iast = re.sub(r"^hariḥ oṃ \| oṃ ", "oṃ ", v["iast"])
+        add("stotram", {"sa": sa, "iast": iast}, ESSENCES[i], cue, names)
 
-    for v in phala:
-        sa = v["sa"]
-        if is_speaker(sa) or is_om_iti(sa):
-            continue
-        listen.append(
-            {
-                "section": "phalashruti",
-                "sa": sa,
-                "iast": v["iast"],
-                "en": pick_en(
-                    sa,
-                    PHALA_EN,
-                    "A closing verse on the fruit of hearing and reciting these names.",
-                ),
-                "weight": 1.6 if len(sa) > 140 else 1.0,
-            }
-        )
+    vanamali_full = {
+        "sa": vanamali["sa"] + " श्रीवासुदेवोऽभिरक्षतु ॐ नम इति ।",
+        "iast": vanamali["iast"] + " śrīvāsudevo'bhirakṣatu oṃ nama iti |",
+    }
+    add(
+        "stotram",
+        vanamali_full,
+        ESSENCES[107] + " She sings this closing śloka three times.",
+        cues["stotram"][107],
+    )
+
+    # Phalaśruti — every verse she sings, in her order
+    for (idxs, en), cue in zip(PHALA_ITEMS, cues["phalashruti"]):
+        add("phalashruti", merge_verses(phala, idxs), en, cue)
+
+    listen = [
+        {
+            "section": v["section"],
+            "sa": v["sa"],
+            "iast": v["iast"],
+            "en": v["en"],
+            "start": v["start"],
+            "end": v["end"],
+            "learnId": v["id"],
+        }
+        for v in learn
+    ]
 
     payload = {
         "meta": {
@@ -354,11 +391,9 @@ def main() -> None:
             "audioNote": "M. S. Subbulakshmi’s recitation is still under copyright, so it is not bundled here. Load your own copy of her recording (many households already have it). The listen view will scroll with the audio.",
             "reciter": "M. S. Subbulakshmi",
             "timing": {
-                "id": "mss-from-shuklam",
-                "label": "M. S. Subbulakshmi — from Śuklāmbaradharam (~30 min)",
-                "expectedDuration": 1790,
-                "namesStart": 200,
-                "namesEnd": 1240,
+                "id": "mss-1781",
+                "label": "M. S. Subbulakshmi — full recitation (29:41)",
+                "duration": timing["duration"],
             },
             "stotramCount": 108,
         },

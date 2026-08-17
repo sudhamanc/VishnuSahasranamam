@@ -174,23 +174,18 @@
         <section class="panel">
           <h2>Keep the verses with the voice</h2>
           <p>
-            The teleprompter follows her recording from Śuklāmbaradharam — opening, dhyānam, the thousand names,
-            then phalaśruti. The Mahābhārata dialogue is not in this recitation. If the names drift, tap while
-            the recording plays, or nudge the timing.
+            Every verse carries its exact place in her 29:41 recording, measured verse by verse.
+            If your copy of the recording has extra silence at the start, nudge the timing —
+            or tap the button just as she begins <em>Viśvaṃ Viṣṇur…</em>.
           </p>
           <label class="field">
-            Names begin (Vishvam Vishnur…)
-            <input id="namesStart" type="number" min="0" step="1" />
-            <span>seconds from the start</span>
-          </label>
-          <label class="field">
-            Names end (Vanamālī…)
-            <input id="namesEnd" type="number" min="0" step="1" />
-            <span>seconds from the start</span>
+            Timing nudge
+            <input id="timeOffset" type="number" step="0.1" />
+            <span>seconds (positive if her voice runs late)</span>
           </label>
           <div class="row-btns">
-            <button class="text-btn" id="markStart" type="button">Mark names start now</button>
-            <button class="text-btn" id="markEnd" type="button">Mark names end now</button>
+            <button class="text-btn" id="markShloka1" type="button">She is starting Viśvam now</button>
+            <button class="text-btn" id="resetOffset" type="button">Reset</button>
           </div>
         </section>
         <section class="panel">

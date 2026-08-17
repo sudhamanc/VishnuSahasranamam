@@ -18,7 +18,7 @@ const Recitation = (() => {
 
   function duration() {
     const d = audio().duration;
-    return Number.isFinite(d) && d > 0 ? d : window.STOTRAM.meta.timing.expectedDuration;
+    return Number.isFinite(d) && d > 0 ? d : window.STOTRAM.meta.timing.duration;
   }
 
   function current() {
@@ -83,33 +83,20 @@ const Recitation = (() => {
   function buildTimeline() {
     const state = Store.read();
     const verses = window.STOTRAM.listen;
-    const dur = duration();
-    let namesStart = Number(state.namesStart);
-    let namesEnd = Number(state.namesEnd);
-    namesStart = Math.max(0, Math.min(namesStart, dur - 30));
-    namesEnd = Math.max(namesStart + 30, Math.min(namesEnd, dur - 2));
-
-    const before = verses.filter((v) => v.section !== "stotram" && v.section !== "phalashruti");
-    const names = verses.filter((v) => v.section === "stotram");
-    const after = verses.filter((v) => v.section === "phalashruti");
-
-    const stamp = (list, from, to) => {
-      const total = list.reduce((sum, v) => sum + (v.weight || 1), 0) || 1;
-      let t = from;
-      const span = Math.max(1, to - from);
-      return list.map((v) => {
-        const len = ((v.weight || 1) / total) * span;
-        const item = { ...v, start: t, end: t + len };
-        t += len;
-        return item;
-      });
-    };
-
-    timeline = [
-      ...stamp(before, 0, namesStart),
-      ...stamp(names, namesStart, namesEnd),
-      ...stamp(after, namesEnd, dur),
-    ];
+    const baseDur = window.STOTRAM.meta.timing.duration;
+    const offset = Number(state.timeOffset) || 0;
+    // The cues were measured against the 29:41 recording. If a different rip
+    // of the same recitation runs slightly long or short, scale linearly.
+    const actual = audio().duration;
+    const scale =
+      Number.isFinite(actual) && actual > 60 && Math.abs(actual - baseDur) < 90
+        ? actual / baseDur
+        : 1;
+    timeline = verses.map((v) => ({
+      ...v,
+      start: v.start * scale + offset,
+      end: v.end * scale + offset,
+    }));
     return timeline;
   }
 
@@ -125,7 +112,10 @@ const Recitation = (() => {
   function boundsForLearn(id) {
     if (!timeline.length) buildTimeline();
     const v = timeline.find((item) => item.learnId === id);
-    return v ? { start: v.start, end: v.end } : null;
+    if (!v) return null;
+    // start is where her voice begins after the breath; end is where it stops.
+    // A small tail keeps the last syllable's decay without touching the next verse.
+    return { start: Math.max(0, v.start - 0.1), end: v.end + 0.15 };
   }
 
   function stopRangeWatch() {
@@ -187,7 +177,7 @@ const Recitation = (() => {
 
   async function playRange(start, end, loop) {
     const el = audio();
-    const clipEnd = Math.max(start + 0.3, end - 0.18);
+    const clipEnd = Math.max(start + 0.3, end);
     el.dataset.loopStart = String(start);
     el.dataset.loopEnd = String(end);
     el.dataset.clipEnd = String(clipEnd);
