@@ -109,8 +109,7 @@
   function syncPlayButtons() {
     const on = Recitation.playing();
     document.querySelectorAll(".play-orb").forEach((btn) => {
-      btn.querySelector(".icon-play").hidden = on;
-      btn.querySelector(".icon-pause").hidden = !on;
+      btn.classList.toggle("is-playing", on);
     });
   }
 
@@ -260,7 +259,9 @@
       syncPlayButtons();
       return;
     }
+    $("learnPlay").classList.add("is-playing");
     await playCurrentLearn();
+    syncPlayButtons();
   };
 
   $("listenPlay").onclick = async () => {
@@ -269,7 +270,12 @@
       return;
     }
     Recitation.clearRange();
-    await Recitation.toggle();
+    if (Recitation.playing()) {
+      Recitation.audio().pause();
+    } else {
+      $("listenPlay").classList.add("is-playing");
+      await Recitation.toggle();
+    }
     syncPlayButtons();
   };
   $("listenBack").onclick = () => Recitation.seek(-10);
@@ -338,6 +344,8 @@
       $("learnPlay").click();
     }
   });
+  Recitation.audio().addEventListener("play", syncPlayButtons);
+  Recitation.audio().addEventListener("playing", syncPlayButtons);
   Recitation.audio().addEventListener("pause", syncPlayButtons);
   Recitation.audio().addEventListener("ended", syncPlayButtons);
 

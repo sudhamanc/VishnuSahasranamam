@@ -323,6 +323,26 @@ button:disabled {
   flex: none;
 }
 
+.play-orb svg {
+  grid-area: 1 / 1;
+}
+
+.play-orb .icon-play {
+  display: block !important;
+}
+
+.play-orb .icon-pause {
+  display: none !important;
+}
+
+.play-orb.is-playing .icon-play {
+  display: none !important;
+}
+
+.play-orb.is-playing .icon-pause {
+  display: block !important;
+}
+
 .play-orb.small {
   width: 54px;
   height: 54px;

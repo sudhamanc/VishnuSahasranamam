@@ -352,7 +352,7 @@ window.STOTRAM = {
       "iast": "oṃ viśvaṃ viṣṇurvaṣaṭkāro bhūtabhavyabhavatprabhuḥ | bhūtakṛdbhūtabhṛdbhāvo bhūtātmā bhūtabhāvanaḥ || 1||",
       "en": "The Lord is the whole universe, present in every place. He is the sacred offering, the master of past, present and future, and the one who makes, holds, and nourishes every living being.",
       "start": 403.05,
-      "end": 412.51,
+      "end": 415.33,
       "names": [
         {
           "n": 1,
@@ -409,8 +409,8 @@ window.STOTRAM = {
       "sa": "पूतात्मा परमात्मा च मुक्तानां परमा गतिः । अव्ययः पुरुषः साक्षी क्षेत्रज्ञोऽक्षर एव च ॥ २॥",
       "iast": "pūtātmā paramātmā ca muktānāṃ paramā gatiḥ | avyayaḥ puruṣaḥ sākṣī kṣetrajño'kṣara eva ca || 2||",
       "en": "He is the pure Self and the Supreme Self. For those who are free, He is the last home. He never fades. He lives within, watches all, knows the body, and never dies.",
-      "start": 412.81,
-      "end": 422.12,
+      "start": 415.85,
+      "end": 425.06,
       "names": [
         {
           "n": 10,
@@ -462,8 +462,8 @@ window.STOTRAM = {
       "sa": "योगो योगविदां नेता प्रधानपुरुषेश्वरः । नारसिंहवपुः श्रीमान् केशवः पुरुषोत्तमः ॥ ३॥",
       "iast": "yogo yogavidāṃ netā pradhānapuruṣeśvaraḥ | nārasiṃhavapuḥ śrīmān keśavaḥ puruṣottamaḥ || 3||",
       "en": "He is yoga itself and the guide of yogis. He rules both nature and the soul. He took the Narasimha form, He is glorious Keshava, and He is the highest Person.",
-      "start": 422.42,
-      "end": 431.73,
+      "start": 425.56,
+      "end": 434.01,
       "names": [
         {
           "n": 18,
@@ -510,8 +510,8 @@ window.STOTRAM = {
       "sa": "सर्वः शर्वः शिवः स्थाणुर्भूतादिर्निधिरव्ययः । सम्भवो भावनो भर्ता प्रभवः प्रभुरीश्वरः ॥ ४॥",
       "iast": "sarvaḥ śarvaḥ śivaḥ sthāṇurbhūtādirnidhiravyayaḥ | sambhavo bhāvano bhartā prabhavaḥ prabhurīśvaraḥ || 4||",
       "en": "He is everything, and also the one who brings things to a close. He is auspicious, steady, the source of beings, and an unending treasure. He appears, cares, supports, and rules.",
-      "start": 432.03,
-      "end": 441.34,
+      "start": 434.55,
+      "end": 443.04,
       "names": [
         {
           "n": 25,
@@ -583,8 +583,8 @@ window.STOTRAM = {
       "sa": "स्वयम्भूः शम्भुरादित्यः पुष्कराक्षो महास्वनः । अनादिनिधनो धाता विधाता धातुरुत्तमः ॥ ५॥",
       "iast": "svayambhūḥ śambhurādityaḥ puṣkarākṣo mahāsvanaḥ | anādinidhano dhātā vidhātā dhāturuttamaḥ || 5||",
       "en": "He exists by Himself. He gives joy, shines like the sun, and has lotus-like eyes. He has no beginning or end. He holds the world, orders it, and is its highest support.",
-      "start": 441.64,
-      "end": 450.95,
+      "start": 443.49,
+      "end": 452.1,
       "names": [
         {
           "n": 37,
@@ -641,8 +641,8 @@ window.STOTRAM = {
       "sa": "अप्रमेयो हृषीकेशः पद्मनाभोऽमरप्रभुः । विश्वकर्मा मनुस्त्वष्टा स्थविष्ठः स्थविरो ध्रुवः ॥ ६॥",
       "iast": "aprameyo hṛṣīkeśaḥ padmanābho'maraprabhuḥ | viśvakarmā manustvaṣṭā sthaviṣṭhaḥ sthaviro dhruvaḥ || 6||",
       "en": "No one can measure Him. He is the Lord of the senses, with a lotus at His navel, and Lord of the deathless ones. He shapes the universe, thinks, forms, is vast, ancient, and unmoving.",
-      "start": 451.25,
-      "end": 460.56,
+      "start": 452.58,
+      "end": 461.06,
       "names": [
         {
           "n": 46,
@@ -704,8 +704,8 @@ window.STOTRAM = {
       "sa": "अग्राह्यः शाश्वतः कृष्णो लोहिताक्षः प्रतर्दनः । प्रभूतस्त्रिककुब्धाम पवित्रं मङ्गलं परम् ॥ ७॥",
       "iast": "agrāhyaḥ śāśvataḥ kṛṣṇo lohitākṣaḥ pratardanaḥ | prabhūtastrikakubdhāma pavitraṃ maṅgalaṃ param || 7||",
       "en": "The senses cannot grasp Him. He is eternal, dark-hued Krishna, red-eyed, and the one who dissolves the world. He is full, the support of the three worlds, the purifier, and the highest blessing.",
-      "start": 460.86,
-      "end": 470.17,
+      "start": 461.53,
+      "end": 470.09,
       "names": [
         {
           "n": 56,
@@ -762,8 +762,8 @@ window.STOTRAM = {
       "sa": "ईशानः प्राणदः प्राणो ज्येष्ठः श्रेष्ठः प्रजापतिः । हिरण्यगर्भो भूगर्भो माधवो मधुसूदनः ॥ ८॥",
       "iast": "īśānaḥ prāṇadaḥ prāṇo jyeṣṭhaḥ śreṣṭhaḥ prajāpatiḥ | hiraṇyagarbho bhūgarbho mādhavo madhusūdanaḥ || 8||",
       "en": "He governs, gives life, and is life itself. He is the eldest and the most worthy. He is the golden-wombed creator, holds the earth, is Lakshmi’s Lord, and the slayer of the demon Madhu.",
-      "start": 470.47,
-      "end": 479.78,
+      "start": 470.57,
+      "end": 479.6,
       "names": [
         {
           "n": 65,
@@ -825,7 +825,7 @@ window.STOTRAM = {
       "sa": "ईश्वरो विक्रमी धन्वी मेधावी विक्रमः क्रमः । अनुत्तमो दुराधर्षः कृतज्ञः कृतिरात्मवान् ॥ ९॥",
       "iast": "īśvaro vikramī dhanvī medhāvī vikramaḥ kramaḥ | anuttamo durādharṣaḥ kṛtajñaḥ kṛtirātmavān || 9||",
       "en": "He is all-powerful, brave, and a bowman. He is wise, He strides through the worlds, and He is everywhere. No one is above Him. He cannot be shaken. He knows every deed and is the deed itself.",
-      "start": 480.08,
+      "start": 480.16,
       "end": 489.05,
       "names": [
         {
@@ -7388,7 +7388,7 @@ window.STOTRAM = {
       "iast": "oṃ viśvaṃ viṣṇurvaṣaṭkāro bhūtabhavyabhavatprabhuḥ | bhūtakṛdbhūtabhṛdbhāvo bhūtātmā bhūtabhāvanaḥ || 1||",
       "en": "The Lord is the whole universe, present in every place. He is the sacred offering, the master of past, present and future, and the one who makes, holds, and nourishes every living being.",
       "start": 403.05,
-      "end": 412.51,
+      "end": 415.33,
       "learnId": "stotram-031"
     },
     {
@@ -7396,8 +7396,8 @@ window.STOTRAM = {
       "sa": "पूतात्मा परमात्मा च मुक्तानां परमा गतिः । अव्ययः पुरुषः साक्षी क्षेत्रज्ञोऽक्षर एव च ॥ २॥",
       "iast": "pūtātmā paramātmā ca muktānāṃ paramā gatiḥ | avyayaḥ puruṣaḥ sākṣī kṣetrajño'kṣara eva ca || 2||",
       "en": "He is the pure Self and the Supreme Self. For those who are free, He is the last home. He never fades. He lives within, watches all, knows the body, and never dies.",
-      "start": 412.81,
-      "end": 422.12,
+      "start": 415.85,
+      "end": 425.06,
       "learnId": "stotram-032"
     },
     {
@@ -7405,8 +7405,8 @@ window.STOTRAM = {
       "sa": "योगो योगविदां नेता प्रधानपुरुषेश्वरः । नारसिंहवपुः श्रीमान् केशवः पुरुषोत्तमः ॥ ३॥",
       "iast": "yogo yogavidāṃ netā pradhānapuruṣeśvaraḥ | nārasiṃhavapuḥ śrīmān keśavaḥ puruṣottamaḥ || 3||",
       "en": "He is yoga itself and the guide of yogis. He rules both nature and the soul. He took the Narasimha form, He is glorious Keshava, and He is the highest Person.",
-      "start": 422.42,
-      "end": 431.73,
+      "start": 425.56,
+      "end": 434.01,
       "learnId": "stotram-033"
     },
     {
@@ -7414,8 +7414,8 @@ window.STOTRAM = {
       "sa": "सर्वः शर्वः शिवः स्थाणुर्भूतादिर्निधिरव्ययः । सम्भवो भावनो भर्ता प्रभवः प्रभुरीश्वरः ॥ ४॥",
       "iast": "sarvaḥ śarvaḥ śivaḥ sthāṇurbhūtādirnidhiravyayaḥ | sambhavo bhāvano bhartā prabhavaḥ prabhurīśvaraḥ || 4||",
       "en": "He is everything, and also the one who brings things to a close. He is auspicious, steady, the source of beings, and an unending treasure. He appears, cares, supports, and rules.",
-      "start": 432.03,
-      "end": 441.34,
+      "start": 434.55,
+      "end": 443.04,
       "learnId": "stotram-034"
     },
     {
@@ -7423,8 +7423,8 @@ window.STOTRAM = {
       "sa": "स्वयम्भूः शम्भुरादित्यः पुष्कराक्षो महास्वनः । अनादिनिधनो धाता विधाता धातुरुत्तमः ॥ ५॥",
       "iast": "svayambhūḥ śambhurādityaḥ puṣkarākṣo mahāsvanaḥ | anādinidhano dhātā vidhātā dhāturuttamaḥ || 5||",
       "en": "He exists by Himself. He gives joy, shines like the sun, and has lotus-like eyes. He has no beginning or end. He holds the world, orders it, and is its highest support.",
-      "start": 441.64,
-      "end": 450.95,
+      "start": 443.49,
+      "end": 452.1,
       "learnId": "stotram-035"
     },
     {
@@ -7432,8 +7432,8 @@ window.STOTRAM = {
       "sa": "अप्रमेयो हृषीकेशः पद्मनाभोऽमरप्रभुः । विश्वकर्मा मनुस्त्वष्टा स्थविष्ठः स्थविरो ध्रुवः ॥ ६॥",
       "iast": "aprameyo hṛṣīkeśaḥ padmanābho'maraprabhuḥ | viśvakarmā manustvaṣṭā sthaviṣṭhaḥ sthaviro dhruvaḥ || 6||",
       "en": "No one can measure Him. He is the Lord of the senses, with a lotus at His navel, and Lord of the deathless ones. He shapes the universe, thinks, forms, is vast, ancient, and unmoving.",
-      "start": 451.25,
-      "end": 460.56,
+      "start": 452.58,
+      "end": 461.06,
       "learnId": "stotram-036"
     },
     {
@@ -7441,8 +7441,8 @@ window.STOTRAM = {
       "sa": "अग्राह्यः शाश्वतः कृष्णो लोहिताक्षः प्रतर्दनः । प्रभूतस्त्रिककुब्धाम पवित्रं मङ्गलं परम् ॥ ७॥",
       "iast": "agrāhyaḥ śāśvataḥ kṛṣṇo lohitākṣaḥ pratardanaḥ | prabhūtastrikakubdhāma pavitraṃ maṅgalaṃ param || 7||",
       "en": "The senses cannot grasp Him. He is eternal, dark-hued Krishna, red-eyed, and the one who dissolves the world. He is full, the support of the three worlds, the purifier, and the highest blessing.",
-      "start": 460.86,
-      "end": 470.17,
+      "start": 461.53,
+      "end": 470.09,
       "learnId": "stotram-037"
     },
     {
@@ -7450,8 +7450,8 @@ window.STOTRAM = {
       "sa": "ईशानः प्राणदः प्राणो ज्येष्ठः श्रेष्ठः प्रजापतिः । हिरण्यगर्भो भूगर्भो माधवो मधुसूदनः ॥ ८॥",
       "iast": "īśānaḥ prāṇadaḥ prāṇo jyeṣṭhaḥ śreṣṭhaḥ prajāpatiḥ | hiraṇyagarbho bhūgarbho mādhavo madhusūdanaḥ || 8||",
       "en": "He governs, gives life, and is life itself. He is the eldest and the most worthy. He is the golden-wombed creator, holds the earth, is Lakshmi’s Lord, and the slayer of the demon Madhu.",
-      "start": 470.47,
-      "end": 479.78,
+      "start": 470.57,
+      "end": 479.6,
       "learnId": "stotram-038"
     },
     {
@@ -7459,7 +7459,7 @@ window.STOTRAM = {
       "sa": "ईश्वरो विक्रमी धन्वी मेधावी विक्रमः क्रमः । अनुत्तमो दुराधर्षः कृतज्ञः कृतिरात्मवान् ॥ ९॥",
       "iast": "īśvaro vikramī dhanvī medhāvī vikramaḥ kramaḥ | anuttamo durādharṣaḥ kṛtajñaḥ kṛtirātmavān || 9||",
       "en": "He is all-powerful, brave, and a bowman. He is wise, He strides through the worlds, and He is everywhere. No one is above Him. He cannot be shaken. He knows every deed and is the deed itself.",
-      "start": 480.08,
+      "start": 480.16,
       "end": 489.05,
       "learnId": "stotram-039"
     },
