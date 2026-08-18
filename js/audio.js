@@ -139,13 +139,19 @@ const Recitation = (() => {
     });
   }
 
-  async function seekConfirmed(el, t) {
-    for (let attempt = 0; attempt < 2; attempt += 1) {
-      el.currentTime = t;
-      await waitSeeked(el);
-      if (Math.abs(el.currentTime - t) < 1) return true;
-    }
-    return Math.abs(el.currentTime - t) < 1;
+  function confirmSeek(el, t) {
+    // If the seek did not land (rare, e.g. slow range requests), retry once.
+    waitSeeked(el)
+      .then(() => {
+        if (Math.abs(el.currentTime - t) > 1.5) {
+          el.currentTime = t;
+          return waitSeeked(el);
+        }
+        return null;
+      })
+      .then(() => {
+        rangeSeeking = false;
+      });
   }
 
   function hitRangeEnd(el) {
@@ -187,12 +193,14 @@ const Recitation = (() => {
     el.dataset.loopEnd = String(end);
     el.dataset.clipEnd = String(clipEnd);
     el.dataset.loopOn = loop ? "1" : "0";
-    el.pause();
+    if (!el.paused) el.pause();
     rangeSeeking = true;
-    await seekConfirmed(el, start);
-    rangeSeeking = false;
+    el.currentTime = start;
+    confirmSeek(el, start);
     watchRange(el);
     try {
+      // play() is called in the same task as the tap, so the browser's
+      // user-gesture requirement is met even while the seek is pending.
       await el.play();
     } catch (err) {
       console.warn(err);

@@ -112,6 +112,13 @@ def stotram_bounds():
                 best = (s, e)
         if best:
             anchors[n] = best[1]
+    # Ślokas 1–2 are sung slowly (śloka 1 runs 12.2 s), which the coarser
+    # -27 dB gap scan and the DP spacing window both mishandled. These starts
+    # come from a -24 dB breath scan of 396–496 s, verified segment by segment.
+    anchors.update({
+        2: 415.85, 3: 425.56, 4: 434.55, 5: 443.50, 6: 452.59,
+        7: 461.55, 8: 470.57, 9: 480.16, 10: 489.55,
+    })
     # enforce monotone, plausible spacing between anchors
     ordered = sorted(anchors.items())
     clean = [ordered[0]]
@@ -121,7 +128,8 @@ def stotram_bounds():
         if dk <= 0:
             continue
         per = (t - pt) / dk
-        if 6.4 < per < 12.5:
+        # śloka 1 alone runs 12.8 s (sung slowly), hence the wide upper bound
+        if 6.4 < per < 13.5:
             clean.append((n, t))
     if clean[-1][0] != 108:
         raise SystemExit("anchor chain must end at śloka 108")
