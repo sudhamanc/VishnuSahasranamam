@@ -6,7 +6,10 @@ whisper word-timestamp anchors, computed against the 29:41 recording
 (duration 1780.99 s). Stotram śloka boundaries are aligned with dynamic
 programming over the detected gaps, which fall on half-line breaths.
 
-Inputs: /tmp/silences_fine.txt (ffmpeg silencedetect noise=-27dB d=0.18)
+Inputs:
+  /tmp/silences_fine.txt  (ffmpeg silencedetect noise=-27dB d=0.18) — preamble/phala snapping
+  /tmp/silences_24.txt    (ffmpeg silencedetect noise=-24dB d=0.12) — stotram breaths
+  /tmp/transcript_words.txt (faster-whisper word timestamps) — anchors
 Run only when re-deriving cues; the JSON output is committed.
 """
 
@@ -16,7 +19,7 @@ from pathlib import Path
 
 OUT = Path(__file__).resolve().parent / "source" / "mss_timing.json"
 
-def load_gaps(path="/tmp/silences_fine.txt"):
+def load_gaps(path="/tmp/silences_fine.txt", min_dur=0.0):
     gaps = []
     start = None
     for line in open(path):
@@ -26,7 +29,8 @@ def load_gaps(path="/tmp/silences_fine.txt"):
             continue
         m = re.search(r"silence_end: ([\d.]+)", line)
         if m and start is not None:
-            gaps.append((start, float(m.group(1))))
+            if float(m.group(1)) - start >= min_dur:
+                gaps.append((start, float(m.group(1))))
             start = None
     merged = []
     for s, e in gaps:
@@ -37,6 +41,8 @@ def load_gaps(path="/tmp/silences_fine.txt"):
     return merged
 
 GAPS = load_gaps()
+# True breaths (~0.5 s of tanpura between phrases); intra-phrase dips are shorter.
+BREATHS = load_gaps("/tmp/silences_24.txt", min_dur=0.28)
 
 def snap(t, tol=0.7):
     """Snap an estimated boundary to the nearest gap; return (sing_end, next_start)."""
@@ -69,8 +75,9 @@ def load_anchors():
             words.append((float(parts[0]), parts[2].strip()))
     words = [(a, w) for a, w in words if 400 < a < 1360]
 
-    hits = {}  # śloka -> breath-aligned start time
-    gap_ends = [e for s, e in GAPS if 400 < e < 1360]
+    hits = {}  # śloka -> (start_time, score)
+    # Pass 1: windows that begin right after a breath (strongest signal).
+    gap_ends = [e for s, e in BREATHS if 400 < e < 1360]
     for g in gap_ends:
         win = [w for w in words if g - 0.25 <= w[0] < g + 3.2][:8]
         if len(win) < 4:
@@ -86,127 +93,67 @@ def load_anchors():
             n = k1 + 1
             if n not in hits or s1 > hits[n][1]:
                 hits[n] = (g, s1)
+    # Pass 2: sliding windows anywhere, for boundaries whose breath is elided
+    # or was missed. Stricter thresholds since window starts are noisier.
+    for i in range(len(words)):
+        win = words[i : i + 8]
+        if len(win) < 5:
+            continue
+        q = norm("".join(w for _, w in win))[:44]
+        if len(q) < 26:
+            continue
+        scores = sorted(
+            ((fuzz.ratio(q, p), k) for k, p in enumerate(prefixes)), reverse=True
+        )
+        (s1, k1), (s2, _) = scores[0], scores[1]
+        if s1 >= 80 and s1 - s2 >= 14:
+            n = k1 + 1
+            if n not in hits or s1 > hits[n][1] + 4:
+                hits[n] = (win[0][0], s1)
     return {n: t for n, (t, _) in hits.items()}
 
 def stotram_bounds():
-    """Anchored DP: whisper anchors pin śloka starts; gap-DP fills between anchors."""
-    A = 403.05          # śloka 1 start (after the long pause)
-    B108 = 1352.86      # śloka 108 (vanamālī) start — verified via whisper
-    cands = [(s, e) for s, e in GAPS if A + 3 < (s + e) / 2 < B108 + 2]
-    mids = [(s + e) / 2 for s, e in cands]
+    """Deterministic breath-counting alignment, cross-checked by transcript anchors.
 
-    hits = load_anchors()
-    # verified by hand against the transcript where auto-anchoring misfired
-    # (whisper emitted Devanagari here, which the Latin normalizer skips)
-    hits[23] = 602.5   # gururgurutamo dhāma… at 602.24
-    hits[24] = 611.5   # agraṇīr grāmaṇīḥ… at 612.40
-    hits[71] = 1032.6  # brahmaṇyo brahmakṛd… at 1032.88
-    # snap anchor times to the nearest gap START (śloka begins after a breath)
-    anchors = {1: A, 108: B108}
-    for n, t in sorted(hits.items()):
-        if n in (1, 108):
-            continue
-        best = None
-        for s, e in cands:
-            if abs(e - t) < 2.6 and (best is None or abs(e - t) < abs(best[1] - t)):
-                best = (s, e)
-        if best:
-            anchors[n] = best[1]
-    # Ślokas 1–2 are sung slowly (śloka 1 runs 12.2 s), which the coarser
-    # -27 dB gap scan and the DP spacing window both mishandled. These starts
-    # come from a -24 dB breath scan of 396–496 s, verified segment by segment.
-    anchors.update({
-        2: 415.85, 3: 425.56, 4: 434.55, 5: 443.50, 6: 452.59,
-        7: 461.55, 8: 470.57, 9: 480.16, 10: 489.55,
-    })
-    # enforce monotone, plausible spacing between anchors
-    ordered = sorted(anchors.items())
-    clean = [ordered[0]]
-    for n, t in ordered[1:]:
-        pn, pt = clean[-1]
-        dk = n - pn
-        if dk <= 0:
-            continue
-        per = (t - pt) / dk
-        # śloka 1 alone runs 12.8 s (sung slowly), hence the wide upper bound
-        if 6.4 < per < 13.5:
-            clean.append((n, t))
-    if clean[-1][0] != 108:
-        raise SystemExit("anchor chain must end at śloka 108")
+    Between śloka 1's start (403.05, after the long pause) and śloka 107's
+    start (1352.90) there are exactly 211 sung segments separated by breaths.
+    Śloka 1 takes 3 segments (sung slowly, with an extra pause), ślokas 14 and
+    53 are sung compressed in a single breath, every other śloka takes exactly
+    2 segments (one per half-line). Śloka 107 ends with its "oṃ nama iti" tail
+    at 1364.71; vanamālī (108) is sung three times from 1366.15 to 1395.27.
+    All of this was verified word-by-word with whisper (small + large-v3).
+    """
+    A = 403.05
+    core = [(s, e) for s, e in BREATHS if A < s < 1353.0]
+    if len(core) != 211:
+        raise SystemExit(f"expected 211 breaths in the stotram, got {len(core)}")
 
-    INF = float("inf")
+    seg_counts = {1: 3, 14: 1, 53: 1}
+    bounds = []
+    start = A
+    idx = 0
+    for k in range(1, 107):
+        idx += seg_counts.get(k, 2)
+        sil_start, sil_end = core[idx - 1]
+        bounds.append((start, sil_start))
+        start = sil_end
+    assert abs(start - 1352.90) < 0.05, start
+    bounds.append((1352.90, 1364.71))   # śloka 107 + sarvapraharaṇāyudha oṃ nama iti
+    bounds.append((1366.15, 1395.27))   # vanamālī, sung three times
 
-    def dp_fill(t_lo, t_hi, count):
-        """Choose `count` boundaries strictly inside (t_lo, t_hi) from gaps."""
-        if count <= 0:
-            return []
-        step = (t_hi - t_lo) / (count + 1)
-        pool = [(s, e) for s, e in cands if t_lo + 3 < (s + e) / 2 < t_hi - 3]
-        pm = [(s + e) / 2 for s, e in pool]
-        cost = [[INF] * len(pool) for _ in range(count)]
-        prev = [[-1] * len(pool) for _ in range(count)]
-        for i, m in enumerate(pm):
-            d = m - t_lo
-            if 6.4 < d < 12.5:
-                cost[0][i] = abs(d - step) * 2 + abs(m - (t_lo + step)) * 0.05
-        for k in range(1, count):
-            target = t_lo + (k + 1) * step
-            for i, m in enumerate(pm):
-                for j in range(i):
-                    d = m - pm[j]
-                    if not (6.4 < d < 12.5) or cost[k - 1][j] == INF:
-                        continue
-                    c = cost[k - 1][j] + abs(d - step) * 2 + abs(m - target) * 0.05
-                    if c < cost[k][i]:
-                        cost[k][i] = c
-                        prev[k][i] = j
-        # final boundary must also lead plausibly into t_hi
-        best_i, best_c = -1, INF
-        for i, m in enumerate(pm):
-            if cost[count - 1][i] == INF:
-                continue
-            d = t_hi - m
-            if not (6.4 < d < 12.5):
-                continue
-            c = cost[count - 1][i] + abs(d - step) * 2
-            if c < best_c:
-                best_i, best_c = i, c
-        if best_i < 0:
-            # fall back to uniform interpolation inside this span
-            return [("interp", t_lo + (k + 1) * step) for k in range(count)]
-        picks = []
-        i = best_i
-        for k in range(count - 1, -1, -1):
-            picks.append(i)
-            i = prev[k][i]
-        picks.reverse()
-        return [("gap", pool[i]) for i in picks]
-
-    # assemble all 107 boundaries (end of ślokas 1..107)
-    boundary = {}  # k -> (end_time, next_start_time); boundary k = between śloka k and k+1
-    for (n0, t0), (n1, t1) in zip(clean, clean[1:]):
-        # anchored boundary at start of śloka n1 (except 108's handled below)
-        for idx, item in enumerate(dp_fill(t0, t1, n1 - n0 - 1)):
-            k = n0 + idx  # boundary between śloka k and k+1
-            if item[0] == "gap":
-                s, e = item[1]
-                boundary[k] = (s, e)
-            else:
-                boundary[k] = (item[1] - 0.15, item[1] + 0.15)
-        # the anchor itself: find its gap for the sing-end time
-        g = None
-        for s, e in cands:
-            if abs(e - t1) < 0.05:
-                g = (s, e)
-        boundary[n1 - 1] = g if g else (t1 - 0.4, t1)
-    starts = [A]
-    ends = []
-    for k in range(1, 108):
-        s, e = boundary[k]
-        ends.append(s)
-        starts.append(e)
-    ends.append(1395.27)  # śloka 108 ends after the vanamālī repetitions
-    return [(round(a, 2), round(b, 2)) for a, b in zip(starts, ends)]
+    # transcript-verified śloka starts (whisper small/large-v3, both sessions)
+    checks = {
+        2: 415.85, 10: 489.55, 15: 529.51, 16: 539.22, 23: 602.69, 24: 611.67,
+        47: 820.40, 49: 839.37, 54: 878.15, 55: 887.12, 71: 1032.90,
+        87: 1177.00, 89: 1194.49, 96: 1254.64, 100: 1289.5, 102: 1307.4,
+    }
+    # Whisper word timestamps drift up to ~1 s; the checks exist to catch
+    # half-line (~4.3 s) parity slips, so 1.2 s tolerance is plenty tight.
+    for n, t in checks.items():
+        got = bounds[n - 1][0]
+        if abs(got - t) > 1.2:
+            raise SystemExit(f"anchor check failed for śloka {n}: {got} vs {t}")
+    return [(round(a, 2), round(b, 2)) for a, b in bounds]
 
 def s(t, tol=0.7):
     """Snapped start: singing resumes at gap end."""

@@ -352,6 +352,9 @@ def main() -> None:
             )
         sa = re.sub(r"^हरिः ॐ । ॐ ", "ॐ ", v["sa"])
         iast = re.sub(r"^hariḥ oṃ \| oṃ ", "oṃ ", v["iast"])
+        if i == 106:  # she sings śloka 107's oṃ nama iti tail before the pause
+            sa += " सर्वप्रहरणायुध ॐ नम इति ।"
+            iast += " sarvapraharaṇāyudha oṃ nama iti |"
         add("stotram", {"sa": sa, "iast": iast}, ESSENCES[i], cue, names)
 
     vanamali_full = {
