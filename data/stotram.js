@@ -352,7 +352,7 @@ window.STOTRAM = {
       "iast": "oṃ viśvaṃ viṣṇurvaṣaṭkāro bhūtabhavyabhavatprabhuḥ | bhūtakṛdbhūtabhṛdbhāvo bhūtātmā bhūtabhāvanaḥ || 1||",
       "en": "The Lord is the whole universe, present in every place. He is the sacred offering, the master of past, present and future, and the one who makes, holds, and nourishes every living being.",
       "start": 403.05,
-      "end": 415.33,
+      "end": 415.3,
       "names": [
         {
           "n": 1,
@@ -410,7 +410,7 @@ window.STOTRAM = {
       "iast": "pūtātmā paramātmā ca muktānāṃ paramā gatiḥ | avyayaḥ puruṣaḥ sākṣī kṣetrajño'kṣara eva ca || 2||",
       "en": "He is the pure Self and the Supreme Self. For those who are free, He is the last home. He never fades. He lives within, watches all, knows the body, and never dies.",
       "start": 415.85,
-      "end": 425.06,
+      "end": 425.01,
       "names": [
         {
           "n": 10,
@@ -463,7 +463,7 @@ window.STOTRAM = {
       "iast": "yogo yogavidāṃ netā pradhānapuruṣeśvaraḥ | nārasiṃhavapuḥ śrīmān keśavaḥ puruṣottamaḥ || 3||",
       "en": "He is yoga itself and the guide of yogis. He rules both nature and the soul. He took the Narasimha form, He is glorious Keshava, and He is the highest Person.",
       "start": 425.56,
-      "end": 434.01,
+      "end": 434.0,
       "names": [
         {
           "n": 18,
@@ -510,8 +510,8 @@ window.STOTRAM = {
       "sa": "सर्वः शर्वः शिवः स्थाणुर्भूतादिर्निधिरव्ययः । सम्भवो भावनो भर्ता प्रभवः प्रभुरीश्वरः ॥ ४॥",
       "iast": "sarvaḥ śarvaḥ śivaḥ sthāṇurbhūtādirnidhiravyayaḥ | sambhavo bhāvano bhartā prabhavaḥ prabhurīśvaraḥ || 4||",
       "en": "He is everything, and also the one who brings things to a close. He is auspicious, steady, the source of beings, and an unending treasure. He appears, cares, supports, and rules.",
-      "start": 434.55,
-      "end": 443.04,
+      "start": 434.56,
+      "end": 442.99,
       "names": [
         {
           "n": 25,
@@ -583,8 +583,8 @@ window.STOTRAM = {
       "sa": "स्वयम्भूः शम्भुरादित्यः पुष्कराक्षो महास्वनः । अनादिनिधनो धाता विधाता धातुरुत्तमः ॥ ५॥",
       "iast": "svayambhūḥ śambhurādityaḥ puṣkarākṣo mahāsvanaḥ | anādinidhano dhātā vidhātā dhāturuttamaḥ || 5||",
       "en": "He exists by Himself. He gives joy, shines like the sun, and has lotus-like eyes. He has no beginning or end. He holds the world, orders it, and is its highest support.",
-      "start": 443.49,
-      "end": 452.1,
+      "start": 443.5,
+      "end": 452.08,
       "names": [
         {
           "n": 37,
@@ -642,7 +642,7 @@ window.STOTRAM = {
       "iast": "aprameyo hṛṣīkeśaḥ padmanābho'maraprabhuḥ | viśvakarmā manustvaṣṭā sthaviṣṭhaḥ sthaviro dhruvaḥ || 6||",
       "en": "No one can measure Him. He is the Lord of the senses, with a lotus at His navel, and Lord of the deathless ones. He shapes the universe, thinks, forms, is vast, ancient, and unmoving.",
       "start": 452.58,
-      "end": 461.06,
+      "end": 461.02,
       "names": [
         {
           "n": 46,
@@ -704,8 +704,8 @@ window.STOTRAM = {
       "sa": "अग्राह्यः शाश्वतः कृष्णो लोहिताक्षः प्रतर्दनः । प्रभूतस्त्रिककुब्धाम पवित्रं मङ्गलं परम् ॥ ७॥",
       "iast": "agrāhyaḥ śāśvataḥ kṛṣṇo lohitākṣaḥ pratardanaḥ | prabhūtastrikakubdhāma pavitraṃ maṅgalaṃ param || 7||",
       "en": "The senses cannot grasp Him. He is eternal, dark-hued Krishna, red-eyed, and the one who dissolves the world. He is full, the support of the three worlds, the purifier, and the highest blessing.",
-      "start": 461.53,
-      "end": 470.09,
+      "start": 461.55,
+      "end": 470.06,
       "names": [
         {
           "n": 56,
@@ -893,8 +893,8 @@ window.STOTRAM = {
       "sa": "सुरेशः शरणं शर्म विश्वरेताः प्रजाभवः । अहः संवत्सरो व्यालः प्रत्ययः सर्वदर्शनः ॥ १०॥",
       "iast": "sureśaḥ śaraṇaṃ śarma viśvaretāḥ prajābhavaḥ | ahaḥ saṃvatsaro vyālaḥ pratyayaḥ sarvadarśanaḥ || 10||",
       "en": "He is Lord of the gods, the safe shelter, and true peace. He is the seed of the universe and the source of beings. He is day, time, hard to catch, the very knowing, and the one who sees all.",
-      "start": 489.54,
-      "end": 497.68,
+      "start": 489.55,
+      "end": 497.6,
       "names": [
         {
           "n": 86,
@@ -956,8 +956,8 @@ window.STOTRAM = {
       "sa": "अजः सर्वेश्वरः सिद्धः सिद्धिः सर्वादिरच्युतः । वृषाकपिरमेयात्मा सर्वयोगविनिःसृतः ॥ ११॥",
       "iast": "ajaḥ sarveśvaraḥ siddhaḥ siddhiḥ sarvādiracyutaḥ | vṛṣākapirameyātmā sarvayogaviniḥsṛtaḥ || 11||",
       "en": "He was never born. He is Lord of all, already complete, and the fulfilment of every aim. He is the first cause, the one who never falls, the dharma-bearing boar, and free of every bond.",
-      "start": 498.03,
-      "end": 506.32,
+      "start": 498.04,
+      "end": 506.3,
       "names": [
         {
           "n": 96,
@@ -1015,7 +1015,7 @@ window.STOTRAM = {
       "iast": "vasurvasumanāḥ satyaḥ samātmā'sammitaḥ samaḥ | amoghaḥ puṇḍarīkākṣo vṛṣakarmā vṛṣākṛtiḥ || 12||",
       "en": "He is the home of all and of a clean mind. He is truth, even toward everyone, beyond measure, and fair. His work never fails. He is lotus-eyed, and every act of His is dharma.",
       "start": 506.77,
-      "end": 515.19,
+      "end": 515.18,
       "names": [
         {
           "n": 105,
@@ -1078,7 +1078,7 @@ window.STOTRAM = {
       "iast": "rudro bahuśirā babhrurviśvayoniḥ śuciśravāḥ | amṛtaḥ śāśvatasthāṇurvarāroho mahātapāḥ || 13||",
       "en": "He is Rudra, many-headed, the bearer of all. The universe is born from Him. His fame is holy. He is immortal, eternally steady, the best refuge, and of great tapas.",
       "start": 515.71,
-      "end": 524.26,
+      "end": 525.2,
       "names": [
         {
           "n": 115,
@@ -1135,8 +1135,8 @@ window.STOTRAM = {
       "sa": "सर्वगः सर्वविद्भानुर्विष्वक्सेनो जनार्दनः । वेदो वेदविदव्यङ्गो वेदाङ्गो वेदवित् कविः ॥ १४॥",
       "iast": "sarvagaḥ sarvavidbhānurviṣvakseno janārdanaḥ | vedo vedavidavyaṅgo vedāṅgo vedavit kaviḥ || 14||",
       "en": "He is everywhere and knows everything. He shines. No army can stand before Him, and He corrects the wicked. He is the Veda, knows the Veda, is flawless, and is the seer.",
-      "start": 524.56,
-      "end": 532.96,
+      "start": 525.75,
+      "end": 528.97,
       "names": [
         {
           "n": 124,
@@ -1198,8 +1198,8 @@ window.STOTRAM = {
       "sa": "लोकाध्यक्षः सुराध्यक्षो धर्माध्यक्षः कृताकृतः । चतुरात्मा चतुर्व्यूहश्चतुर्दंष्ट्रश्चतुर्भुजः ॥ १५॥",
       "iast": "lokādhyakṣaḥ surādhyakṣo dharmādhyakṣaḥ kṛtākṛtaḥ | caturātmā caturvyūhaścaturdaṃṣṭraścaturbhujaḥ || 15||",
       "en": "He watches over the worlds, the gods, and dharma. He is both the work and its cause. He has four aspects, four forms, four tusks as Narasimha, and four arms.",
-      "start": 533.25,
-      "end": 541.65,
+      "start": 529.51,
+      "end": 538.67,
       "names": [
         {
           "n": 134,
@@ -1251,8 +1251,8 @@ window.STOTRAM = {
       "sa": "भ्राजिष्णुर्भोजनं भोक्ता सहिष्णुर्जगदादिजः । अनघो विजयो जेता विश्वयोनिः पुनर्वसुः ॥ १६॥",
       "iast": "bhrājiṣṇurbhojanaṃ bhoktā sahiṣṇurjagadādijaḥ | anagho vijayo jetā viśvayoniḥ punarvasuḥ || 16||",
       "en": "He shines always. He is both what is enjoyed and the enjoyer. He is patient, first-born of the world, without sin, victorious, the womb of the universe, and He returns again and again.",
-      "start": 541.95,
-      "end": 550.35,
+      "start": 539.22,
+      "end": 547.49,
       "names": [
         {
           "n": 142,
@@ -1314,8 +1314,8 @@ window.STOTRAM = {
       "sa": "उपेन्द्रो वामनः प्रांशुरमोघः शुचिरूर्जितः । अतीन्द्रः सङ्ग्रहः सर्गो धृतात्मा नियमो यमः ॥ १७॥",
       "iast": "upendro vāmanaḥ prāṃśuramoghaḥ śucirūrjitaḥ | atīndraḥ saṅgrahaḥ sargo dhṛtātmā niyamo yamaḥ || 17||",
       "en": "He is Upendra, the dwarf Vamana, and also the tall one. His gifts never fail. He is pure and strong, greater than Indra, the holder, the creation itself, self-held, and the one who sets the rules.",
-      "start": 550.65,
-      "end": 559.04,
+      "start": 548.0,
+      "end": 556.54,
       "names": [
         {
           "n": 152,
@@ -1387,8 +1387,8 @@ window.STOTRAM = {
       "sa": "वेद्यो वैद्यः सदायोगी वीरहा माधवो मधुः । अतीन्द्रियो महामायो महोत्साहो महाबलः ॥ १८॥",
       "iast": "vedyo vaidyaḥ sadāyogī vīrahā mādhavo madhuḥ | atīndriyo mahāmāyo mahotsāho mahābalaḥ || 18||",
       "en": "He is what we should know, and the healer of worldly pain. He is always in yoga, slays great foes, is Lord of knowledge, and sweet as honey. He is beyond the senses, of great Maya, zeal, and strength.",
-      "start": 559.34,
-      "end": 567.74,
+      "start": 557.08,
+      "end": 565.62,
       "names": [
         {
           "n": 164,
@@ -1450,8 +1450,8 @@ window.STOTRAM = {
       "sa": "महाबुद्धिर्महावीर्यो महाशक्तिर्महाद्युतिः । अनिर्देश्यवपुः श्रीमानमेयात्मा महाद्रिधृक् ॥ १९॥",
       "iast": "mahābuddhirmahāvīryo mahāśaktirmahādyutiḥ | anirdeśyavapuḥ śrīmānameyātmā mahādridhṛk || 19||",
       "en": "His wisdom, vigour, power, and light are boundless. His form cannot be pointed out. He is glorious, His Self cannot be measured, and He held up the great mountain.",
-      "start": 568.04,
-      "end": 576.43,
+      "start": 566.03,
+      "end": 574.7,
       "names": [
         {
           "n": 174,
@@ -1503,8 +1503,8 @@ window.STOTRAM = {
       "sa": "महेष्वासो महीभर्ता श्रीनिवासः सतां गतिः । अनिरुद्धः सुरानन्दो गोविन्दो गोविदां पतिः ॥ २०॥",
       "iast": "maheṣvāso mahībhartā śrīnivāsaḥ satāṃ gatiḥ | aniruddhaḥ surānando govindo govidāṃ patiḥ || 20||",
       "en": "He is the mighty archer, holder of the earth, and the home of Lakshmi. The good take refuge in Him. Nothing can block Him. He is the joy of the gods, Govinda, and Lord of those who know.",
-      "start": 576.73,
-      "end": 585.13,
+      "start": 575.23,
+      "end": 584.05,
       "names": [
         {
           "n": 182,
@@ -1556,8 +1556,8 @@ window.STOTRAM = {
       "sa": "मरीचिर्दमनो हंसः सुपर्णो भुजगोत्तमः । हिरण्यनाभः सुतपाः पद्मनाभः प्रजापतिः ॥ २१॥",
       "iast": "marīcirdamano haṃsaḥ suparṇo bhujagottamaḥ | hiraṇyanābhaḥ sutapāḥ padmanābhaḥ prajāpatiḥ || 21||",
       "en": "He is a ray of light, the subduer, the swan of wisdom, and fair-winged. He is the best of serpents, golden-naveled, of deep tapas, lotus-naveled, and Lord of creatures.",
-      "start": 585.43,
-      "end": 593.82,
+      "start": 584.56,
+      "end": 592.5,
       "names": [
         {
           "n": 190,
@@ -1614,7 +1614,7 @@ window.STOTRAM = {
       "sa": "अमृत्युः सर्वदृक् सिंहः सन्धाता सन्धिमान् स्थिरः । अजो दुर्मर्षणः शास्ता विश्रुतात्मा सुरारिहा ॥ २२॥",
       "iast": "amṛtyuḥ sarvadṛk siṃhaḥ sandhātā sandhimān sthiraḥ | ajo durmarṣaṇaḥ śāstā viśrutātmā surārihā || 22||",
       "en": "He does not die. He sees all, is the lion, joins actions to their fruits, and is steady. He is unborn, hard for foes to bear, the teacher, of famous Self, and slayer of the gods’ enemies.",
-      "start": 594.12,
+      "start": 592.99,
       "end": 602.14,
       "names": [
         {
@@ -1682,8 +1682,8 @@ window.STOTRAM = {
       "sa": "गुरुर्गुरुतमो धाम सत्यः सत्यपराक्रमः । निमिषोऽनिमिषः स्रग्वी वाचस्पतिरुदारधीः ॥ २३॥",
       "iast": "gururgurutamo dhāma satyaḥ satyaparākramaḥ | nimiṣo'nimiṣaḥ sragvī vācaspatirudāradhīḥ || 23||",
       "en": "He is the teacher, and the greatest teacher. He is the true home, the truth, and of true valour. He sleeps in yoga and is also ever awake. He wears a garland, is Lord of speech, and of a generous mind.",
-      "start": 602.67,
-      "end": 611.21,
+      "start": 602.69,
+      "end": 611.2,
       "names": [
         {
           "n": 210,
@@ -1809,7 +1809,7 @@ window.STOTRAM = {
       "iast": "āvartano nivṛttātmā saṃvṛtaḥ sampramardanaḥ | ahaḥ saṃvartako vahniranilo dharaṇīdharaḥ || 25||",
       "en": "He turns the wheel of birth and death. His Self is turned away from the world. He is hidden, and He crushes the wicked. He is day, the fire of time, wind, and the one who holds the earth.",
       "start": 622.46,
-      "end": 630.64,
+      "end": 630.57,
       "names": [
         {
           "n": 230,
@@ -1862,7 +1862,7 @@ window.STOTRAM = {
       "iast": "suprasādaḥ prasannātmā viśvadhṛgviśvabhugvibhuḥ | satkartā satkṛtaḥ sādhurjahnurnārāyaṇo naraḥ || 26||",
       "en": "His grace is kind and His heart is calm. He holds, protects, and fills the universe. He honours the good and is honoured. He is righteous, Narayana, and the true guide.",
       "start": 631.11,
-      "end": 640.08,
+      "end": 639.97,
       "names": [
         {
           "n": 238,
@@ -1930,7 +1930,7 @@ window.STOTRAM = {
       "iast": "asaṅkhyeyo'prameyātmā viśiṣṭaḥ śiṣṭakṛcchuciḥ | siddhārthaḥ siddhasaṅkalpaḥ siddhidaḥ siddhisādhanaḥ || 27||",
       "en": "He cannot be counted and cannot be measured. He is foremost, the leader of the good, and pure. His aims succeed, His will never fails, He gives success, and He is the way to success.",
       "start": 640.47,
-      "end": 649.35,
+      "end": 649.32,
       "names": [
         {
           "n": 249,
@@ -1987,8 +1987,8 @@ window.STOTRAM = {
       "sa": "वृषाही वृषभो विष्णुर्वृषपर्वा वृषोदरः । वर्धनो वर्धमानश्च विविक्तः श्रुतिसागरः ॥ २८॥",
       "iast": "vṛṣāhī vṛṣabho viṣṇurvṛṣaparvā vṛṣodaraḥ | vardhano vardhamānaśca viviktaḥ śrutisāgaraḥ || 28||",
       "en": "He is Lord of dharma and showers blessings. He is Vishnu, whose steps are dharma. Beings come from Him. He makes us grow, is ever growing, unattached, and an ocean of the Vedas.",
-      "start": 649.88,
-      "end": 657.77,
+      "start": 649.89,
+      "end": 657.76,
       "names": [
         {
           "n": 258,
@@ -2045,7 +2045,7 @@ window.STOTRAM = {
       "sa": "सुभुजो दुर्धरो वाग्मी महेन्द्रो वसुदो वसुः । नैकरूपो बृहद्रूपः शिपिविष्टः प्रकाशनः ॥ २९॥",
       "iast": "subhujo durdharo vāgmī mahendro vasudo vasuḥ | naikarūpo bṛhadrūpaḥ śipiviṣṭaḥ prakāśanaḥ || 29||",
       "en": "His arms are beautiful and He is hard to hold in the mind. He is eloquent, the great Lord, giver of wealth, and wealth itself. He has many forms and a vast form, and He lights all things.",
-      "start": 658.28,
+      "start": 658.3,
       "end": 666.38,
       "names": [
         {
@@ -2109,7 +2109,7 @@ window.STOTRAM = {
       "iast": "ojastejodyutidharaḥ prakāśātmā pratāpanaḥ | ṛddhaḥ spaṣṭākṣaro mantraścandrāṃśurbhāskaradyutiḥ || 30||",
       "en": "He bears strength, heat, and radiance. His Self is light. He is full. The syllable Om is His. He is the sacred mantra, cool as moonlight, and bright as the sun.",
       "start": 666.88,
-      "end": 676.14,
+      "end": 676.13,
       "names": [
         {
           "n": 277,
@@ -2162,7 +2162,7 @@ window.STOTRAM = {
       "iast": "amṛtāṃśūdbhavo bhānuḥ śaśabinduḥ sureśvaraḥ | auṣadhaṃ jagataḥ setuḥ satyadharmaparākramaḥ || 31||",
       "en": "The moon was born from Him. He shines, is marked like the moon, and is Lord of the gods. He is the medicine for worldly pain, the bridge across it, and true in both dharma and courage.",
       "start": 676.65,
-      "end": 684.66,
+      "end": 684.63,
       "names": [
         {
           "n": 285,
@@ -2209,7 +2209,7 @@ window.STOTRAM = {
       "sa": "भूतभव्यभवन्नाथः पवनः पावनोऽनलः । कामहा कामकृत्कान्तः कामः कामप्रदः प्रभुः ॥ ३२॥",
       "iast": "bhūtabhavyabhavannāthaḥ pavanaḥ pāvano'nalaḥ | kāmahā kāmakṛtkāntaḥ kāmaḥ kāmapradaḥ prabhuḥ || 32||",
       "en": "He is Lord of what was, what is, and what will be. He is wind, the purifier, and fire. He ends selfish desire, also fulfils right desire, is the beloved, the longed-for, and the giver of blessings.",
-      "start": 685.16,
+      "start": 685.17,
       "end": 693.66,
       "names": [
         {
@@ -2272,8 +2272,8 @@ window.STOTRAM = {
       "sa": "युगादिकृद्युगावर्तो नैकमायो महाशनः । अदृश्यो व्यक्तरूपश्च सहस्रजिदनन्तजित् ॥ ३३॥",
       "iast": "yugādikṛdyugāvarto naikamāyo mahāśanaḥ | adṛśyo vyaktarūpaśca sahasrajidanantajit || 33||",
       "en": "He starts the ages and turns them. His Maya has many forms. He is the great devourer at the end. He cannot be seen, yet He also shows a form. He conquers thousands, and the endless.",
-      "start": 694.14,
-      "end": 702.18,
+      "start": 694.15,
+      "end": 702.17,
       "names": [
         {
           "n": 302,
@@ -2326,7 +2326,7 @@ window.STOTRAM = {
       "iast": "iṣṭo'viśiṣṭaḥ śiṣṭeṣṭaḥ śikhaṇḍī nahuṣo vṛṣaḥ | krodhahā krodhakṛtkartā viśvabāhurmahīdharaḥ || 34||",
       "en": "He is loved, lives equally in all, and is dear to the wise. He is the crested one, the binder, and dharma itself. He ends anger, stirs courage against harm, does all, and holds the earth.",
       "start": 702.72,
-      "end": 711.47,
+      "end": 711.44,
       "names": [
         {
           "n": 310,
@@ -2389,7 +2389,7 @@ window.STOTRAM = {
       "iast": "acyutaḥ prathitaḥ prāṇaḥ prāṇado vāsavānujaḥ | apāṃnidhiradhiṣṭhānamapramattaḥ pratiṣṭhitaḥ || 35||",
       "en": "He never falls. He is famous, the life-breath, and the giver of life. He is Indra’s younger brother, the ocean, the ground of all, always watchful, and firmly established.",
       "start": 711.95,
-      "end": 719.84,
+      "end": 719.83,
       "names": [
         {
           "n": 320,
@@ -2447,7 +2447,7 @@ window.STOTRAM = {
       "iast": "skandaḥ skandadharo dhuryo varado vāyuvāhanaḥ | vāsudevo bṛhadbhānurādidevaḥ purandaraḥ || 36||",
       "en": "He is Skanda, the bearer of the load, the giver of boons, and the mover of the winds. He is Vasudeva, of vast light, the first God, and the breaker of enemy forts.",
       "start": 720.41,
-      "end": 728.65,
+      "end": 728.64,
       "names": [
         {
           "n": 329,
@@ -2505,7 +2505,7 @@ window.STOTRAM = {
       "iast": "aśokastāraṇastāraḥ śūraḥ śaurirjaneśvaraḥ | anukūlaḥ śatāvartaḥ padmī padmanibhekṣaṇaḥ || 37||",
       "en": "He is without sorrow, the one who ferries us across, and the saviour. He is brave, son of Shura, Lord of people, always kind, of many births, lotus-handed, and lotus-eyed.",
       "start": 729.07,
-      "end": 737.58,
+      "end": 737.57,
       "names": [
         {
           "n": 338,
@@ -2567,8 +2567,8 @@ window.STOTRAM = {
       "sa": "पद्मनाभोऽरविन्दाक्षः पद्मगर्भः शरीरभृत् । महर्द्धिरृद्धो वृद्धात्मा महाक्षो गरुडध्वजः ॥ ३८॥",
       "iast": "padmanābho'ravindākṣaḥ padmagarbhaḥ śarīrabhṛt | maharddhirṛddho vṛddhātmā mahākṣo garuḍadhvajaḥ || 38||",
       "en": "He is lotus-naveled and lotus-eyed, worshipped in the heart-lotus, and the one who holds bodies. He is rich in glory, complete, the ancient Self, wide-eyed, and His banner is Garuda.",
-      "start": 738.04,
-      "end": 746.62,
+      "start": 738.05,
+      "end": 746.61,
       "names": [
         {
           "n": 348,
@@ -2626,7 +2626,7 @@ window.STOTRAM = {
       "iast": "atulaḥ śarabho bhīmaḥ samayajño havirhariḥ | sarvalakṣaṇalakṣaṇyo lakṣmīvān samitiñjayaḥ || 39||",
       "en": "No one is like Him. He is awe-inspiring, knows the right time, and receives the offering. All true signs point to Him. He is Lakshmi’s Lord, and He wins every battle.",
       "start": 747.11,
-      "end": 755.33,
+      "end": 755.27,
       "names": [
         {
           "n": 357,
@@ -2678,8 +2678,8 @@ window.STOTRAM = {
       "sa": "विक्षरो रोहितो मार्गो हेतुर्दामोदरः सहः । महीधरो महाभागो वेगवानमिताशनः ॥ ४०॥",
       "iast": "vikṣaro rohito mārgo heturdāmodaraḥ sahaḥ | mahīdharo mahābhāgo vegavānamitāśanaḥ || 40||",
       "en": "He does not decay. He is the red one (the fish), the path, and the cause. He is Damodara, patient, holder of the earth, greatly blessed, swift, and of endless appetite at the world’s end.",
-      "start": 755.79,
-      "end": 764.42,
+      "start": 755.8,
+      "end": 764.4,
       "names": [
         {
           "n": 365,
@@ -2742,7 +2742,7 @@ window.STOTRAM = {
       "iast": "udbhavaḥ kṣobhaṇo devaḥ śrīgarbhaḥ parameśvaraḥ | karaṇaṃ kāraṇaṃ kartā vikartā gahano guhaḥ || 41||",
       "en": "All things rise from Him. He stirs nature into creation. He is God, glory lives in Him, and He is the supreme Lord. He is the tool, the cause, the doer, the maker of many, deep, and hidden.",
       "start": 764.95,
-      "end": 773.47,
+      "end": 773.43,
       "names": [
         {
           "n": 375,
@@ -2810,7 +2810,7 @@ window.STOTRAM = {
       "iast": "vyavasāyo vyavasthānaḥ saṃsthānaḥ sthānado dhruvaḥ | pararddhiḥ paramaspaṣṭastuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ || 42||",
       "en": "He is firm resolve and the order that holds things. He is the final home, the giver of a place, and the fixed one. He is supremely rich, clearly seen, content, full, and of a kind glance.",
       "start": 773.94,
-      "end": 782.86,
+      "end": 782.82,
       "names": [
         {
           "n": 386,
@@ -2873,7 +2873,7 @@ window.STOTRAM = {
       "iast": "rāmo virāmo virajo mārgo neyo nayo'nayaḥ | vīraḥ śaktimatāṃ śreṣṭho dharmo dharmaviduttamaḥ || 43||",
       "en": "He is Rama, the resting place, and without stain. He is the path, the one who is led and the one who leads — yet no one leads Him. He is the hero, dharma itself, and the best knower of dharma.",
       "start": 783.32,
-      "end": 792.5,
+      "end": 792.47,
       "names": [
         {
           "n": 396,
@@ -2940,8 +2940,8 @@ window.STOTRAM = {
       "sa": "वैकुण्ठः पुरुषः प्राणः प्राणदः प्रणवः पृथुः । हिरण्यगर्भः शत्रुघ्नो व्याप्तो वायुरधोक्षजः ॥ ४४॥",
       "iast": "vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ praṇavaḥ pṛthuḥ | hiraṇyagarbhaḥ śatrughno vyāpto vāyuradhokṣajaḥ || 44||",
       "en": "He is Lord of Vaikuntha, the Purusha, the breath of life, and the giver of life. He is the sacred Om, the wide one, the golden-wombed, slayer of foes, all-pervading, wind, and never fallen.",
-      "start": 792.97,
-      "end": 801.66,
+      "start": 792.98,
+      "end": 801.64,
       "names": [
         {
           "n": 407,
@@ -3004,7 +3004,7 @@ window.STOTRAM = {
       "iast": "ṛtuḥ sudarśanaḥ kālaḥ parameṣṭhī parigrahaḥ | ugraḥ saṃvatsaro dakṣo viśrāmo viśvadakṣiṇaḥ || 45||",
       "en": "He is the seasons, of blessed sight, and time itself. He sits in the highest place and receives worship. He is fierce when needed, the year, skilled, the resting place, and able in all things.",
       "start": 802.17,
-      "end": 810.64,
+      "end": 810.61,
       "names": [
         {
           "n": 417,
@@ -3066,8 +3066,8 @@ window.STOTRAM = {
       "sa": "विस्तारः स्थावरस्थाणुः प्रमाणं बीजमव्ययम् । अर्थोऽनर्थो महाकोशो महाभोगो महाधनः ॥ ४६॥",
       "iast": "vistāraḥ sthāvarasthāṇuḥ pramāṇaṃ bījamavyayam | artho'nartho mahākośo mahābhogo mahādhanaḥ || 46||",
       "en": "He is the vast expanse, the still support, and the very proof. He is the seed that never dies. He is the true goal, needs nothing, holds great treasure, great joy, and great wealth.",
-      "start": 811.15,
-      "end": 819.91,
+      "start": 811.18,
+      "end": 819.89,
       "names": [
         {
           "n": 427,
@@ -3125,7 +3125,7 @@ window.STOTRAM = {
       "iast": "anirviṇṇaḥ sthaviṣṭho'bhūrdharmayūpo mahāmakhaḥ | nakṣatranemirnakṣatrī kṣamaḥ kṣāmaḥ samīhanaḥ || 47||",
       "en": "He never loses heart. He is vast and unborn. He is the post of dharma and the great sacrifice. He is the hub of the stars, lord of the stars, able, pure, and of good will.",
       "start": 820.4,
-      "end": 828.75,
+      "end": 829.27,
       "names": [
         {
           "n": 436,
@@ -3187,8 +3187,8 @@ window.STOTRAM = {
       "sa": "यज्ञ इज्यो महेज्यश्च क्रतुः सत्रं सतां गतिः । सर्वदर्शी विमुक्तात्मा सर्वज्ञो ज्ञानमुत्तमम् ॥ ४८॥",
       "iast": "yajña ijyo mahejyaśca kratuḥ satraṃ satāṃ gatiḥ | sarvadarśī vimuktātmā sarvajño jñānamuttamam || 48||",
       "en": "He is the sacrifice, the one worshipped, and the one most worthy of worship. He is the rite, the long session of offering, and the goal of the good. He sees all, is free, knows all, and is the highest knowledge.",
-      "start": 829.05,
-      "end": 837.25,
+      "start": 829.79,
+      "end": 838.79,
       "names": [
         {
           "n": 446,
@@ -3250,8 +3250,8 @@ window.STOTRAM = {
       "sa": "सुव्रतः सुमुखः सूक्ष्मः सुघोषः सुखदः सुहृत् । मनोहरो जितक्रोधो वीरबाहुर्विदारणः ॥ ४९॥",
       "iast": "suvrataḥ sumukhaḥ sūkṣmaḥ sughoṣaḥ sukhadaḥ suhṛt | manoharo jitakrodho vīrabāhurvidāraṇaḥ || 49||",
       "en": "His vows are noble, His face is kind, and He is subtle. His sound is holy, He gives joy, and He is a true friend. He wins the heart, has conquered anger, has heroic arms, and tears down evil.",
-      "start": 837.55,
-      "end": 845.76,
+      "start": 839.37,
+      "end": 847.27,
       "names": [
         {
           "n": 456,
@@ -3313,8 +3313,8 @@ window.STOTRAM = {
       "sa": "स्वापनः स्ववशो व्यापी नैकात्मा नैककर्मकृत् । वत्सरो वत्सलो वत्सी रत्नगर्भो धनेश्वरः ॥ ५०॥",
       "iast": "svāpanaḥ svavaśo vyāpī naikātmā naikakarmakṛt | vatsaro vatsalo vatsī ratnagarbho dhaneśvaraḥ || 50||",
       "en": "He sends beings into sleep, is His own master, and fills all space. He has many selves and does many works. He is the year, full of love, a protector, jewel-wombed, and Lord of wealth.",
-      "start": 846.06,
-      "end": 854.26,
+      "start": 847.86,
+      "end": 856.46,
       "names": [
         {
           "n": 466,
@@ -3376,8 +3376,8 @@ window.STOTRAM = {
       "sa": "धर्मगुब्धर्मकृद्धर्मी सदसत्क्षरमक्षरम् । अविज्ञाता सहस्रांशुर्विधाता कृतलक्षणः ॥ ५१॥",
       "iast": "dharmagubdharmakṛddharmī sadasatkṣaramakṣaram | avijñātā sahasrāṃśurvidhātā kṛtalakṣaṇaḥ || 51||",
       "en": "He guards dharma, does dharma, and is dharma. He is the real and the unreal, the passing and the lasting. As witness He does not ‘know’ as we do. He is thousand-rayed, the ordainer, and of a clear nature.",
-      "start": 854.56,
-      "end": 862.76,
+      "start": 856.98,
+      "end": 864.97,
       "names": [
         {
           "n": 476,
@@ -3439,8 +3439,8 @@ window.STOTRAM = {
       "sa": "गभस्तिनेमिः सत्त्वस्थः सिंहो भूतमहेश्वरः । आदिदेवो महादेवो देवेशो देवभृद्गुरुः ॥ ५२॥",
       "iast": "gabhastinemiḥ sattvasthaḥ siṃho bhūtamaheśvaraḥ | ādidevo mahādevo deveśo devabhṛdguruḥ || 52||",
       "en": "He is the hub of light, seated in goodness, the lion, and great Lord of beings. He is the first God, the great God, Lord of the gods, their support, and their teacher.",
-      "start": 863.06,
-      "end": 871.26,
+      "start": 865.54,
+      "end": 874.03,
       "names": [
         {
           "n": 486,
@@ -3492,8 +3492,8 @@ window.STOTRAM = {
       "sa": "उत्तरो गोपतिर्गोप्ता ज्ञानगम्यः पुरातनः । शरीरभूतभृद्भोक्ता कपीन्द्रो भूरिदक्षिणः ॥ ५३॥",
       "iast": "uttaro gopatirgoptā jñānagamyaḥ purātanaḥ | śarīrabhūtabhṛdbhoktā kapīndro bhūridakṣiṇaḥ || 53||",
       "en": "He is the highest, Lord and protector of the earth. He is reached through knowledge and is most ancient. He holds the body’s elements, is the enjoyer, Lord of the monkeys as Rama, and a generous giver.",
-      "start": 871.56,
-      "end": 879.76,
+      "start": 874.59,
+      "end": 877.55,
       "names": [
         {
           "n": 494,
@@ -3550,8 +3550,8 @@ window.STOTRAM = {
       "sa": "सोमपोऽमृतपः सोमः पुरुजित्पुरुसत्तमः । विनयो जयः सत्यसन्धो दाशार्हः सात्वताम्पतिः ॥ ५४॥",
       "iast": "somapo'mṛtapaḥ somaḥ purujitpurusattamaḥ | vinayo jayaḥ satyasandho dāśārhaḥ sātvatāmpatiḥ || 54||",
       "en": "He drinks the Soma and the nectar. He is the moon, conqueror of many, and best among beings. He humbles pride, is victory, keeps His word, is of the Dasharha line, and Lord of the Satvatas.",
-      "start": 880.06,
-      "end": 888.26,
+      "start": 878.15,
+      "end": 886.57,
       "names": [
         {
           "n": 503,
@@ -3613,8 +3613,8 @@ window.STOTRAM = {
       "sa": "जीवो विनयिता साक्षी मुकुन्दोऽमितविक्रमः । अम्भोनिधिरनन्तात्मा महोदधिशयोऽन्तकः ॥ ५५॥",
       "iast": "jīvo vinayitā sākṣī mukundo'mitavikramaḥ | ambhonidhiranantātmā mahodadhiśayo'ntakaḥ || 55||",
       "en": "He is the living Self, the one who trains, and the witness. He is Mukunda, who gives freedom, of endless stride, the ocean, of infinite Self, resting on the waters, and the end of all.",
-      "start": 888.56,
-      "end": 896.77,
+      "start": 887.12,
+      "end": 895.39,
       "names": [
         {
           "n": 513,
@@ -3671,8 +3671,8 @@ window.STOTRAM = {
       "sa": "अजो महार्हः स्वाभाव्यो जितामित्रः प्रमोदनः । आनन्दो नन्दनो नन्दः सत्यधर्मा त्रिविक्रमः ॥ ५६॥",
       "iast": "ajo mahārhaḥ svābhāvyo jitāmitraḥ pramodanaḥ | ānando nandano nandaḥ satyadharmā trivikramaḥ || 56||",
       "en": "He is unborn, worthy of great worship, and always Himself. He conquers enemies and is full of joy. He is bliss, the one who delights, the complete, true to dharma, and the one who took three strides.",
-      "start": 897.07,
-      "end": 905.27,
+      "start": 895.87,
+      "end": 904.75,
       "names": [
         {
           "n": 522,
@@ -3734,8 +3734,8 @@ window.STOTRAM = {
       "sa": "महर्षिः कपिलाचार्यः कृतज्ञो मेदिनीपतिः । त्रिपदस्त्रिदशाध्यक्षो महाशृङ्गः कृतान्तकृत् ॥ ५७॥",
       "iast": "maharṣiḥ kapilācāryaḥ kṛtajño medinīpatiḥ | tripadastridaśādhyakṣo mahāśṛṅgaḥ kṛtāntakṛt || 57||",
       "en": "He is the great seer, the teacher Kapila, and knower of all that is done. He is Lord of the earth, of three steps, overseer of the gods, the great-horned fish, and the ender of death.",
-      "start": 905.57,
-      "end": 913.43,
+      "start": 905.27,
+      "end": 913.42,
       "names": [
         {
           "n": 532,
@@ -3788,7 +3788,7 @@ window.STOTRAM = {
       "iast": "mahāvarāho govindaḥ suṣeṇaḥ kanakāṅgadī | guhyo gabhīro gahano guptaścakragadādharaḥ || 58||",
       "en": "He is the great boar, Govinda, with a good army, wearing golden armlets. He is secret, deep, hard to enter, hidden, and He holds the discus and the mace.",
       "start": 913.92,
-      "end": 922.53,
+      "end": 922.46,
       "names": [
         {
           "n": 540,
@@ -3845,8 +3845,8 @@ window.STOTRAM = {
       "sa": "वेधाः स्वाङ्गोऽजितः कृष्णो दृढः सङ्कर्षणोऽच्युतः । वरुणो वारुणो वृक्षः पुष्कराक्षो महामनाः ॥ ५९॥",
       "iast": "vedhāḥ svāṅgo'jitaḥ kṛṣṇo dṛḍhaḥ saṅkarṣaṇo'cyutaḥ | varuṇo vāruṇo vṛkṣaḥ puṣkarākṣo mahāmanāḥ || 59||",
       "en": "He creates, acts through His own limbs, and cannot be conquered. He is Krishna, firm, who draws all in, and never falls. He is Varuna, the steadfast tree, lotus-eyed, and great-minded.",
-      "start": 922.98,
-      "end": 932.33,
+      "start": 923.0,
+      "end": 932.29,
       "names": [
         {
           "n": 549,
@@ -3918,8 +3918,8 @@ window.STOTRAM = {
       "sa": "भगवान् भगहाऽऽनन्दी वनमाली हलायुधः । आदित्यो ज्योतिरादित्यः सहिष्णुर्गतिसत्तमः ॥ ६०॥",
       "iast": "bhagavān bhagahā''nandī vanamālī halāyudhaḥ | ādityo jyotirādityaḥ sahiṣṇurgatisattamaḥ || 60||",
       "en": "He is the Blessed Lord, who withdraws glory at the end, and is always blissful. He wears the forest garland, holds the plough as Balarama, is the sun’s radiance, patient, and the highest goal.",
-      "start": 932.81,
-      "end": 941.39,
+      "start": 932.82,
+      "end": 941.36,
       "names": [
         {
           "n": 561,
@@ -3977,7 +3977,7 @@ window.STOTRAM = {
       "iast": "sudhanvā khaṇḍaparaśurdāruṇo draviṇapradaḥ | divaspṛk sarvadṛgvyāso vācaspatirayonijaḥ || 61||",
       "en": "He holds the good bow Sharnga and the axe as Parashurama. He is stern to the wicked and generous with wealth. He touches heaven, sees all, is Vyasa, Lord of learning, and not born of a womb.",
       "start": 941.86,
-      "end": 949.79,
+      "end": 949.76,
       "names": [
         {
           "n": 570,
@@ -4030,7 +4030,7 @@ window.STOTRAM = {
       "iast": "trisāmā sāmagaḥ sāma nirvāṇaṃ bheṣajaṃ bhiṣak | saṃnyāsakṛcchamaḥ śānto niṣṭhā śāntiḥ parāyaṇam || 62||",
       "en": "The three Sama hymns praise Him. He sings the Sama and is the Sama. He is freedom, the medicine, and the physician. He taught renunciation, is calm, peace itself, and the last refuge.",
       "start": 950.27,
-      "end": 959.3,
+      "end": 959.28,
       "names": [
         {
           "n": 578,
@@ -4103,7 +4103,7 @@ window.STOTRAM = {
       "iast": "śubhāṅgaḥ śāntidaḥ sraṣṭā kumudaḥ kuvaleśayaḥ | gohito gopatirgoptā vṛṣabhākṣo vṛṣapriyaḥ || 63||",
       "en": "His form is beautiful. He gives peace and creates. He delights in the earth and rests on the waters. He is the friend, Lord, and protector of the earth (and of cows). His eyes bless, and He loves dharma.",
       "start": 959.85,
-      "end": 968.12,
+      "end": 968.1,
       "names": [
         {
           "n": 590,
@@ -4165,8 +4165,8 @@ window.STOTRAM = {
       "sa": "अनिवर्ती निवृत्तात्मा सङ्क्षेप्ता क्षेमकृच्छिवः । श्रीवत्सवक्षाः श्रीवासः श्रीपतिः श्रीमतांवरः ॥ ६४॥",
       "iast": "anivartī nivṛttātmā saṅkṣeptā kṣemakṛcchivaḥ | śrīvatsavakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṃvaraḥ || 64||",
       "en": "He never turns back from what is right. His Self is withdrawn from the world. He draws the universe in, does good, and is auspicious. He bears the Srivatsa, is Lakshmi’s home, her Lord, and the best of the glorious.",
-      "start": 968.58,
-      "end": 977.45,
+      "start": 968.59,
+      "end": 977.39,
       "names": [
         {
           "n": 600,
@@ -4223,8 +4223,8 @@ window.STOTRAM = {
       "sa": "श्रीदः श्रीशः श्रीनिवासः श्रीनिधिः श्रीविभावनः । श्रीधरः श्रीकरः श्रेयः श्रीमाँल्लोकत्रयाश्रयः ॥ ६५॥",
       "iast": "śrīdaḥ śrīśaḥ śrīnivāsaḥ śrīnidhiḥ śrīvibhāvanaḥ | śrīdharaḥ śrīkaraḥ śreyaḥ śrīmā~llokatrayāśrayaḥ || 65||",
       "en": "He gives prosperity, is Lakshmi’s Lord, her home, and her treasure. He shares fortune, bears her, makes well-being, is the highest good, the glorious one, and the shelter of the three worlds.",
-      "start": 977.91,
-      "end": 986.82,
+      "start": 977.93,
+      "end": 986.79,
       "names": [
         {
           "n": 609,
@@ -4286,8 +4286,8 @@ window.STOTRAM = {
       "sa": "स्वक्षः स्वङ्गः शतानन्दो नन्दिर्ज्योतिर्गणेश्वरः । विजितात्माऽविधेयात्मा सत्कीर्तिश्छिन्नसंशयः ॥ ६६॥",
       "iast": "svakṣaḥ svaṅgaḥ śatānando nandirjyotirgaṇeśvaraḥ | vijitātmā'vidheyātmā satkīrtiśchinnasaṃśayaḥ || 66||",
       "en": "His eyes and limbs are beautiful. He is endless bliss, joy itself, and Lord of the lights. He has mastered the mind, is under no one’s command, of true fame, and free of doubt.",
-      "start": 987.34,
-      "end": 996.46,
+      "start": 987.37,
+      "end": 996.45,
       "names": [
         {
           "n": 619,
@@ -4345,7 +4345,7 @@ window.STOTRAM = {
       "iast": "udīrṇaḥ sarvataścakṣuranīśaḥ śāśvatasthiraḥ | bhūśayo bhūṣaṇo bhūtirviśokaḥ śokanāśanaḥ || 67||",
       "en": "He is risen above all, the eye in every place, and has no master. He is eternally still. He rests on the earth, is its ornament and its being, without sorrow, and the one who takes sorrow away.",
       "start": 996.97,
-      "end": 1005.15,
+      "end": 1005.07,
       "names": [
         {
           "n": 628,
@@ -4461,7 +4461,7 @@ window.STOTRAM = {
       "iast": "kālaneminihā vīraḥ śauriḥ śūrajaneśvaraḥ | trilokātmā trilokeśaḥ keśavaḥ keśihā hariḥ || 69||",
       "en": "He slew Kalanemi. He is the hero, son of Shura, and Lord of the brave. He is the Self and Lord of the three worlds, Keshava, slayer of the demon Keshi, and Hari who removes pain.",
       "start": 1014.37,
-      "end": 1022.97,
+      "end": 1022.95,
       "names": [
         {
           "n": 646,
@@ -4518,8 +4518,8 @@ window.STOTRAM = {
       "sa": "कामदेवः कामपालः कामी कान्तः कृतागमः । अनिर्देश्यवपुर्विष्णुर्वीरोऽनन्तो धनञ्जयः ॥ ७०॥",
       "iast": "kāmadevaḥ kāmapālaḥ kāmī kāntaḥ kṛtāgamaḥ | anirdeśyavapurviṣṇurvīro'nanto dhanañjayaḥ || 70||",
       "en": "He is the desired God, the keeper of wishes, fulfilled, and lovely. He gave the scriptures. His form cannot be described. He is Vishnu, the hero, the endless, and Dhananjaya.",
-      "start": 1023.51,
-      "end": 1032.45,
+      "start": 1023.52,
+      "end": 1032.38,
       "names": [
         {
           "n": 655,
@@ -4581,8 +4581,8 @@ window.STOTRAM = {
       "sa": "ब्रह्मण्यो ब्रह्मकृद् ब्रह्मा ब्रह्म ब्रह्मविवर्धनः । ब्रह्मविद् ब्राह्मणो ब्रह्मी ब्रह्मज्ञो ब्राह्मणप्रियः ॥ ७१॥",
       "iast": "brahmaṇyo brahmakṛd brahmā brahma brahmavivardhanaḥ | brahmavid brāhmaṇo brahmī brahmajño brāhmaṇapriyaḥ || 71||",
       "en": "He loves the Vedas and the good. He makes Brahman, is Brahma, is Brahman, and makes the Vedas grow. He knows the Veda, is the Brahmana, holds Brahman, knows Brahman, and is dear to the Brahmanas.",
-      "start": 1032.9,
-      "end": 1042.37,
+      "start": 1032.91,
+      "end": 1042.31,
       "names": [
         {
           "n": 665,
@@ -4645,7 +4645,7 @@ window.STOTRAM = {
       "iast": "mahākramo mahākarmā mahātejā mahoragaḥ | mahākraturmahāyajvā mahāyajño mahāhaviḥ || 72||",
       "en": "His stride is great, His work is great, His light is great. He is the great serpent. He is the great rite, the great sacrificer, the great yajna, and the great offering.",
       "start": 1042.82,
-      "end": 1051.02,
+      "end": 1051.01,
       "names": [
         {
           "n": 675,
@@ -4688,7 +4688,7 @@ window.STOTRAM = {
       "iast": "stavyaḥ stavapriyaḥ stotraṃ stutiḥ stotā raṇapriyaḥ | pūrṇaḥ pūrayitā puṇyaḥ puṇyakīrtiranāmayaḥ || 73||",
       "en": "He is worthy of praise, loves praise, and is the hymn, the praise, and the one who praises. He loves the fight that protects. He is full, He fills others, He is holy, of holy fame, and free from illness.",
       "start": 1051.58,
-      "end": 1060.25,
+      "end": 1060.24,
       "names": [
         {
           "n": 681,
@@ -4756,7 +4756,7 @@ window.STOTRAM = {
       "iast": "manojavastīrthakaro vasuretā vasupradaḥ | vasuprado vāsudevo vasurvasumanā haviḥ || 74||",
       "en": "He is swift as thought and makes holy crossings. His essence is gold. He gives wealth, and also the wealth of freedom. He is Vasudeva, the abode, of a noble mind, and the offering itself.",
       "start": 1060.67,
-      "end": 1068.36,
+      "end": 1068.35,
       "names": [
         {
           "n": 692,
@@ -4814,7 +4814,7 @@ window.STOTRAM = {
       "iast": "sadgatiḥ satkṛtiḥ sattā sadbhūtiḥ satparāyaṇaḥ | śūraseno yaduśreṣṭhaḥ sannivāsaḥ suyāmunaḥ || 75||",
       "en": "He is the path of the good, their noble work, pure being, true glory, and their highest aim. He has a heroic army, is best of the Yadus, the home of the good, and lives by the Yamuna.",
       "start": 1068.85,
-      "end": 1077.51,
+      "end": 1077.45,
       "names": [
         {
           "n": 701,
@@ -4872,7 +4872,7 @@ window.STOTRAM = {
       "iast": "bhūtāvāso vāsudevaḥ sarvāsunilayo'nalaḥ | darpahā darpado dṛpto durdharo'thāparājitaḥ || 76||",
       "en": "Beings live in Him. He is Vasudeva, the home of every life-breath, and of endless power. He breaks false pride, gives true dignity, is content, hard to hold, and never defeated.",
       "start": 1078.0,
-      "end": 1086.64,
+      "end": 1086.61,
       "names": [
         {
           "n": 710,
@@ -4929,8 +4929,8 @@ window.STOTRAM = {
       "sa": "विश्वमूर्तिर्महामूर्तिर्दीप्तमूर्तिरमूर्तिमान् । अनेकमूर्तिरव्यक्तः शतमूर्तिः शताननः ॥ ७७॥",
       "iast": "viśvamūrtirmahāmūrtirdīptamūrtiramūrtimān | anekamūrtiravyaktaḥ śatamūrtiḥ śatānanaḥ || 77||",
       "en": "His form is the universe, vast, and shining — and He is also without form. He has many forms, is unmanifest, of a hundred forms, and of a hundred faces.",
-      "start": 1087.14,
-      "end": 1096.35,
+      "start": 1087.15,
+      "end": 1096.33,
       "names": [
         {
           "n": 719,
@@ -4983,7 +4983,7 @@ window.STOTRAM = {
       "iast": "eko naikaḥ savaḥ kaḥ kiṃ yat tatpadamanuttamam | lokabandhurlokanātho mādhavo bhaktavatsalaḥ || 78||",
       "en": "He is the One, and also the many. He is the sacrifice, the ‘who’, the ‘what’, and the highest ‘That’. He is the friend and Lord of the world, Madhava, and tender toward His devotees.",
       "start": 1096.82,
-      "end": 1105.15,
+      "end": 1105.14,
       "names": [
         {
           "n": 727,
@@ -5119,7 +5119,7 @@ window.STOTRAM = {
       "iast": "amānī mānado mānyo lokasvāmī trilokadhṛk | sumedhā medhajo dhanyaḥ satyamedhā dharādharaḥ || 80||",
       "en": "He has no pride, gives honour, and is worthy of honour. He is Lord of the worlds and holds the three worlds. He is wise, born of sacrifice, blessed, of true insight, and holder of the earth.",
       "start": 1114.96,
-      "end": 1123.6,
+      "end": 1123.52,
       "names": [
         {
           "n": 749,
@@ -5182,7 +5182,7 @@ window.STOTRAM = {
       "iast": "tejovṛṣo dyutidharaḥ sarvaśastrabhṛtāṃ varaḥ | pragraho nigraho vyagro naikaśṛṅgo gadāgrajaḥ || 81||",
       "en": "He rains splendour and wears light. He is the best of those who bear weapons. He accepts devotion, restrains, and is always intent on His people. He has many forms, and is Gada’s elder brother.",
       "start": 1124.08,
-      "end": 1132.27,
+      "end": 1132.25,
       "names": [
         {
           "n": 759,
@@ -5234,8 +5234,8 @@ window.STOTRAM = {
       "sa": "चतुर्मूर्तिश्चतुर्बाहुश्चतुर्व्यूहश्चतुर्गतिः । चतुरात्मा चतुर्भावश्चतुर्वेदविदेकपात् ॥ ८२॥",
       "iast": "caturmūrtiścaturbāhuścaturvyūhaścaturgatiḥ | caturātmā caturbhāvaścaturvedavidekapāt || 82||",
       "en": "He has four forms, four arms, four vyuhas, and is the fourfold goal. He has a fourfold Self, gives the four aims of life, knows the four Vedas, and stands as one transcendent foot.",
-      "start": 1132.76,
-      "end": 1141.5,
+      "start": 1132.77,
+      "end": 1141.49,
       "names": [
         {
           "n": 767,
@@ -5288,7 +5288,7 @@ window.STOTRAM = {
       "iast": "samāvarto'nivṛttātmā durjayo duratikramaḥ | durlabho durgamo durgo durāvāso durārihā || 83||",
       "en": "He turns the cycle well. His Self never fails. He is hard to defeat, hard to overstep, hard to reach, hard to know, a hard fort to cross, hard to house in the heart, and slayer of cruel foes.",
       "start": 1142.03,
-      "end": 1150.3,
+      "end": 1150.29,
       "names": [
         {
           "n": 775,
@@ -5346,7 +5346,7 @@ window.STOTRAM = {
       "iast": "śubhāṅgo lokasāraṅgaḥ sutantustantuvardhanaḥ | indrakarmā mahākarmā kṛtakarmā kṛtāgamaḥ || 84||",
       "en": "His form is auspicious. He draws the essence of the worlds. He is the fine thread of creation and makes it grow. His deeds are like Indra’s, great, already complete, and He gave the scriptures.",
       "start": 1150.81,
-      "end": 1159.0,
+      "end": 1158.94,
       "names": [
         {
           "n": 784,
@@ -5398,8 +5398,8 @@ window.STOTRAM = {
       "sa": "उद्भवः सुन्दरः सुन्दो रत्ननाभः सुलोचनः । अर्को वाजसनः शृङ्गी जयन्तः सर्वविज्जयी ॥ ८५॥",
       "iast": "udbhavaḥ sundaraḥ sundo ratnanābhaḥ sulocanaḥ | arko vājasanaḥ śṛṅgī jayantaḥ sarvavijjayī || 85||",
       "en": "He is the source, beautiful, and gentle. His navel is a jewel, His eyes are lovely. He is worthy of worship, giver of food, the horned one, the victor, and the all-knowing conqueror.",
-      "start": 1159.41,
-      "end": 1167.87,
+      "start": 1159.42,
+      "end": 1167.86,
       "names": [
         {
           "n": 792,
@@ -5461,8 +5461,8 @@ window.STOTRAM = {
       "sa": "सुवर्णबिन्दुरक्षोभ्यः सर्ववागीश्वरेश्वरः । महाह्रदो महागर्तो महाभूतो महानिधिः ॥ ८६॥",
       "iast": "suvarṇabindurakṣobhyaḥ sarvavāgīśvareśvaraḥ | mahāhrado mahāgarto mahābhūto mahānidhiḥ || 86||",
       "en": "He is the golden syllable, unshaken, and Lord of all who master speech. He is the great lake of bliss, the great deep, the great being, and the great treasure.",
-      "start": 1168.36,
-      "end": 1176.47,
+      "start": 1168.37,
+      "end": 1176.45,
       "names": [
         {
           "n": 802,
@@ -5509,8 +5509,8 @@ window.STOTRAM = {
       "sa": "कुमुदः कुन्दरः कुन्दः पर्जन्यः पावनोऽनिलः । अमृताशोऽमृतवपुः सर्वज्ञः सर्वतोमुखः ॥ ८७॥",
       "iast": "kumudaḥ kundaraḥ kundaḥ parjanyaḥ pāvano'nilaḥ | amṛtāśo'mṛtavapuḥ sarvajñaḥ sarvatomukhaḥ || 87||",
       "en": "He delights in the earth, is pure as jasmine, white, and the rain-cloud. He purifies, needs no breath, lives on nectar, has an immortal body, knows all, and has faces on every side.",
-      "start": 1176.99,
-      "end": 1184.96,
+      "start": 1177.0,
+      "end": 1184.88,
       "names": [
         {
           "n": 809,
@@ -5572,8 +5572,8 @@ window.STOTRAM = {
       "sa": "सुलभः सुव्रतः सिद्धः शत्रुजिच्छत्रुतापनः । न्यग्रोधोऽदुम्बरोऽश्वत्थश्चाणूरान्ध्रनिषूदनः ॥ ८८॥",
       "iast": "sulabhaḥ suvrataḥ siddhaḥ śatrujicchatrutāpanaḥ | nyagrodho'dumbaro'śvatthaścāṇūrāndhraniṣūdanaḥ || 88||",
       "en": "Devotees reach Him easily. His vows are good, He is already accomplished, He conquers enemies and burns them away. He is the banyan, the udumbara, the peepal, and the slayer of Chanura.",
-      "start": 1185.37,
-      "end": 1194.03,
+      "start": 1185.4,
+      "end": 1193.97,
       "names": [
         {
           "n": 819,
@@ -5630,8 +5630,8 @@ window.STOTRAM = {
       "sa": "सहस्रार्चिः सप्तजिह्वः सप्तैधाः सप्तवाहनः । अमूर्तिरनघोऽचिन्त्यो भयकृद्भयनाशनः ॥ ८९॥",
       "iast": "sahasrārciḥ saptajihvaḥ saptaidhāḥ saptavāhanaḥ | amūrtiranagho'cintyo bhayakṛdbhayanāśanaḥ || 89||",
       "en": "He has a thousand rays, seven tongues of fire, seven flames, and the seven horses of the sun. He is without form, without sin, beyond thought. He frightens the wicked and removes the fear of the good.",
-      "start": 1194.48,
-      "end": 1202.83,
+      "start": 1194.49,
+      "end": 1202.81,
       "names": [
         {
           "n": 828,
@@ -5689,7 +5689,7 @@ window.STOTRAM = {
       "iast": "aṇurbṛhatkṛśaḥ sthūlo guṇabhṛnnirguṇo mahān | adhṛtaḥ svadhṛtaḥ svāsyaḥ prāgvaṃśo vaṃśavardhanaḥ || 90||",
       "en": "He is the smallest and the largest, the thin and the stout. He bears the gunas and is also beyond them. He is the Great. No one holds Him; He holds Himself. His face is fair, His line is ancient, and He makes the line grow.",
       "start": 1203.33,
-      "end": 1211.93,
+      "end": 1211.92,
       "names": [
         {
           "n": 837,
@@ -5762,7 +5762,7 @@ window.STOTRAM = {
       "iast": "bhārabhṛt kathito yogī yogīśaḥ sarvakāmadaḥ | āśramaḥ śramaṇaḥ kṣāmaḥ suparṇo vāyuvāhanaḥ || 91||",
       "en": "He bears the world’s burden. The Vedas speak of Him. He is the yogi and Lord of yogis, giver of every wish, the resting place, who wearies the wicked, fair-winged, and borne by the wind.",
       "start": 1212.43,
-      "end": 1221.07,
+      "end": 1220.99,
       "names": [
         {
           "n": 849,
@@ -5824,8 +5824,8 @@ window.STOTRAM = {
       "sa": "धनुर्धरो धनुर्वेदो दण्डो दमयिता दमः । अपराजितः सर्वसहो नियन्ताऽनियमोऽयमः ॥ ९२॥",
       "iast": "dhanurdharo dhanurvedo daṇḍo damayitā damaḥ | aparājitaḥ sarvasaho niyantā'niyamo'yamaḥ || 92||",
       "en": "He holds the bow and knows the science of the bow. He is the rod of justice, the one who tames, and self-control itself. He cannot be defeated, bears all, sets the law, is bound by no law, and is not death.",
-      "start": 1221.54,
-      "end": 1229.49,
+      "start": 1221.55,
+      "end": 1229.46,
       "names": [
         {
           "n": 859,
@@ -5887,8 +5887,8 @@ window.STOTRAM = {
       "sa": "सत्त्ववान् सात्त्विकः सत्यः सत्यधर्मपरायणः । अभिप्रायः प्रियार्होऽर्हः प्रियकृत् प्रीतिवर्धनः ॥ ९३॥",
       "iast": "sattvavān sāttvikaḥ satyaḥ satyadharmaparāyaṇaḥ | abhiprāyaḥ priyārho'rhaḥ priyakṛt prītivardhanaḥ || 93||",
       "en": "He is full of sattva, lives in sattva, and is the truth. He is devoted to truth and dharma. He is the aim all hearts want, worthy of love and worship, doer of what is dear, and increaser of love.",
-      "start": 1229.98,
-      "end": 1238.26,
+      "start": 1229.99,
+      "end": 1238.2,
       "names": [
         {
           "n": 869,
@@ -5945,8 +5945,8 @@ window.STOTRAM = {
       "sa": "विहायसगतिर्ज्योतिः सुरुचिर्हुतभुग्विभुः । रविर्विरोचनः सूर्यः सविता रविलोचनः ॥ ९४॥",
       "iast": "vihāyasagatirjyotiḥ surucirhutabhugvibhuḥ | ravirvirocanaḥ sūryaḥ savitā ravilocanaḥ || 94||",
       "en": "His path is the sky. He is light, of lovely glow, enjoyer of the offering, and all-pervading. He is the sun that draws, the shining one, the sun, the impeller, and His eye is the sun.",
-      "start": 1238.72,
-      "end": 1246.18,
+      "start": 1238.74,
+      "end": 1246.15,
       "names": [
         {
           "n": 878,
@@ -6009,7 +6009,7 @@ window.STOTRAM = {
       "iast": "ananto hutabhugbhoktā sukhado naikajo'grajaḥ | anirviṇṇaḥ sadāmarṣī lokādhiṣṭhānamadbhutaḥ || 95||",
       "en": "He is endless, enjoyer of the offering, and the enjoyer. He gives joy, is born many times, and is the first-born. He never despairs, is always patient, the support of the worlds, and wonderful.",
       "start": 1246.62,
-      "end": 1254.9,
+      "end": 1254.89,
       "names": [
         {
           "n": 888,
@@ -6066,8 +6066,8 @@ window.STOTRAM = {
       "sa": "सनात्सनातनतमः कपिलः कपिरव्ययः । स्वस्तिदः स्वस्तिकृत्स्वस्ति स्वस्तिभुक्स्वस्तिदक्षिणः ॥ ९६॥",
       "iast": "sanātsanātanatamaḥ kapilaḥ kapiravyayaḥ | svastidaḥ svastikṛtsvasti svastibhuksvastidakṣiṇaḥ || 96||",
       "en": "He is from of old, the most eternal, the tawny sage Kapila, the sun, and the unchanging. He gives well-being, makes well-being, is well-being, enjoys it, and bestows it as a blessing.",
-      "start": 1255.44,
-      "end": 1263.03,
+      "start": 1255.45,
+      "end": 1263.0,
       "names": [
         {
           "n": 897,
@@ -6130,7 +6130,7 @@ window.STOTRAM = {
       "iast": "araudraḥ kuṇḍalī cakrī vikramyūrjitaśāsanaḥ | śabdātigaḥ śabdasahaḥ śiśiraḥ śarvarīkaraḥ || 97||",
       "en": "He is without cruelty, wears earrings, and holds the discus. He is valiant, of strong rule, beyond words, the meaning of all words, the cool refuge, and the maker of night at the end.",
       "start": 1263.49,
-      "end": 1271.62,
+      "end": 1271.61,
       "names": [
         {
           "n": 907,
@@ -6188,7 +6188,7 @@ window.STOTRAM = {
       "iast": "akrūraḥ peśalo dakṣo dakṣiṇaḥ kṣamiṇāṃvaraḥ | vidvattamo vītabhayaḥ puṇyaśravaṇakīrtanaḥ || 98||",
       "en": "He is not cruel, He is graceful, skilled, and generous. He is the best of the patient, the most learned, without fear, and even hearing His names is a holy act.",
       "start": 1272.1,
-      "end": 1280.4,
+      "end": 1280.37,
       "names": [
         {
           "n": 916,
@@ -6241,7 +6241,7 @@ window.STOTRAM = {
       "iast": "uttāraṇo duṣkṛtihā puṇyo duḥsvapnanāśanaḥ | vīrahā rakṣaṇaḥ santo jīvanaḥ paryavasthitaḥ || 99||",
       "en": "He lifts us across, destroys bad deeds, is holy, and ends bad dreams. He slays foes, protects, lives in the good, is the life of all, and is present everywhere.",
       "start": 1280.94,
-      "end": 1289.39,
+      "end": 1289.35,
       "names": [
         {
           "n": 924,
@@ -6298,8 +6298,8 @@ window.STOTRAM = {
       "sa": "अनन्तरूपोऽनन्तश्रीर्जितमन्युर्भयापहः । चतुरश्रो गभीरात्मा विदिशो व्यादिशो दिशः ॥ १००॥",
       "iast": "anantarūpo'nantaśrīrjitamanyurbhayāpahaḥ | caturaśro gabhīrātmā vidiśo vyādiśo diśaḥ || 100||",
       "en": "His forms are endless, His glory is endless. He has conquered anger and takes fear away. He is just, of a deep Self, the one who shares the fruits, the commander, and the very directions.",
-      "start": 1289.86,
-      "end": 1297.58,
+      "start": 1289.87,
+      "end": 1298.38,
       "names": [
         {
           "n": 933,
@@ -6356,8 +6356,8 @@ window.STOTRAM = {
       "sa": "अनादिर्भूर्भुवो लक्ष्मीः सुवीरो रुचिराङ्गदः । जननो जनजन्मादिर्भीमो भीमपराक्रमः ॥ १०१॥",
       "iast": "anādirbhūrbhuvo lakṣmīḥ suvīro rucirāṅgadaḥ | janano janajanmādirbhīmo bhīmaparākramaḥ || 101||",
       "en": "He has no beginning. He is the earth’s support and the glory of all. He is a true hero, of shining armlets, the father of beings, their source, awe-inspiring, and of terrible valour to the wicked.",
-      "start": 1297.88,
-      "end": 1305.46,
+      "start": 1298.91,
+      "end": 1307.34,
       "names": [
         {
           "n": 942,
@@ -6419,8 +6419,8 @@ window.STOTRAM = {
       "sa": "आधारनिलयोऽधाता पुष्पहासः प्रजागरः । ऊर्ध्वगः सत्पथाचारः प्राणदः प्रणवः पणः ॥ १०२॥",
       "iast": "ādhāranilayo'dhātā puṣpahāsaḥ prajāgaraḥ | ūrdhvagaḥ satpathācāraḥ prāṇadaḥ praṇavaḥ paṇaḥ || 102||",
       "en": "He is the base of every base, and no one is above Him. Creation opens like a flower. He is always awake, always rising, walks the good path, gives life, is the Om, and the just rewarder.",
-      "start": 1305.76,
-      "end": 1313.33,
+      "start": 1307.87,
+      "end": 1316.22,
       "names": [
         {
           "n": 952,
@@ -6477,8 +6477,8 @@ window.STOTRAM = {
       "sa": "प्रमाणं प्राणनिलयः प्राणभृत्प्राणजीवनः । तत्त्वं तत्त्वविदेकात्मा जन्ममृत्युजरातिगः ॥ १०३॥",
       "iast": "pramāṇaṃ prāṇanilayaḥ prāṇabhṛtprāṇajīvanaḥ | tattvaṃ tattvavidekātmā janmamṛtyujarātigaḥ || 103||",
       "en": "He is the true measure, the home of the breath, the holder of the breath, and the life of the vital airs. He is Reality, knower of Reality, the one Self, and beyond birth, death, and old age.",
-      "start": 1313.63,
-      "end": 1321.21,
+      "start": 1316.77,
+      "end": 1325.05,
       "names": [
         {
           "n": 961,
@@ -6530,8 +6530,8 @@ window.STOTRAM = {
       "sa": "भूर्भुवःस्वस्तरुस्तारः सविता प्रपितामहः । यज्ञो यज्ञपतिर्यज्वा यज्ञाङ्गो यज्ञवाहनः ॥ १०४॥",
       "iast": "bhūrbhuvaḥsvastarustāraḥ savitā prapitāmahaḥ | yajño yajñapatiryajvā yajñāṅgo yajñavāhanaḥ || 104||",
       "en": "He is the tree of the three worlds, the saviour, the impeller, and the grandfather of all. He is the sacrifice, its Lord, the sacrificer, its limbs, and the one who carries it.",
-      "start": 1321.51,
-      "end": 1329.08,
+      "start": 1325.5,
+      "end": 1334.15,
       "names": [
         {
           "n": 969,
@@ -6588,8 +6588,8 @@ window.STOTRAM = {
       "sa": "यज्ञभृद् यज्ञकृद् यज्ञी यज्ञभुग् यज्ञसाधनः । यज्ञान्तकृद् यज्ञगुह्यमन्नमन्नाद एव च ॥ १०५॥",
       "iast": "yajñabhṛd yajñakṛd yajñī yajñabhug yajñasādhanaḥ | yajñāntakṛd yajñaguhyamannamannāda eva ca || 105||",
       "en": "He holds the sacrifice, performs it, owns it, eats the offering, and is its means. He completes it, is its secret, and is both the food and the one who eats the food.",
-      "start": 1329.38,
-      "end": 1336.96,
+      "start": 1334.63,
+      "end": 1342.92,
       "names": [
         {
           "n": 978,
@@ -6646,8 +6646,8 @@ window.STOTRAM = {
       "sa": "आत्मयोनिः स्वयञ्जातो वैखानः सामगायनः । देवकीनन्दनः स्रष्टा क्षितीशः पापनाशनः ॥ १०६॥",
       "iast": "ātmayoniḥ svayañjāto vaikhānaḥ sāmagāyanaḥ | devakīnandanaḥ sraṣṭā kṣitīśaḥ pāpanāśanaḥ || 106||",
       "en": "He is His own source and self-born. As the boar He lifted the earth. He sings the Sama, is Devaki’s delight, the creator, Lord of the earth, and the destroyer of sin.",
-      "start": 1337.26,
-      "end": 1344.83,
+      "start": 1343.42,
+      "end": 1352.35,
       "names": [
         {
           "n": 987,
@@ -6696,11 +6696,11 @@ window.STOTRAM = {
       "id": "stotram-137",
       "n": 137,
       "section": "stotram",
-      "sa": "शङ्खभृन्नन्दकी चक्री शार्ङ्गधन्वा गदाधरः । रथाङ्गपाणिरक्षोभ्यः सर्वप्रहरणायुधः ॥ १०७॥",
-      "iast": "śaṅkhabhṛnnandakī cakrī śārṅgadhanvā gadādharaḥ | rathāṅgapāṇirakṣobhyaḥ sarvapraharaṇāyudhaḥ || 107||",
+      "sa": "शङ्खभृन्नन्दकी चक्री शार्ङ्गधन्वा गदाधरः । रथाङ्गपाणिरक्षोभ्यः सर्वप्रहरणायुधः ॥ १०७॥ सर्वप्रहरणायुध ॐ नम इति ।",
+      "iast": "śaṅkhabhṛnnandakī cakrī śārṅgadhanvā gadādharaḥ | rathāṅgapāṇirakṣobhyaḥ sarvapraharaṇāyudhaḥ || 107|| sarvapraharaṇāyudha oṃ nama iti |",
       "en": "He holds the conch, the sword Nandaka, the discus, the bow Sharnga, and the mace. He holds the wheel in His hand, cannot be shaken, and every weapon is His.",
-      "start": 1345.13,
-      "end": 1352.38,
+      "start": 1352.9,
+      "end": 1364.71,
       "names": [
         {
           "n": 995,
@@ -6742,7 +6742,7 @@ window.STOTRAM = {
       "sa": "वनमाली गदी शार्ङ्गी शङ्खी चक्री च नन्दकी । श्रीमान् नारायणो विष्णुर्वासुदेवोऽभिरक्षतु ॥ १०८॥ श्रीवासुदेवोऽभिरक्षतु ॐ नम इति ।",
       "iast": "vanamālī gadī śārṅgī śaṅkhī cakrī ca nandakī | śrīmān nārāyaṇo viṣṇurvāsudevo'bhirakṣatu || 108|| śrīvāsudevo'bhirakṣatu oṃ nama iti |",
       "en": "May the glorious Narayana — Vishnu, Vasudeva — who wears the forest garland and holds the mace, the Sharnga bow, the conch, the discus, and the sword, always protect us. She sings this closing śloka three times.",
-      "start": 1352.88,
+      "start": 1366.15,
       "end": 1395.27,
       "names": [],
       "shloka": 108
@@ -7388,7 +7388,7 @@ window.STOTRAM = {
       "iast": "oṃ viśvaṃ viṣṇurvaṣaṭkāro bhūtabhavyabhavatprabhuḥ | bhūtakṛdbhūtabhṛdbhāvo bhūtātmā bhūtabhāvanaḥ || 1||",
       "en": "The Lord is the whole universe, present in every place. He is the sacred offering, the master of past, present and future, and the one who makes, holds, and nourishes every living being.",
       "start": 403.05,
-      "end": 415.33,
+      "end": 415.3,
       "learnId": "stotram-031"
     },
     {
@@ -7397,7 +7397,7 @@ window.STOTRAM = {
       "iast": "pūtātmā paramātmā ca muktānāṃ paramā gatiḥ | avyayaḥ puruṣaḥ sākṣī kṣetrajño'kṣara eva ca || 2||",
       "en": "He is the pure Self and the Supreme Self. For those who are free, He is the last home. He never fades. He lives within, watches all, knows the body, and never dies.",
       "start": 415.85,
-      "end": 425.06,
+      "end": 425.01,
       "learnId": "stotram-032"
     },
     {
@@ -7406,7 +7406,7 @@ window.STOTRAM = {
       "iast": "yogo yogavidāṃ netā pradhānapuruṣeśvaraḥ | nārasiṃhavapuḥ śrīmān keśavaḥ puruṣottamaḥ || 3||",
       "en": "He is yoga itself and the guide of yogis. He rules both nature and the soul. He took the Narasimha form, He is glorious Keshava, and He is the highest Person.",
       "start": 425.56,
-      "end": 434.01,
+      "end": 434.0,
       "learnId": "stotram-033"
     },
     {
@@ -7414,8 +7414,8 @@ window.STOTRAM = {
       "sa": "सर्वः शर्वः शिवः स्थाणुर्भूतादिर्निधिरव्ययः । सम्भवो भावनो भर्ता प्रभवः प्रभुरीश्वरः ॥ ४॥",
       "iast": "sarvaḥ śarvaḥ śivaḥ sthāṇurbhūtādirnidhiravyayaḥ | sambhavo bhāvano bhartā prabhavaḥ prabhurīśvaraḥ || 4||",
       "en": "He is everything, and also the one who brings things to a close. He is auspicious, steady, the source of beings, and an unending treasure. He appears, cares, supports, and rules.",
-      "start": 434.55,
-      "end": 443.04,
+      "start": 434.56,
+      "end": 442.99,
       "learnId": "stotram-034"
     },
     {
@@ -7423,8 +7423,8 @@ window.STOTRAM = {
       "sa": "स्वयम्भूः शम्भुरादित्यः पुष्कराक्षो महास्वनः । अनादिनिधनो धाता विधाता धातुरुत्तमः ॥ ५॥",
       "iast": "svayambhūḥ śambhurādityaḥ puṣkarākṣo mahāsvanaḥ | anādinidhano dhātā vidhātā dhāturuttamaḥ || 5||",
       "en": "He exists by Himself. He gives joy, shines like the sun, and has lotus-like eyes. He has no beginning or end. He holds the world, orders it, and is its highest support.",
-      "start": 443.49,
-      "end": 452.1,
+      "start": 443.5,
+      "end": 452.08,
       "learnId": "stotram-035"
     },
     {
@@ -7433,7 +7433,7 @@ window.STOTRAM = {
       "iast": "aprameyo hṛṣīkeśaḥ padmanābho'maraprabhuḥ | viśvakarmā manustvaṣṭā sthaviṣṭhaḥ sthaviro dhruvaḥ || 6||",
       "en": "No one can measure Him. He is the Lord of the senses, with a lotus at His navel, and Lord of the deathless ones. He shapes the universe, thinks, forms, is vast, ancient, and unmoving.",
       "start": 452.58,
-      "end": 461.06,
+      "end": 461.02,
       "learnId": "stotram-036"
     },
     {
@@ -7441,8 +7441,8 @@ window.STOTRAM = {
       "sa": "अग्राह्यः शाश्वतः कृष्णो लोहिताक्षः प्रतर्दनः । प्रभूतस्त्रिककुब्धाम पवित्रं मङ्गलं परम् ॥ ७॥",
       "iast": "agrāhyaḥ śāśvataḥ kṛṣṇo lohitākṣaḥ pratardanaḥ | prabhūtastrikakubdhāma pavitraṃ maṅgalaṃ param || 7||",
       "en": "The senses cannot grasp Him. He is eternal, dark-hued Krishna, red-eyed, and the one who dissolves the world. He is full, the support of the three worlds, the purifier, and the highest blessing.",
-      "start": 461.53,
-      "end": 470.09,
+      "start": 461.55,
+      "end": 470.06,
       "learnId": "stotram-037"
     },
     {
@@ -7468,8 +7468,8 @@ window.STOTRAM = {
       "sa": "सुरेशः शरणं शर्म विश्वरेताः प्रजाभवः । अहः संवत्सरो व्यालः प्रत्ययः सर्वदर्शनः ॥ १०॥",
       "iast": "sureśaḥ śaraṇaṃ śarma viśvaretāḥ prajābhavaḥ | ahaḥ saṃvatsaro vyālaḥ pratyayaḥ sarvadarśanaḥ || 10||",
       "en": "He is Lord of the gods, the safe shelter, and true peace. He is the seed of the universe and the source of beings. He is day, time, hard to catch, the very knowing, and the one who sees all.",
-      "start": 489.54,
-      "end": 497.68,
+      "start": 489.55,
+      "end": 497.6,
       "learnId": "stotram-040"
     },
     {
@@ -7477,8 +7477,8 @@ window.STOTRAM = {
       "sa": "अजः सर्वेश्वरः सिद्धः सिद्धिः सर्वादिरच्युतः । वृषाकपिरमेयात्मा सर्वयोगविनिःसृतः ॥ ११॥",
       "iast": "ajaḥ sarveśvaraḥ siddhaḥ siddhiḥ sarvādiracyutaḥ | vṛṣākapirameyātmā sarvayogaviniḥsṛtaḥ || 11||",
       "en": "He was never born. He is Lord of all, already complete, and the fulfilment of every aim. He is the first cause, the one who never falls, the dharma-bearing boar, and free of every bond.",
-      "start": 498.03,
-      "end": 506.32,
+      "start": 498.04,
+      "end": 506.3,
       "learnId": "stotram-041"
     },
     {
@@ -7487,7 +7487,7 @@ window.STOTRAM = {
       "iast": "vasurvasumanāḥ satyaḥ samātmā'sammitaḥ samaḥ | amoghaḥ puṇḍarīkākṣo vṛṣakarmā vṛṣākṛtiḥ || 12||",
       "en": "He is the home of all and of a clean mind. He is truth, even toward everyone, beyond measure, and fair. His work never fails. He is lotus-eyed, and every act of His is dharma.",
       "start": 506.77,
-      "end": 515.19,
+      "end": 515.18,
       "learnId": "stotram-042"
     },
     {
@@ -7496,7 +7496,7 @@ window.STOTRAM = {
       "iast": "rudro bahuśirā babhrurviśvayoniḥ śuciśravāḥ | amṛtaḥ śāśvatasthāṇurvarāroho mahātapāḥ || 13||",
       "en": "He is Rudra, many-headed, the bearer of all. The universe is born from Him. His fame is holy. He is immortal, eternally steady, the best refuge, and of great tapas.",
       "start": 515.71,
-      "end": 524.26,
+      "end": 525.2,
       "learnId": "stotram-043"
     },
     {
@@ -7504,8 +7504,8 @@ window.STOTRAM = {
       "sa": "सर्वगः सर्वविद्भानुर्विष्वक्सेनो जनार्दनः । वेदो वेदविदव्यङ्गो वेदाङ्गो वेदवित् कविः ॥ १४॥",
       "iast": "sarvagaḥ sarvavidbhānurviṣvakseno janārdanaḥ | vedo vedavidavyaṅgo vedāṅgo vedavit kaviḥ || 14||",
       "en": "He is everywhere and knows everything. He shines. No army can stand before Him, and He corrects the wicked. He is the Veda, knows the Veda, is flawless, and is the seer.",
-      "start": 524.56,
-      "end": 532.96,
+      "start": 525.75,
+      "end": 528.97,
       "learnId": "stotram-044"
     },
     {
@@ -7513,8 +7513,8 @@ window.STOTRAM = {
       "sa": "लोकाध्यक्षः सुराध्यक्षो धर्माध्यक्षः कृताकृतः । चतुरात्मा चतुर्व्यूहश्चतुर्दंष्ट्रश्चतुर्भुजः ॥ १५॥",
       "iast": "lokādhyakṣaḥ surādhyakṣo dharmādhyakṣaḥ kṛtākṛtaḥ | caturātmā caturvyūhaścaturdaṃṣṭraścaturbhujaḥ || 15||",
       "en": "He watches over the worlds, the gods, and dharma. He is both the work and its cause. He has four aspects, four forms, four tusks as Narasimha, and four arms.",
-      "start": 533.25,
-      "end": 541.65,
+      "start": 529.51,
+      "end": 538.67,
       "learnId": "stotram-045"
     },
     {
@@ -7522,8 +7522,8 @@ window.STOTRAM = {
       "sa": "भ्राजिष्णुर्भोजनं भोक्ता सहिष्णुर्जगदादिजः । अनघो विजयो जेता विश्वयोनिः पुनर्वसुः ॥ १६॥",
       "iast": "bhrājiṣṇurbhojanaṃ bhoktā sahiṣṇurjagadādijaḥ | anagho vijayo jetā viśvayoniḥ punarvasuḥ || 16||",
       "en": "He shines always. He is both what is enjoyed and the enjoyer. He is patient, first-born of the world, without sin, victorious, the womb of the universe, and He returns again and again.",
-      "start": 541.95,
-      "end": 550.35,
+      "start": 539.22,
+      "end": 547.49,
       "learnId": "stotram-046"
     },
     {
@@ -7531,8 +7531,8 @@ window.STOTRAM = {
       "sa": "उपेन्द्रो वामनः प्रांशुरमोघः शुचिरूर्जितः । अतीन्द्रः सङ्ग्रहः सर्गो धृतात्मा नियमो यमः ॥ १७॥",
       "iast": "upendro vāmanaḥ prāṃśuramoghaḥ śucirūrjitaḥ | atīndraḥ saṅgrahaḥ sargo dhṛtātmā niyamo yamaḥ || 17||",
       "en": "He is Upendra, the dwarf Vamana, and also the tall one. His gifts never fail. He is pure and strong, greater than Indra, the holder, the creation itself, self-held, and the one who sets the rules.",
-      "start": 550.65,
-      "end": 559.04,
+      "start": 548.0,
+      "end": 556.54,
       "learnId": "stotram-047"
     },
     {
@@ -7540,8 +7540,8 @@ window.STOTRAM = {
       "sa": "वेद्यो वैद्यः सदायोगी वीरहा माधवो मधुः । अतीन्द्रियो महामायो महोत्साहो महाबलः ॥ १८॥",
       "iast": "vedyo vaidyaḥ sadāyogī vīrahā mādhavo madhuḥ | atīndriyo mahāmāyo mahotsāho mahābalaḥ || 18||",
       "en": "He is what we should know, and the healer of worldly pain. He is always in yoga, slays great foes, is Lord of knowledge, and sweet as honey. He is beyond the senses, of great Maya, zeal, and strength.",
-      "start": 559.34,
-      "end": 567.74,
+      "start": 557.08,
+      "end": 565.62,
       "learnId": "stotram-048"
     },
     {
@@ -7549,8 +7549,8 @@ window.STOTRAM = {
       "sa": "महाबुद्धिर्महावीर्यो महाशक्तिर्महाद्युतिः । अनिर्देश्यवपुः श्रीमानमेयात्मा महाद्रिधृक् ॥ १९॥",
       "iast": "mahābuddhirmahāvīryo mahāśaktirmahādyutiḥ | anirdeśyavapuḥ śrīmānameyātmā mahādridhṛk || 19||",
       "en": "His wisdom, vigour, power, and light are boundless. His form cannot be pointed out. He is glorious, His Self cannot be measured, and He held up the great mountain.",
-      "start": 568.04,
-      "end": 576.43,
+      "start": 566.03,
+      "end": 574.7,
       "learnId": "stotram-049"
     },
     {
@@ -7558,8 +7558,8 @@ window.STOTRAM = {
       "sa": "महेष्वासो महीभर्ता श्रीनिवासः सतां गतिः । अनिरुद्धः सुरानन्दो गोविन्दो गोविदां पतिः ॥ २०॥",
       "iast": "maheṣvāso mahībhartā śrīnivāsaḥ satāṃ gatiḥ | aniruddhaḥ surānando govindo govidāṃ patiḥ || 20||",
       "en": "He is the mighty archer, holder of the earth, and the home of Lakshmi. The good take refuge in Him. Nothing can block Him. He is the joy of the gods, Govinda, and Lord of those who know.",
-      "start": 576.73,
-      "end": 585.13,
+      "start": 575.23,
+      "end": 584.05,
       "learnId": "stotram-050"
     },
     {
@@ -7567,8 +7567,8 @@ window.STOTRAM = {
       "sa": "मरीचिर्दमनो हंसः सुपर्णो भुजगोत्तमः । हिरण्यनाभः सुतपाः पद्मनाभः प्रजापतिः ॥ २१॥",
       "iast": "marīcirdamano haṃsaḥ suparṇo bhujagottamaḥ | hiraṇyanābhaḥ sutapāḥ padmanābhaḥ prajāpatiḥ || 21||",
       "en": "He is a ray of light, the subduer, the swan of wisdom, and fair-winged. He is the best of serpents, golden-naveled, of deep tapas, lotus-naveled, and Lord of creatures.",
-      "start": 585.43,
-      "end": 593.82,
+      "start": 584.56,
+      "end": 592.5,
       "learnId": "stotram-051"
     },
     {
@@ -7576,7 +7576,7 @@ window.STOTRAM = {
       "sa": "अमृत्युः सर्वदृक् सिंहः सन्धाता सन्धिमान् स्थिरः । अजो दुर्मर्षणः शास्ता विश्रुतात्मा सुरारिहा ॥ २२॥",
       "iast": "amṛtyuḥ sarvadṛk siṃhaḥ sandhātā sandhimān sthiraḥ | ajo durmarṣaṇaḥ śāstā viśrutātmā surārihā || 22||",
       "en": "He does not die. He sees all, is the lion, joins actions to their fruits, and is steady. He is unborn, hard for foes to bear, the teacher, of famous Self, and slayer of the gods’ enemies.",
-      "start": 594.12,
+      "start": 592.99,
       "end": 602.14,
       "learnId": "stotram-052"
     },
@@ -7585,8 +7585,8 @@ window.STOTRAM = {
       "sa": "गुरुर्गुरुतमो धाम सत्यः सत्यपराक्रमः । निमिषोऽनिमिषः स्रग्वी वाचस्पतिरुदारधीः ॥ २३॥",
       "iast": "gururgurutamo dhāma satyaḥ satyaparākramaḥ | nimiṣo'nimiṣaḥ sragvī vācaspatirudāradhīḥ || 23||",
       "en": "He is the teacher, and the greatest teacher. He is the true home, the truth, and of true valour. He sleeps in yoga and is also ever awake. He wears a garland, is Lord of speech, and of a generous mind.",
-      "start": 602.67,
-      "end": 611.21,
+      "start": 602.69,
+      "end": 611.2,
       "learnId": "stotram-053"
     },
     {
@@ -7604,7 +7604,7 @@ window.STOTRAM = {
       "iast": "āvartano nivṛttātmā saṃvṛtaḥ sampramardanaḥ | ahaḥ saṃvartako vahniranilo dharaṇīdharaḥ || 25||",
       "en": "He turns the wheel of birth and death. His Self is turned away from the world. He is hidden, and He crushes the wicked. He is day, the fire of time, wind, and the one who holds the earth.",
       "start": 622.46,
-      "end": 630.64,
+      "end": 630.57,
       "learnId": "stotram-055"
     },
     {
@@ -7613,7 +7613,7 @@ window.STOTRAM = {
       "iast": "suprasādaḥ prasannātmā viśvadhṛgviśvabhugvibhuḥ | satkartā satkṛtaḥ sādhurjahnurnārāyaṇo naraḥ || 26||",
       "en": "His grace is kind and His heart is calm. He holds, protects, and fills the universe. He honours the good and is honoured. He is righteous, Narayana, and the true guide.",
       "start": 631.11,
-      "end": 640.08,
+      "end": 639.97,
       "learnId": "stotram-056"
     },
     {
@@ -7622,7 +7622,7 @@ window.STOTRAM = {
       "iast": "asaṅkhyeyo'prameyātmā viśiṣṭaḥ śiṣṭakṛcchuciḥ | siddhārthaḥ siddhasaṅkalpaḥ siddhidaḥ siddhisādhanaḥ || 27||",
       "en": "He cannot be counted and cannot be measured. He is foremost, the leader of the good, and pure. His aims succeed, His will never fails, He gives success, and He is the way to success.",
       "start": 640.47,
-      "end": 649.35,
+      "end": 649.32,
       "learnId": "stotram-057"
     },
     {
@@ -7630,8 +7630,8 @@ window.STOTRAM = {
       "sa": "वृषाही वृषभो विष्णुर्वृषपर्वा वृषोदरः । वर्धनो वर्धमानश्च विविक्तः श्रुतिसागरः ॥ २८॥",
       "iast": "vṛṣāhī vṛṣabho viṣṇurvṛṣaparvā vṛṣodaraḥ | vardhano vardhamānaśca viviktaḥ śrutisāgaraḥ || 28||",
       "en": "He is Lord of dharma and showers blessings. He is Vishnu, whose steps are dharma. Beings come from Him. He makes us grow, is ever growing, unattached, and an ocean of the Vedas.",
-      "start": 649.88,
-      "end": 657.77,
+      "start": 649.89,
+      "end": 657.76,
       "learnId": "stotram-058"
     },
     {
@@ -7639,7 +7639,7 @@ window.STOTRAM = {
       "sa": "सुभुजो दुर्धरो वाग्मी महेन्द्रो वसुदो वसुः । नैकरूपो बृहद्रूपः शिपिविष्टः प्रकाशनः ॥ २९॥",
       "iast": "subhujo durdharo vāgmī mahendro vasudo vasuḥ | naikarūpo bṛhadrūpaḥ śipiviṣṭaḥ prakāśanaḥ || 29||",
       "en": "His arms are beautiful and He is hard to hold in the mind. He is eloquent, the great Lord, giver of wealth, and wealth itself. He has many forms and a vast form, and He lights all things.",
-      "start": 658.28,
+      "start": 658.3,
       "end": 666.38,
       "learnId": "stotram-059"
     },
@@ -7649,7 +7649,7 @@ window.STOTRAM = {
       "iast": "ojastejodyutidharaḥ prakāśātmā pratāpanaḥ | ṛddhaḥ spaṣṭākṣaro mantraścandrāṃśurbhāskaradyutiḥ || 30||",
       "en": "He bears strength, heat, and radiance. His Self is light. He is full. The syllable Om is His. He is the sacred mantra, cool as moonlight, and bright as the sun.",
       "start": 666.88,
-      "end": 676.14,
+      "end": 676.13,
       "learnId": "stotram-060"
     },
     {
@@ -7658,7 +7658,7 @@ window.STOTRAM = {
       "iast": "amṛtāṃśūdbhavo bhānuḥ śaśabinduḥ sureśvaraḥ | auṣadhaṃ jagataḥ setuḥ satyadharmaparākramaḥ || 31||",
       "en": "The moon was born from Him. He shines, is marked like the moon, and is Lord of the gods. He is the medicine for worldly pain, the bridge across it, and true in both dharma and courage.",
       "start": 676.65,
-      "end": 684.66,
+      "end": 684.63,
       "learnId": "stotram-061"
     },
     {
@@ -7666,7 +7666,7 @@ window.STOTRAM = {
       "sa": "भूतभव्यभवन्नाथः पवनः पावनोऽनलः । कामहा कामकृत्कान्तः कामः कामप्रदः प्रभुः ॥ ३२॥",
       "iast": "bhūtabhavyabhavannāthaḥ pavanaḥ pāvano'nalaḥ | kāmahā kāmakṛtkāntaḥ kāmaḥ kāmapradaḥ prabhuḥ || 32||",
       "en": "He is Lord of what was, what is, and what will be. He is wind, the purifier, and fire. He ends selfish desire, also fulfils right desire, is the beloved, the longed-for, and the giver of blessings.",
-      "start": 685.16,
+      "start": 685.17,
       "end": 693.66,
       "learnId": "stotram-062"
     },
@@ -7675,8 +7675,8 @@ window.STOTRAM = {
       "sa": "युगादिकृद्युगावर्तो नैकमायो महाशनः । अदृश्यो व्यक्तरूपश्च सहस्रजिदनन्तजित् ॥ ३३॥",
       "iast": "yugādikṛdyugāvarto naikamāyo mahāśanaḥ | adṛśyo vyaktarūpaśca sahasrajidanantajit || 33||",
       "en": "He starts the ages and turns them. His Maya has many forms. He is the great devourer at the end. He cannot be seen, yet He also shows a form. He conquers thousands, and the endless.",
-      "start": 694.14,
-      "end": 702.18,
+      "start": 694.15,
+      "end": 702.17,
       "learnId": "stotram-063"
     },
     {
@@ -7685,7 +7685,7 @@ window.STOTRAM = {
       "iast": "iṣṭo'viśiṣṭaḥ śiṣṭeṣṭaḥ śikhaṇḍī nahuṣo vṛṣaḥ | krodhahā krodhakṛtkartā viśvabāhurmahīdharaḥ || 34||",
       "en": "He is loved, lives equally in all, and is dear to the wise. He is the crested one, the binder, and dharma itself. He ends anger, stirs courage against harm, does all, and holds the earth.",
       "start": 702.72,
-      "end": 711.47,
+      "end": 711.44,
       "learnId": "stotram-064"
     },
     {
@@ -7694,7 +7694,7 @@ window.STOTRAM = {
       "iast": "acyutaḥ prathitaḥ prāṇaḥ prāṇado vāsavānujaḥ | apāṃnidhiradhiṣṭhānamapramattaḥ pratiṣṭhitaḥ || 35||",
       "en": "He never falls. He is famous, the life-breath, and the giver of life. He is Indra’s younger brother, the ocean, the ground of all, always watchful, and firmly established.",
       "start": 711.95,
-      "end": 719.84,
+      "end": 719.83,
       "learnId": "stotram-065"
     },
     {
@@ -7703,7 +7703,7 @@ window.STOTRAM = {
       "iast": "skandaḥ skandadharo dhuryo varado vāyuvāhanaḥ | vāsudevo bṛhadbhānurādidevaḥ purandaraḥ || 36||",
       "en": "He is Skanda, the bearer of the load, the giver of boons, and the mover of the winds. He is Vasudeva, of vast light, the first God, and the breaker of enemy forts.",
       "start": 720.41,
-      "end": 728.65,
+      "end": 728.64,
       "learnId": "stotram-066"
     },
     {
@@ -7712,7 +7712,7 @@ window.STOTRAM = {
       "iast": "aśokastāraṇastāraḥ śūraḥ śaurirjaneśvaraḥ | anukūlaḥ śatāvartaḥ padmī padmanibhekṣaṇaḥ || 37||",
       "en": "He is without sorrow, the one who ferries us across, and the saviour. He is brave, son of Shura, Lord of people, always kind, of many births, lotus-handed, and lotus-eyed.",
       "start": 729.07,
-      "end": 737.58,
+      "end": 737.57,
       "learnId": "stotram-067"
     },
     {
@@ -7720,8 +7720,8 @@ window.STOTRAM = {
       "sa": "पद्मनाभोऽरविन्दाक्षः पद्मगर्भः शरीरभृत् । महर्द्धिरृद्धो वृद्धात्मा महाक्षो गरुडध्वजः ॥ ३८॥",
       "iast": "padmanābho'ravindākṣaḥ padmagarbhaḥ śarīrabhṛt | maharddhirṛddho vṛddhātmā mahākṣo garuḍadhvajaḥ || 38||",
       "en": "He is lotus-naveled and lotus-eyed, worshipped in the heart-lotus, and the one who holds bodies. He is rich in glory, complete, the ancient Self, wide-eyed, and His banner is Garuda.",
-      "start": 738.04,
-      "end": 746.62,
+      "start": 738.05,
+      "end": 746.61,
       "learnId": "stotram-068"
     },
     {
@@ -7730,7 +7730,7 @@ window.STOTRAM = {
       "iast": "atulaḥ śarabho bhīmaḥ samayajño havirhariḥ | sarvalakṣaṇalakṣaṇyo lakṣmīvān samitiñjayaḥ || 39||",
       "en": "No one is like Him. He is awe-inspiring, knows the right time, and receives the offering. All true signs point to Him. He is Lakshmi’s Lord, and He wins every battle.",
       "start": 747.11,
-      "end": 755.33,
+      "end": 755.27,
       "learnId": "stotram-069"
     },
     {
@@ -7738,8 +7738,8 @@ window.STOTRAM = {
       "sa": "विक्षरो रोहितो मार्गो हेतुर्दामोदरः सहः । महीधरो महाभागो वेगवानमिताशनः ॥ ४०॥",
       "iast": "vikṣaro rohito mārgo heturdāmodaraḥ sahaḥ | mahīdharo mahābhāgo vegavānamitāśanaḥ || 40||",
       "en": "He does not decay. He is the red one (the fish), the path, and the cause. He is Damodara, patient, holder of the earth, greatly blessed, swift, and of endless appetite at the world’s end.",
-      "start": 755.79,
-      "end": 764.42,
+      "start": 755.8,
+      "end": 764.4,
       "learnId": "stotram-070"
     },
     {
@@ -7748,7 +7748,7 @@ window.STOTRAM = {
       "iast": "udbhavaḥ kṣobhaṇo devaḥ śrīgarbhaḥ parameśvaraḥ | karaṇaṃ kāraṇaṃ kartā vikartā gahano guhaḥ || 41||",
       "en": "All things rise from Him. He stirs nature into creation. He is God, glory lives in Him, and He is the supreme Lord. He is the tool, the cause, the doer, the maker of many, deep, and hidden.",
       "start": 764.95,
-      "end": 773.47,
+      "end": 773.43,
       "learnId": "stotram-071"
     },
     {
@@ -7757,7 +7757,7 @@ window.STOTRAM = {
       "iast": "vyavasāyo vyavasthānaḥ saṃsthānaḥ sthānado dhruvaḥ | pararddhiḥ paramaspaṣṭastuṣṭaḥ puṣṭaḥ śubhekṣaṇaḥ || 42||",
       "en": "He is firm resolve and the order that holds things. He is the final home, the giver of a place, and the fixed one. He is supremely rich, clearly seen, content, full, and of a kind glance.",
       "start": 773.94,
-      "end": 782.86,
+      "end": 782.82,
       "learnId": "stotram-072"
     },
     {
@@ -7766,7 +7766,7 @@ window.STOTRAM = {
       "iast": "rāmo virāmo virajo mārgo neyo nayo'nayaḥ | vīraḥ śaktimatāṃ śreṣṭho dharmo dharmaviduttamaḥ || 43||",
       "en": "He is Rama, the resting place, and without stain. He is the path, the one who is led and the one who leads — yet no one leads Him. He is the hero, dharma itself, and the best knower of dharma.",
       "start": 783.32,
-      "end": 792.5,
+      "end": 792.47,
       "learnId": "stotram-073"
     },
     {
@@ -7774,8 +7774,8 @@ window.STOTRAM = {
       "sa": "वैकुण्ठः पुरुषः प्राणः प्राणदः प्रणवः पृथुः । हिरण्यगर्भः शत्रुघ्नो व्याप्तो वायुरधोक्षजः ॥ ४४॥",
       "iast": "vaikuṇṭhaḥ puruṣaḥ prāṇaḥ prāṇadaḥ praṇavaḥ pṛthuḥ | hiraṇyagarbhaḥ śatrughno vyāpto vāyuradhokṣajaḥ || 44||",
       "en": "He is Lord of Vaikuntha, the Purusha, the breath of life, and the giver of life. He is the sacred Om, the wide one, the golden-wombed, slayer of foes, all-pervading, wind, and never fallen.",
-      "start": 792.97,
-      "end": 801.66,
+      "start": 792.98,
+      "end": 801.64,
       "learnId": "stotram-074"
     },
     {
@@ -7784,7 +7784,7 @@ window.STOTRAM = {
       "iast": "ṛtuḥ sudarśanaḥ kālaḥ parameṣṭhī parigrahaḥ | ugraḥ saṃvatsaro dakṣo viśrāmo viśvadakṣiṇaḥ || 45||",
       "en": "He is the seasons, of blessed sight, and time itself. He sits in the highest place and receives worship. He is fierce when needed, the year, skilled, the resting place, and able in all things.",
       "start": 802.17,
-      "end": 810.64,
+      "end": 810.61,
       "learnId": "stotram-075"
     },
     {
@@ -7792,8 +7792,8 @@ window.STOTRAM = {
       "sa": "विस्तारः स्थावरस्थाणुः प्रमाणं बीजमव्ययम् । अर्थोऽनर्थो महाकोशो महाभोगो महाधनः ॥ ४६॥",
       "iast": "vistāraḥ sthāvarasthāṇuḥ pramāṇaṃ bījamavyayam | artho'nartho mahākośo mahābhogo mahādhanaḥ || 46||",
       "en": "He is the vast expanse, the still support, and the very proof. He is the seed that never dies. He is the true goal, needs nothing, holds great treasure, great joy, and great wealth.",
-      "start": 811.15,
-      "end": 819.91,
+      "start": 811.18,
+      "end": 819.89,
       "learnId": "stotram-076"
     },
     {
@@ -7802,7 +7802,7 @@ window.STOTRAM = {
       "iast": "anirviṇṇaḥ sthaviṣṭho'bhūrdharmayūpo mahāmakhaḥ | nakṣatranemirnakṣatrī kṣamaḥ kṣāmaḥ samīhanaḥ || 47||",
       "en": "He never loses heart. He is vast and unborn. He is the post of dharma and the great sacrifice. He is the hub of the stars, lord of the stars, able, pure, and of good will.",
       "start": 820.4,
-      "end": 828.75,
+      "end": 829.27,
       "learnId": "stotram-077"
     },
     {
@@ -7810,8 +7810,8 @@ window.STOTRAM = {
       "sa": "यज्ञ इज्यो महेज्यश्च क्रतुः सत्रं सतां गतिः । सर्वदर्शी विमुक्तात्मा सर्वज्ञो ज्ञानमुत्तमम् ॥ ४८॥",
       "iast": "yajña ijyo mahejyaśca kratuḥ satraṃ satāṃ gatiḥ | sarvadarśī vimuktātmā sarvajño jñānamuttamam || 48||",
       "en": "He is the sacrifice, the one worshipped, and the one most worthy of worship. He is the rite, the long session of offering, and the goal of the good. He sees all, is free, knows all, and is the highest knowledge.",
-      "start": 829.05,
-      "end": 837.25,
+      "start": 829.79,
+      "end": 838.79,
       "learnId": "stotram-078"
     },
     {
@@ -7819,8 +7819,8 @@ window.STOTRAM = {
       "sa": "सुव्रतः सुमुखः सूक्ष्मः सुघोषः सुखदः सुहृत् । मनोहरो जितक्रोधो वीरबाहुर्विदारणः ॥ ४९॥",
       "iast": "suvrataḥ sumukhaḥ sūkṣmaḥ sughoṣaḥ sukhadaḥ suhṛt | manoharo jitakrodho vīrabāhurvidāraṇaḥ || 49||",
       "en": "His vows are noble, His face is kind, and He is subtle. His sound is holy, He gives joy, and He is a true friend. He wins the heart, has conquered anger, has heroic arms, and tears down evil.",
-      "start": 837.55,
-      "end": 845.76,
+      "start": 839.37,
+      "end": 847.27,
       "learnId": "stotram-079"
     },
     {
@@ -7828,8 +7828,8 @@ window.STOTRAM = {
       "sa": "स्वापनः स्ववशो व्यापी नैकात्मा नैककर्मकृत् । वत्सरो वत्सलो वत्सी रत्नगर्भो धनेश्वरः ॥ ५०॥",
       "iast": "svāpanaḥ svavaśo vyāpī naikātmā naikakarmakṛt | vatsaro vatsalo vatsī ratnagarbho dhaneśvaraḥ || 50||",
       "en": "He sends beings into sleep, is His own master, and fills all space. He has many selves and does many works. He is the year, full of love, a protector, jewel-wombed, and Lord of wealth.",
-      "start": 846.06,
-      "end": 854.26,
+      "start": 847.86,
+      "end": 856.46,
       "learnId": "stotram-080"
     },
     {
@@ -7837,8 +7837,8 @@ window.STOTRAM = {
       "sa": "धर्मगुब्धर्मकृद्धर्मी सदसत्क्षरमक्षरम् । अविज्ञाता सहस्रांशुर्विधाता कृतलक्षणः ॥ ५१॥",
       "iast": "dharmagubdharmakṛddharmī sadasatkṣaramakṣaram | avijñātā sahasrāṃśurvidhātā kṛtalakṣaṇaḥ || 51||",
       "en": "He guards dharma, does dharma, and is dharma. He is the real and the unreal, the passing and the lasting. As witness He does not ‘know’ as we do. He is thousand-rayed, the ordainer, and of a clear nature.",
-      "start": 854.56,
-      "end": 862.76,
+      "start": 856.98,
+      "end": 864.97,
       "learnId": "stotram-081"
     },
     {
@@ -7846,8 +7846,8 @@ window.STOTRAM = {
       "sa": "गभस्तिनेमिः सत्त्वस्थः सिंहो भूतमहेश्वरः । आदिदेवो महादेवो देवेशो देवभृद्गुरुः ॥ ५२॥",
       "iast": "gabhastinemiḥ sattvasthaḥ siṃho bhūtamaheśvaraḥ | ādidevo mahādevo deveśo devabhṛdguruḥ || 52||",
       "en": "He is the hub of light, seated in goodness, the lion, and great Lord of beings. He is the first God, the great God, Lord of the gods, their support, and their teacher.",
-      "start": 863.06,
-      "end": 871.26,
+      "start": 865.54,
+      "end": 874.03,
       "learnId": "stotram-082"
     },
     {
@@ -7855,8 +7855,8 @@ window.STOTRAM = {
       "sa": "उत्तरो गोपतिर्गोप्ता ज्ञानगम्यः पुरातनः । शरीरभूतभृद्भोक्ता कपीन्द्रो भूरिदक्षिणः ॥ ५३॥",
       "iast": "uttaro gopatirgoptā jñānagamyaḥ purātanaḥ | śarīrabhūtabhṛdbhoktā kapīndro bhūridakṣiṇaḥ || 53||",
       "en": "He is the highest, Lord and protector of the earth. He is reached through knowledge and is most ancient. He holds the body’s elements, is the enjoyer, Lord of the monkeys as Rama, and a generous giver.",
-      "start": 871.56,
-      "end": 879.76,
+      "start": 874.59,
+      "end": 877.55,
       "learnId": "stotram-083"
     },
     {
@@ -7864,8 +7864,8 @@ window.STOTRAM = {
       "sa": "सोमपोऽमृतपः सोमः पुरुजित्पुरुसत्तमः । विनयो जयः सत्यसन्धो दाशार्हः सात्वताम्पतिः ॥ ५४॥",
       "iast": "somapo'mṛtapaḥ somaḥ purujitpurusattamaḥ | vinayo jayaḥ satyasandho dāśārhaḥ sātvatāmpatiḥ || 54||",
       "en": "He drinks the Soma and the nectar. He is the moon, conqueror of many, and best among beings. He humbles pride, is victory, keeps His word, is of the Dasharha line, and Lord of the Satvatas.",
-      "start": 880.06,
-      "end": 888.26,
+      "start": 878.15,
+      "end": 886.57,
       "learnId": "stotram-084"
     },
     {
@@ -7873,8 +7873,8 @@ window.STOTRAM = {
       "sa": "जीवो विनयिता साक्षी मुकुन्दोऽमितविक्रमः । अम्भोनिधिरनन्तात्मा महोदधिशयोऽन्तकः ॥ ५५॥",
       "iast": "jīvo vinayitā sākṣī mukundo'mitavikramaḥ | ambhonidhiranantātmā mahodadhiśayo'ntakaḥ || 55||",
       "en": "He is the living Self, the one who trains, and the witness. He is Mukunda, who gives freedom, of endless stride, the ocean, of infinite Self, resting on the waters, and the end of all.",
-      "start": 888.56,
-      "end": 896.77,
+      "start": 887.12,
+      "end": 895.39,
       "learnId": "stotram-085"
     },
     {
@@ -7882,8 +7882,8 @@ window.STOTRAM = {
       "sa": "अजो महार्हः स्वाभाव्यो जितामित्रः प्रमोदनः । आनन्दो नन्दनो नन्दः सत्यधर्मा त्रिविक्रमः ॥ ५६॥",
       "iast": "ajo mahārhaḥ svābhāvyo jitāmitraḥ pramodanaḥ | ānando nandano nandaḥ satyadharmā trivikramaḥ || 56||",
       "en": "He is unborn, worthy of great worship, and always Himself. He conquers enemies and is full of joy. He is bliss, the one who delights, the complete, true to dharma, and the one who took three strides.",
-      "start": 897.07,
-      "end": 905.27,
+      "start": 895.87,
+      "end": 904.75,
       "learnId": "stotram-086"
     },
     {
@@ -7891,8 +7891,8 @@ window.STOTRAM = {
       "sa": "महर्षिः कपिलाचार्यः कृतज्ञो मेदिनीपतिः । त्रिपदस्त्रिदशाध्यक्षो महाशृङ्गः कृतान्तकृत् ॥ ५७॥",
       "iast": "maharṣiḥ kapilācāryaḥ kṛtajño medinīpatiḥ | tripadastridaśādhyakṣo mahāśṛṅgaḥ kṛtāntakṛt || 57||",
       "en": "He is the great seer, the teacher Kapila, and knower of all that is done. He is Lord of the earth, of three steps, overseer of the gods, the great-horned fish, and the ender of death.",
-      "start": 905.57,
-      "end": 913.43,
+      "start": 905.27,
+      "end": 913.42,
       "learnId": "stotram-087"
     },
     {
@@ -7901,7 +7901,7 @@ window.STOTRAM = {
       "iast": "mahāvarāho govindaḥ suṣeṇaḥ kanakāṅgadī | guhyo gabhīro gahano guptaścakragadādharaḥ || 58||",
       "en": "He is the great boar, Govinda, with a good army, wearing golden armlets. He is secret, deep, hard to enter, hidden, and He holds the discus and the mace.",
       "start": 913.92,
-      "end": 922.53,
+      "end": 922.46,
       "learnId": "stotram-088"
     },
     {
@@ -7909,8 +7909,8 @@ window.STOTRAM = {
       "sa": "वेधाः स्वाङ्गोऽजितः कृष्णो दृढः सङ्कर्षणोऽच्युतः । वरुणो वारुणो वृक्षः पुष्कराक्षो महामनाः ॥ ५९॥",
       "iast": "vedhāḥ svāṅgo'jitaḥ kṛṣṇo dṛḍhaḥ saṅkarṣaṇo'cyutaḥ | varuṇo vāruṇo vṛkṣaḥ puṣkarākṣo mahāmanāḥ || 59||",
       "en": "He creates, acts through His own limbs, and cannot be conquered. He is Krishna, firm, who draws all in, and never falls. He is Varuna, the steadfast tree, lotus-eyed, and great-minded.",
-      "start": 922.98,
-      "end": 932.33,
+      "start": 923.0,
+      "end": 932.29,
       "learnId": "stotram-089"
     },
     {
@@ -7918,8 +7918,8 @@ window.STOTRAM = {
       "sa": "भगवान् भगहाऽऽनन्दी वनमाली हलायुधः । आदित्यो ज्योतिरादित्यः सहिष्णुर्गतिसत्तमः ॥ ६०॥",
       "iast": "bhagavān bhagahā''nandī vanamālī halāyudhaḥ | ādityo jyotirādityaḥ sahiṣṇurgatisattamaḥ || 60||",
       "en": "He is the Blessed Lord, who withdraws glory at the end, and is always blissful. He wears the forest garland, holds the plough as Balarama, is the sun’s radiance, patient, and the highest goal.",
-      "start": 932.81,
-      "end": 941.39,
+      "start": 932.82,
+      "end": 941.36,
       "learnId": "stotram-090"
     },
     {
@@ -7928,7 +7928,7 @@ window.STOTRAM = {
       "iast": "sudhanvā khaṇḍaparaśurdāruṇo draviṇapradaḥ | divaspṛk sarvadṛgvyāso vācaspatirayonijaḥ || 61||",
       "en": "He holds the good bow Sharnga and the axe as Parashurama. He is stern to the wicked and generous with wealth. He touches heaven, sees all, is Vyasa, Lord of learning, and not born of a womb.",
       "start": 941.86,
-      "end": 949.79,
+      "end": 949.76,
       "learnId": "stotram-091"
     },
     {
@@ -7937,7 +7937,7 @@ window.STOTRAM = {
       "iast": "trisāmā sāmagaḥ sāma nirvāṇaṃ bheṣajaṃ bhiṣak | saṃnyāsakṛcchamaḥ śānto niṣṭhā śāntiḥ parāyaṇam || 62||",
       "en": "The three Sama hymns praise Him. He sings the Sama and is the Sama. He is freedom, the medicine, and the physician. He taught renunciation, is calm, peace itself, and the last refuge.",
       "start": 950.27,
-      "end": 959.3,
+      "end": 959.28,
       "learnId": "stotram-092"
     },
     {
@@ -7946,7 +7946,7 @@ window.STOTRAM = {
       "iast": "śubhāṅgaḥ śāntidaḥ sraṣṭā kumudaḥ kuvaleśayaḥ | gohito gopatirgoptā vṛṣabhākṣo vṛṣapriyaḥ || 63||",
       "en": "His form is beautiful. He gives peace and creates. He delights in the earth and rests on the waters. He is the friend, Lord, and protector of the earth (and of cows). His eyes bless, and He loves dharma.",
       "start": 959.85,
-      "end": 968.12,
+      "end": 968.1,
       "learnId": "stotram-093"
     },
     {
@@ -7954,8 +7954,8 @@ window.STOTRAM = {
       "sa": "अनिवर्ती निवृत्तात्मा सङ्क्षेप्ता क्षेमकृच्छिवः । श्रीवत्सवक्षाः श्रीवासः श्रीपतिः श्रीमतांवरः ॥ ६४॥",
       "iast": "anivartī nivṛttātmā saṅkṣeptā kṣemakṛcchivaḥ | śrīvatsavakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṃvaraḥ || 64||",
       "en": "He never turns back from what is right. His Self is withdrawn from the world. He draws the universe in, does good, and is auspicious. He bears the Srivatsa, is Lakshmi’s home, her Lord, and the best of the glorious.",
-      "start": 968.58,
-      "end": 977.45,
+      "start": 968.59,
+      "end": 977.39,
       "learnId": "stotram-094"
     },
     {
@@ -7963,8 +7963,8 @@ window.STOTRAM = {
       "sa": "श्रीदः श्रीशः श्रीनिवासः श्रीनिधिः श्रीविभावनः । श्रीधरः श्रीकरः श्रेयः श्रीमाँल्लोकत्रयाश्रयः ॥ ६५॥",
       "iast": "śrīdaḥ śrīśaḥ śrīnivāsaḥ śrīnidhiḥ śrīvibhāvanaḥ | śrīdharaḥ śrīkaraḥ śreyaḥ śrīmā~llokatrayāśrayaḥ || 65||",
       "en": "He gives prosperity, is Lakshmi’s Lord, her home, and her treasure. He shares fortune, bears her, makes well-being, is the highest good, the glorious one, and the shelter of the three worlds.",
-      "start": 977.91,
-      "end": 986.82,
+      "start": 977.93,
+      "end": 986.79,
       "learnId": "stotram-095"
     },
     {
@@ -7972,8 +7972,8 @@ window.STOTRAM = {
       "sa": "स्वक्षः स्वङ्गः शतानन्दो नन्दिर्ज्योतिर्गणेश्वरः । विजितात्माऽविधेयात्मा सत्कीर्तिश्छिन्नसंशयः ॥ ६६॥",
       "iast": "svakṣaḥ svaṅgaḥ śatānando nandirjyotirgaṇeśvaraḥ | vijitātmā'vidheyātmā satkīrtiśchinnasaṃśayaḥ || 66||",
       "en": "His eyes and limbs are beautiful. He is endless bliss, joy itself, and Lord of the lights. He has mastered the mind, is under no one’s command, of true fame, and free of doubt.",
-      "start": 987.34,
-      "end": 996.46,
+      "start": 987.37,
+      "end": 996.45,
       "learnId": "stotram-096"
     },
     {
@@ -7982,7 +7982,7 @@ window.STOTRAM = {
       "iast": "udīrṇaḥ sarvataścakṣuranīśaḥ śāśvatasthiraḥ | bhūśayo bhūṣaṇo bhūtirviśokaḥ śokanāśanaḥ || 67||",
       "en": "He is risen above all, the eye in every place, and has no master. He is eternally still. He rests on the earth, is its ornament and its being, without sorrow, and the one who takes sorrow away.",
       "start": 996.97,
-      "end": 1005.15,
+      "end": 1005.07,
       "learnId": "stotram-097"
     },
     {
@@ -8000,7 +8000,7 @@ window.STOTRAM = {
       "iast": "kālaneminihā vīraḥ śauriḥ śūrajaneśvaraḥ | trilokātmā trilokeśaḥ keśavaḥ keśihā hariḥ || 69||",
       "en": "He slew Kalanemi. He is the hero, son of Shura, and Lord of the brave. He is the Self and Lord of the three worlds, Keshava, slayer of the demon Keshi, and Hari who removes pain.",
       "start": 1014.37,
-      "end": 1022.97,
+      "end": 1022.95,
       "learnId": "stotram-099"
     },
     {
@@ -8008,8 +8008,8 @@ window.STOTRAM = {
       "sa": "कामदेवः कामपालः कामी कान्तः कृतागमः । अनिर्देश्यवपुर्विष्णुर्वीरोऽनन्तो धनञ्जयः ॥ ७०॥",
       "iast": "kāmadevaḥ kāmapālaḥ kāmī kāntaḥ kṛtāgamaḥ | anirdeśyavapurviṣṇurvīro'nanto dhanañjayaḥ || 70||",
       "en": "He is the desired God, the keeper of wishes, fulfilled, and lovely. He gave the scriptures. His form cannot be described. He is Vishnu, the hero, the endless, and Dhananjaya.",
-      "start": 1023.51,
-      "end": 1032.45,
+      "start": 1023.52,
+      "end": 1032.38,
       "learnId": "stotram-100"
     },
     {
@@ -8017,8 +8017,8 @@ window.STOTRAM = {
       "sa": "ब्रह्मण्यो ब्रह्मकृद् ब्रह्मा ब्रह्म ब्रह्मविवर्धनः । ब्रह्मविद् ब्राह्मणो ब्रह्मी ब्रह्मज्ञो ब्राह्मणप्रियः ॥ ७१॥",
       "iast": "brahmaṇyo brahmakṛd brahmā brahma brahmavivardhanaḥ | brahmavid brāhmaṇo brahmī brahmajño brāhmaṇapriyaḥ || 71||",
       "en": "He loves the Vedas and the good. He makes Brahman, is Brahma, is Brahman, and makes the Vedas grow. He knows the Veda, is the Brahmana, holds Brahman, knows Brahman, and is dear to the Brahmanas.",
-      "start": 1032.9,
-      "end": 1042.37,
+      "start": 1032.91,
+      "end": 1042.31,
       "learnId": "stotram-101"
     },
     {
@@ -8027,7 +8027,7 @@ window.STOTRAM = {
       "iast": "mahākramo mahākarmā mahātejā mahoragaḥ | mahākraturmahāyajvā mahāyajño mahāhaviḥ || 72||",
       "en": "His stride is great, His work is great, His light is great. He is the great serpent. He is the great rite, the great sacrificer, the great yajna, and the great offering.",
       "start": 1042.82,
-      "end": 1051.02,
+      "end": 1051.01,
       "learnId": "stotram-102"
     },
     {
@@ -8036,7 +8036,7 @@ window.STOTRAM = {
       "iast": "stavyaḥ stavapriyaḥ stotraṃ stutiḥ stotā raṇapriyaḥ | pūrṇaḥ pūrayitā puṇyaḥ puṇyakīrtiranāmayaḥ || 73||",
       "en": "He is worthy of praise, loves praise, and is the hymn, the praise, and the one who praises. He loves the fight that protects. He is full, He fills others, He is holy, of holy fame, and free from illness.",
       "start": 1051.58,
-      "end": 1060.25,
+      "end": 1060.24,
       "learnId": "stotram-103"
     },
     {
@@ -8045,7 +8045,7 @@ window.STOTRAM = {
       "iast": "manojavastīrthakaro vasuretā vasupradaḥ | vasuprado vāsudevo vasurvasumanā haviḥ || 74||",
       "en": "He is swift as thought and makes holy crossings. His essence is gold. He gives wealth, and also the wealth of freedom. He is Vasudeva, the abode, of a noble mind, and the offering itself.",
       "start": 1060.67,
-      "end": 1068.36,
+      "end": 1068.35,
       "learnId": "stotram-104"
     },
     {
@@ -8054,7 +8054,7 @@ window.STOTRAM = {
       "iast": "sadgatiḥ satkṛtiḥ sattā sadbhūtiḥ satparāyaṇaḥ | śūraseno yaduśreṣṭhaḥ sannivāsaḥ suyāmunaḥ || 75||",
       "en": "He is the path of the good, their noble work, pure being, true glory, and their highest aim. He has a heroic army, is best of the Yadus, the home of the good, and lives by the Yamuna.",
       "start": 1068.85,
-      "end": 1077.51,
+      "end": 1077.45,
       "learnId": "stotram-105"
     },
     {
@@ -8063,7 +8063,7 @@ window.STOTRAM = {
       "iast": "bhūtāvāso vāsudevaḥ sarvāsunilayo'nalaḥ | darpahā darpado dṛpto durdharo'thāparājitaḥ || 76||",
       "en": "Beings live in Him. He is Vasudeva, the home of every life-breath, and of endless power. He breaks false pride, gives true dignity, is content, hard to hold, and never defeated.",
       "start": 1078.0,
-      "end": 1086.64,
+      "end": 1086.61,
       "learnId": "stotram-106"
     },
     {
@@ -8071,8 +8071,8 @@ window.STOTRAM = {
       "sa": "विश्वमूर्तिर्महामूर्तिर्दीप्तमूर्तिरमूर्तिमान् । अनेकमूर्तिरव्यक्तः शतमूर्तिः शताननः ॥ ७७॥",
       "iast": "viśvamūrtirmahāmūrtirdīptamūrtiramūrtimān | anekamūrtiravyaktaḥ śatamūrtiḥ śatānanaḥ || 77||",
       "en": "His form is the universe, vast, and shining — and He is also without form. He has many forms, is unmanifest, of a hundred forms, and of a hundred faces.",
-      "start": 1087.14,
-      "end": 1096.35,
+      "start": 1087.15,
+      "end": 1096.33,
       "learnId": "stotram-107"
     },
     {
@@ -8081,7 +8081,7 @@ window.STOTRAM = {
       "iast": "eko naikaḥ savaḥ kaḥ kiṃ yat tatpadamanuttamam | lokabandhurlokanātho mādhavo bhaktavatsalaḥ || 78||",
       "en": "He is the One, and also the many. He is the sacrifice, the ‘who’, the ‘what’, and the highest ‘That’. He is the friend and Lord of the world, Madhava, and tender toward His devotees.",
       "start": 1096.82,
-      "end": 1105.15,
+      "end": 1105.14,
       "learnId": "stotram-108"
     },
     {
@@ -8099,7 +8099,7 @@ window.STOTRAM = {
       "iast": "amānī mānado mānyo lokasvāmī trilokadhṛk | sumedhā medhajo dhanyaḥ satyamedhā dharādharaḥ || 80||",
       "en": "He has no pride, gives honour, and is worthy of honour. He is Lord of the worlds and holds the three worlds. He is wise, born of sacrifice, blessed, of true insight, and holder of the earth.",
       "start": 1114.96,
-      "end": 1123.6,
+      "end": 1123.52,
       "learnId": "stotram-110"
     },
     {
@@ -8108,7 +8108,7 @@ window.STOTRAM = {
       "iast": "tejovṛṣo dyutidharaḥ sarvaśastrabhṛtāṃ varaḥ | pragraho nigraho vyagro naikaśṛṅgo gadāgrajaḥ || 81||",
       "en": "He rains splendour and wears light. He is the best of those who bear weapons. He accepts devotion, restrains, and is always intent on His people. He has many forms, and is Gada’s elder brother.",
       "start": 1124.08,
-      "end": 1132.27,
+      "end": 1132.25,
       "learnId": "stotram-111"
     },
     {
@@ -8116,8 +8116,8 @@ window.STOTRAM = {
       "sa": "चतुर्मूर्तिश्चतुर्बाहुश्चतुर्व्यूहश्चतुर्गतिः । चतुरात्मा चतुर्भावश्चतुर्वेदविदेकपात् ॥ ८२॥",
       "iast": "caturmūrtiścaturbāhuścaturvyūhaścaturgatiḥ | caturātmā caturbhāvaścaturvedavidekapāt || 82||",
       "en": "He has four forms, four arms, four vyuhas, and is the fourfold goal. He has a fourfold Self, gives the four aims of life, knows the four Vedas, and stands as one transcendent foot.",
-      "start": 1132.76,
-      "end": 1141.5,
+      "start": 1132.77,
+      "end": 1141.49,
       "learnId": "stotram-112"
     },
     {
@@ -8126,7 +8126,7 @@ window.STOTRAM = {
       "iast": "samāvarto'nivṛttātmā durjayo duratikramaḥ | durlabho durgamo durgo durāvāso durārihā || 83||",
       "en": "He turns the cycle well. His Self never fails. He is hard to defeat, hard to overstep, hard to reach, hard to know, a hard fort to cross, hard to house in the heart, and slayer of cruel foes.",
       "start": 1142.03,
-      "end": 1150.3,
+      "end": 1150.29,
       "learnId": "stotram-113"
     },
     {
@@ -8135,7 +8135,7 @@ window.STOTRAM = {
       "iast": "śubhāṅgo lokasāraṅgaḥ sutantustantuvardhanaḥ | indrakarmā mahākarmā kṛtakarmā kṛtāgamaḥ || 84||",
       "en": "His form is auspicious. He draws the essence of the worlds. He is the fine thread of creation and makes it grow. His deeds are like Indra’s, great, already complete, and He gave the scriptures.",
       "start": 1150.81,
-      "end": 1159.0,
+      "end": 1158.94,
       "learnId": "stotram-114"
     },
     {
@@ -8143,8 +8143,8 @@ window.STOTRAM = {
       "sa": "उद्भवः सुन्दरः सुन्दो रत्ननाभः सुलोचनः । अर्को वाजसनः शृङ्गी जयन्तः सर्वविज्जयी ॥ ८५॥",
       "iast": "udbhavaḥ sundaraḥ sundo ratnanābhaḥ sulocanaḥ | arko vājasanaḥ śṛṅgī jayantaḥ sarvavijjayī || 85||",
       "en": "He is the source, beautiful, and gentle. His navel is a jewel, His eyes are lovely. He is worthy of worship, giver of food, the horned one, the victor, and the all-knowing conqueror.",
-      "start": 1159.41,
-      "end": 1167.87,
+      "start": 1159.42,
+      "end": 1167.86,
       "learnId": "stotram-115"
     },
     {
@@ -8152,8 +8152,8 @@ window.STOTRAM = {
       "sa": "सुवर्णबिन्दुरक्षोभ्यः सर्ववागीश्वरेश्वरः । महाह्रदो महागर्तो महाभूतो महानिधिः ॥ ८६॥",
       "iast": "suvarṇabindurakṣobhyaḥ sarvavāgīśvareśvaraḥ | mahāhrado mahāgarto mahābhūto mahānidhiḥ || 86||",
       "en": "He is the golden syllable, unshaken, and Lord of all who master speech. He is the great lake of bliss, the great deep, the great being, and the great treasure.",
-      "start": 1168.36,
-      "end": 1176.47,
+      "start": 1168.37,
+      "end": 1176.45,
       "learnId": "stotram-116"
     },
     {
@@ -8161,8 +8161,8 @@ window.STOTRAM = {
       "sa": "कुमुदः कुन्दरः कुन्दः पर्जन्यः पावनोऽनिलः । अमृताशोऽमृतवपुः सर्वज्ञः सर्वतोमुखः ॥ ८७॥",
       "iast": "kumudaḥ kundaraḥ kundaḥ parjanyaḥ pāvano'nilaḥ | amṛtāśo'mṛtavapuḥ sarvajñaḥ sarvatomukhaḥ || 87||",
       "en": "He delights in the earth, is pure as jasmine, white, and the rain-cloud. He purifies, needs no breath, lives on nectar, has an immortal body, knows all, and has faces on every side.",
-      "start": 1176.99,
-      "end": 1184.96,
+      "start": 1177.0,
+      "end": 1184.88,
       "learnId": "stotram-117"
     },
     {
@@ -8170,8 +8170,8 @@ window.STOTRAM = {
       "sa": "सुलभः सुव्रतः सिद्धः शत्रुजिच्छत्रुतापनः । न्यग्रोधोऽदुम्बरोऽश्वत्थश्चाणूरान्ध्रनिषूदनः ॥ ८८॥",
       "iast": "sulabhaḥ suvrataḥ siddhaḥ śatrujicchatrutāpanaḥ | nyagrodho'dumbaro'śvatthaścāṇūrāndhraniṣūdanaḥ || 88||",
       "en": "Devotees reach Him easily. His vows are good, He is already accomplished, He conquers enemies and burns them away. He is the banyan, the udumbara, the peepal, and the slayer of Chanura.",
-      "start": 1185.37,
-      "end": 1194.03,
+      "start": 1185.4,
+      "end": 1193.97,
       "learnId": "stotram-118"
     },
     {
@@ -8179,8 +8179,8 @@ window.STOTRAM = {
       "sa": "सहस्रार्चिः सप्तजिह्वः सप्तैधाः सप्तवाहनः । अमूर्तिरनघोऽचिन्त्यो भयकृद्भयनाशनः ॥ ८९॥",
       "iast": "sahasrārciḥ saptajihvaḥ saptaidhāḥ saptavāhanaḥ | amūrtiranagho'cintyo bhayakṛdbhayanāśanaḥ || 89||",
       "en": "He has a thousand rays, seven tongues of fire, seven flames, and the seven horses of the sun. He is without form, without sin, beyond thought. He frightens the wicked and removes the fear of the good.",
-      "start": 1194.48,
-      "end": 1202.83,
+      "start": 1194.49,
+      "end": 1202.81,
       "learnId": "stotram-119"
     },
     {
@@ -8189,7 +8189,7 @@ window.STOTRAM = {
       "iast": "aṇurbṛhatkṛśaḥ sthūlo guṇabhṛnnirguṇo mahān | adhṛtaḥ svadhṛtaḥ svāsyaḥ prāgvaṃśo vaṃśavardhanaḥ || 90||",
       "en": "He is the smallest and the largest, the thin and the stout. He bears the gunas and is also beyond them. He is the Great. No one holds Him; He holds Himself. His face is fair, His line is ancient, and He makes the line grow.",
       "start": 1203.33,
-      "end": 1211.93,
+      "end": 1211.92,
       "learnId": "stotram-120"
     },
     {
@@ -8198,7 +8198,7 @@ window.STOTRAM = {
       "iast": "bhārabhṛt kathito yogī yogīśaḥ sarvakāmadaḥ | āśramaḥ śramaṇaḥ kṣāmaḥ suparṇo vāyuvāhanaḥ || 91||",
       "en": "He bears the world’s burden. The Vedas speak of Him. He is the yogi and Lord of yogis, giver of every wish, the resting place, who wearies the wicked, fair-winged, and borne by the wind.",
       "start": 1212.43,
-      "end": 1221.07,
+      "end": 1220.99,
       "learnId": "stotram-121"
     },
     {
@@ -8206,8 +8206,8 @@ window.STOTRAM = {
       "sa": "धनुर्धरो धनुर्वेदो दण्डो दमयिता दमः । अपराजितः सर्वसहो नियन्ताऽनियमोऽयमः ॥ ९२॥",
       "iast": "dhanurdharo dhanurvedo daṇḍo damayitā damaḥ | aparājitaḥ sarvasaho niyantā'niyamo'yamaḥ || 92||",
       "en": "He holds the bow and knows the science of the bow. He is the rod of justice, the one who tames, and self-control itself. He cannot be defeated, bears all, sets the law, is bound by no law, and is not death.",
-      "start": 1221.54,
-      "end": 1229.49,
+      "start": 1221.55,
+      "end": 1229.46,
       "learnId": "stotram-122"
     },
     {
@@ -8215,8 +8215,8 @@ window.STOTRAM = {
       "sa": "सत्त्ववान् सात्त्विकः सत्यः सत्यधर्मपरायणः । अभिप्रायः प्रियार्होऽर्हः प्रियकृत् प्रीतिवर्धनः ॥ ९३॥",
       "iast": "sattvavān sāttvikaḥ satyaḥ satyadharmaparāyaṇaḥ | abhiprāyaḥ priyārho'rhaḥ priyakṛt prītivardhanaḥ || 93||",
       "en": "He is full of sattva, lives in sattva, and is the truth. He is devoted to truth and dharma. He is the aim all hearts want, worthy of love and worship, doer of what is dear, and increaser of love.",
-      "start": 1229.98,
-      "end": 1238.26,
+      "start": 1229.99,
+      "end": 1238.2,
       "learnId": "stotram-123"
     },
     {
@@ -8224,8 +8224,8 @@ window.STOTRAM = {
       "sa": "विहायसगतिर्ज्योतिः सुरुचिर्हुतभुग्विभुः । रविर्विरोचनः सूर्यः सविता रविलोचनः ॥ ९४॥",
       "iast": "vihāyasagatirjyotiḥ surucirhutabhugvibhuḥ | ravirvirocanaḥ sūryaḥ savitā ravilocanaḥ || 94||",
       "en": "His path is the sky. He is light, of lovely glow, enjoyer of the offering, and all-pervading. He is the sun that draws, the shining one, the sun, the impeller, and His eye is the sun.",
-      "start": 1238.72,
-      "end": 1246.18,
+      "start": 1238.74,
+      "end": 1246.15,
       "learnId": "stotram-124"
     },
     {
@@ -8234,7 +8234,7 @@ window.STOTRAM = {
       "iast": "ananto hutabhugbhoktā sukhado naikajo'grajaḥ | anirviṇṇaḥ sadāmarṣī lokādhiṣṭhānamadbhutaḥ || 95||",
       "en": "He is endless, enjoyer of the offering, and the enjoyer. He gives joy, is born many times, and is the first-born. He never despairs, is always patient, the support of the worlds, and wonderful.",
       "start": 1246.62,
-      "end": 1254.9,
+      "end": 1254.89,
       "learnId": "stotram-125"
     },
     {
@@ -8242,8 +8242,8 @@ window.STOTRAM = {
       "sa": "सनात्सनातनतमः कपिलः कपिरव्ययः । स्वस्तिदः स्वस्तिकृत्स्वस्ति स्वस्तिभुक्स्वस्तिदक्षिणः ॥ ९६॥",
       "iast": "sanātsanātanatamaḥ kapilaḥ kapiravyayaḥ | svastidaḥ svastikṛtsvasti svastibhuksvastidakṣiṇaḥ || 96||",
       "en": "He is from of old, the most eternal, the tawny sage Kapila, the sun, and the unchanging. He gives well-being, makes well-being, is well-being, enjoys it, and bestows it as a blessing.",
-      "start": 1255.44,
-      "end": 1263.03,
+      "start": 1255.45,
+      "end": 1263.0,
       "learnId": "stotram-126"
     },
     {
@@ -8252,7 +8252,7 @@ window.STOTRAM = {
       "iast": "araudraḥ kuṇḍalī cakrī vikramyūrjitaśāsanaḥ | śabdātigaḥ śabdasahaḥ śiśiraḥ śarvarīkaraḥ || 97||",
       "en": "He is without cruelty, wears earrings, and holds the discus. He is valiant, of strong rule, beyond words, the meaning of all words, the cool refuge, and the maker of night at the end.",
       "start": 1263.49,
-      "end": 1271.62,
+      "end": 1271.61,
       "learnId": "stotram-127"
     },
     {
@@ -8261,7 +8261,7 @@ window.STOTRAM = {
       "iast": "akrūraḥ peśalo dakṣo dakṣiṇaḥ kṣamiṇāṃvaraḥ | vidvattamo vītabhayaḥ puṇyaśravaṇakīrtanaḥ || 98||",
       "en": "He is not cruel, He is graceful, skilled, and generous. He is the best of the patient, the most learned, without fear, and even hearing His names is a holy act.",
       "start": 1272.1,
-      "end": 1280.4,
+      "end": 1280.37,
       "learnId": "stotram-128"
     },
     {
@@ -8270,7 +8270,7 @@ window.STOTRAM = {
       "iast": "uttāraṇo duṣkṛtihā puṇyo duḥsvapnanāśanaḥ | vīrahā rakṣaṇaḥ santo jīvanaḥ paryavasthitaḥ || 99||",
       "en": "He lifts us across, destroys bad deeds, is holy, and ends bad dreams. He slays foes, protects, lives in the good, is the life of all, and is present everywhere.",
       "start": 1280.94,
-      "end": 1289.39,
+      "end": 1289.35,
       "learnId": "stotram-129"
     },
     {
@@ -8278,8 +8278,8 @@ window.STOTRAM = {
       "sa": "अनन्तरूपोऽनन्तश्रीर्जितमन्युर्भयापहः । चतुरश्रो गभीरात्मा विदिशो व्यादिशो दिशः ॥ १००॥",
       "iast": "anantarūpo'nantaśrīrjitamanyurbhayāpahaḥ | caturaśro gabhīrātmā vidiśo vyādiśo diśaḥ || 100||",
       "en": "His forms are endless, His glory is endless. He has conquered anger and takes fear away. He is just, of a deep Self, the one who shares the fruits, the commander, and the very directions.",
-      "start": 1289.86,
-      "end": 1297.58,
+      "start": 1289.87,
+      "end": 1298.38,
       "learnId": "stotram-130"
     },
     {
@@ -8287,8 +8287,8 @@ window.STOTRAM = {
       "sa": "अनादिर्भूर्भुवो लक्ष्मीः सुवीरो रुचिराङ्गदः । जननो जनजन्मादिर्भीमो भीमपराक्रमः ॥ १०१॥",
       "iast": "anādirbhūrbhuvo lakṣmīḥ suvīro rucirāṅgadaḥ | janano janajanmādirbhīmo bhīmaparākramaḥ || 101||",
       "en": "He has no beginning. He is the earth’s support and the glory of all. He is a true hero, of shining armlets, the father of beings, their source, awe-inspiring, and of terrible valour to the wicked.",
-      "start": 1297.88,
-      "end": 1305.46,
+      "start": 1298.91,
+      "end": 1307.34,
       "learnId": "stotram-131"
     },
     {
@@ -8296,8 +8296,8 @@ window.STOTRAM = {
       "sa": "आधारनिलयोऽधाता पुष्पहासः प्रजागरः । ऊर्ध्वगः सत्पथाचारः प्राणदः प्रणवः पणः ॥ १०२॥",
       "iast": "ādhāranilayo'dhātā puṣpahāsaḥ prajāgaraḥ | ūrdhvagaḥ satpathācāraḥ prāṇadaḥ praṇavaḥ paṇaḥ || 102||",
       "en": "He is the base of every base, and no one is above Him. Creation opens like a flower. He is always awake, always rising, walks the good path, gives life, is the Om, and the just rewarder.",
-      "start": 1305.76,
-      "end": 1313.33,
+      "start": 1307.87,
+      "end": 1316.22,
       "learnId": "stotram-132"
     },
     {
@@ -8305,8 +8305,8 @@ window.STOTRAM = {
       "sa": "प्रमाणं प्राणनिलयः प्राणभृत्प्राणजीवनः । तत्त्वं तत्त्वविदेकात्मा जन्ममृत्युजरातिगः ॥ १०३॥",
       "iast": "pramāṇaṃ prāṇanilayaḥ prāṇabhṛtprāṇajīvanaḥ | tattvaṃ tattvavidekātmā janmamṛtyujarātigaḥ || 103||",
       "en": "He is the true measure, the home of the breath, the holder of the breath, and the life of the vital airs. He is Reality, knower of Reality, the one Self, and beyond birth, death, and old age.",
-      "start": 1313.63,
-      "end": 1321.21,
+      "start": 1316.77,
+      "end": 1325.05,
       "learnId": "stotram-133"
     },
     {
@@ -8314,8 +8314,8 @@ window.STOTRAM = {
       "sa": "भूर्भुवःस्वस्तरुस्तारः सविता प्रपितामहः । यज्ञो यज्ञपतिर्यज्वा यज्ञाङ्गो यज्ञवाहनः ॥ १०४॥",
       "iast": "bhūrbhuvaḥsvastarustāraḥ savitā prapitāmahaḥ | yajño yajñapatiryajvā yajñāṅgo yajñavāhanaḥ || 104||",
       "en": "He is the tree of the three worlds, the saviour, the impeller, and the grandfather of all. He is the sacrifice, its Lord, the sacrificer, its limbs, and the one who carries it.",
-      "start": 1321.51,
-      "end": 1329.08,
+      "start": 1325.5,
+      "end": 1334.15,
       "learnId": "stotram-134"
     },
     {
@@ -8323,8 +8323,8 @@ window.STOTRAM = {
       "sa": "यज्ञभृद् यज्ञकृद् यज्ञी यज्ञभुग् यज्ञसाधनः । यज्ञान्तकृद् यज्ञगुह्यमन्नमन्नाद एव च ॥ १०५॥",
       "iast": "yajñabhṛd yajñakṛd yajñī yajñabhug yajñasādhanaḥ | yajñāntakṛd yajñaguhyamannamannāda eva ca || 105||",
       "en": "He holds the sacrifice, performs it, owns it, eats the offering, and is its means. He completes it, is its secret, and is both the food and the one who eats the food.",
-      "start": 1329.38,
-      "end": 1336.96,
+      "start": 1334.63,
+      "end": 1342.92,
       "learnId": "stotram-135"
     },
     {
@@ -8332,17 +8332,17 @@ window.STOTRAM = {
       "sa": "आत्मयोनिः स्वयञ्जातो वैखानः सामगायनः । देवकीनन्दनः स्रष्टा क्षितीशः पापनाशनः ॥ १०६॥",
       "iast": "ātmayoniḥ svayañjāto vaikhānaḥ sāmagāyanaḥ | devakīnandanaḥ sraṣṭā kṣitīśaḥ pāpanāśanaḥ || 106||",
       "en": "He is His own source and self-born. As the boar He lifted the earth. He sings the Sama, is Devaki’s delight, the creator, Lord of the earth, and the destroyer of sin.",
-      "start": 1337.26,
-      "end": 1344.83,
+      "start": 1343.42,
+      "end": 1352.35,
       "learnId": "stotram-136"
     },
     {
       "section": "stotram",
-      "sa": "शङ्खभृन्नन्दकी चक्री शार्ङ्गधन्वा गदाधरः । रथाङ्गपाणिरक्षोभ्यः सर्वप्रहरणायुधः ॥ १०७॥",
-      "iast": "śaṅkhabhṛnnandakī cakrī śārṅgadhanvā gadādharaḥ | rathāṅgapāṇirakṣobhyaḥ sarvapraharaṇāyudhaḥ || 107||",
+      "sa": "शङ्खभृन्नन्दकी चक्री शार्ङ्गधन्वा गदाधरः । रथाङ्गपाणिरक्षोभ्यः सर्वप्रहरणायुधः ॥ १०७॥ सर्वप्रहरणायुध ॐ नम इति ।",
+      "iast": "śaṅkhabhṛnnandakī cakrī śārṅgadhanvā gadādharaḥ | rathāṅgapāṇirakṣobhyaḥ sarvapraharaṇāyudhaḥ || 107|| sarvapraharaṇāyudha oṃ nama iti |",
       "en": "He holds the conch, the sword Nandaka, the discus, the bow Sharnga, and the mace. He holds the wheel in His hand, cannot be shaken, and every weapon is His.",
-      "start": 1345.13,
-      "end": 1352.38,
+      "start": 1352.9,
+      "end": 1364.71,
       "learnId": "stotram-137"
     },
     {
@@ -8350,7 +8350,7 @@ window.STOTRAM = {
       "sa": "वनमाली गदी शार्ङ्गी शङ्खी चक्री च नन्दकी । श्रीमान् नारायणो विष्णुर्वासुदेवोऽभिरक्षतु ॥ १०८॥ श्रीवासुदेवोऽभिरक्षतु ॐ नम इति ।",
       "iast": "vanamālī gadī śārṅgī śaṅkhī cakrī ca nandakī | śrīmān nārāyaṇo viṣṇurvāsudevo'bhirakṣatu || 108|| śrīvāsudevo'bhirakṣatu oṃ nama iti |",
       "en": "May the glorious Narayana — Vishnu, Vasudeva — who wears the forest garland and holds the mace, the Sharnga bow, the conch, the discus, and the sword, always protect us. She sings this closing śloka three times.",
-      "start": 1352.88,
+      "start": 1366.15,
       "end": 1395.27,
       "learnId": "stotram-138"
     },

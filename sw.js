@@ -1,4 +1,4 @@
-const CACHE = "vs-sahasranamam-v6";
+const CACHE = "vs-sahasranamam-v7";
 const ASSETS = [
   "./",
   "./index.html",
