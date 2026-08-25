@@ -118,8 +118,19 @@ So: breaths = the ruler, Whisper = occasional street signs, counting between sig
 
 The stotram text follows the widely recited Mahābhārata recension (Anushāsana Parva). English explanations are written in plain language as a doorway for learners, not as a replacement for Śaṅkara, Parāśara Bhaṭṭar, or other traditional commentaries.
 
-Rebuild the data file after editing `scripts/build_data.py`:
+Each śloka carries only its own names. `NAME_RANGES` in `scripts/build_data.py`
+records where every verse sits in the list of a thousand names; it was derived by
+aligning each name in `scripts/source/names_1000.json` against the verse it is
+drawn from, rather than by counting words by eye.
+
+Rebuild the data file after editing `scripts/build_data.py`, then check the
+grouping still holds:
 
 ```bash
 python3 scripts/build_data.py
+python3 scripts/check_name_ranges.py
 ```
+
+`check_name_ranges.py` strips each verse and its names down to a consonant
+skeleton and reads the names back against the verse, so a name that has drifted
+into a neighbouring śloka fails loudly instead of sitting there unnoticed.

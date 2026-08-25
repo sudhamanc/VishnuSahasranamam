@@ -688,11 +688,6 @@ window.STOTRAM = {
           "n": 54,
           "name": "Sthaviro-Dhruva",
           "en": "Ancient and permanent."
-        },
-        {
-          "n": 55,
-          "name": "Agrahya",
-          "en": "Not reachable by senses."
         }
       ],
       "shloka": 6
@@ -707,6 +702,11 @@ window.STOTRAM = {
       "start": 461.55,
       "end": 470.06,
       "names": [
+        {
+          "n": 55,
+          "name": "Agrahya",
+          "en": "Not reachable by senses."
+        },
         {
           "n": 56,
           "name": "Saswatha",
@@ -746,11 +746,6 @@ window.STOTRAM = {
           "n": 63,
           "name": "Mangalam-Param",
           "en": "Does good to others."
-        },
-        {
-          "n": 64,
-          "name": "Easana",
-          "en": "Rules over everything."
         }
       ],
       "shloka": 7
@@ -765,6 +760,11 @@ window.STOTRAM = {
       "start": 470.57,
       "end": 479.6,
       "names": [
+        {
+          "n": 64,
+          "name": "Easana",
+          "en": "Rules over everything."
+        },
         {
           "n": 65,
           "name": "Pranadha",
@@ -809,11 +809,6 @@ window.STOTRAM = {
           "n": 73,
           "name": "Madusudhana",
           "en": "Killed Madhu the Asura."
-        },
-        {
-          "n": 74,
-          "name": "Easwara",
-          "en": "Supremely strong."
         }
       ],
       "shloka": 8
@@ -828,6 +823,11 @@ window.STOTRAM = {
       "start": 480.16,
       "end": 489.05,
       "names": [
+        {
+          "n": 74,
+          "name": "Easwara",
+          "en": "Supremely strong."
+        },
         {
           "n": 75,
           "name": "Vikrami",
@@ -877,11 +877,6 @@ window.STOTRAM = {
           "n": 84,
           "name": "Athmavan",
           "en": "Has only his strength as his basis."
-        },
-        {
-          "n": 85,
-          "name": "Suresha",
-          "en": "The lord of all Gods."
         }
       ],
       "shloka": 9
@@ -896,6 +891,11 @@ window.STOTRAM = {
       "start": 489.55,
       "end": 497.6,
       "names": [
+        {
+          "n": 85,
+          "name": "Suresha",
+          "en": "The lord of all Gods."
+        },
         {
           "n": 86,
           "name": "Ssarana",
@@ -940,11 +940,6 @@ window.STOTRAM = {
           "n": 94,
           "name": "Sarvadarshana",
           "en": "Sees everything."
-        },
-        {
-          "n": 95,
-          "name": "Ajha",
-          "en": "Does not have birth."
         }
       ],
       "shloka": 10
@@ -959,6 +954,11 @@ window.STOTRAM = {
       "start": 498.04,
       "end": 506.3,
       "names": [
+        {
+          "n": 95,
+          "name": "Ajha",
+          "en": "Does not have birth."
+        },
         {
           "n": 96,
           "name": "Sarveshwara",
@@ -998,11 +998,6 @@ window.STOTRAM = {
           "n": 103,
           "name": "Sarva Yoga Vinisrutha",
           "en": "Devoid of all attachments; or He who is known by all yogas."
-        },
-        {
-          "n": 104,
-          "name": "Vasu",
-          "en": "Lives in every being."
         }
       ],
       "shloka": 11
@@ -1017,6 +1012,11 @@ window.STOTRAM = {
       "start": 506.77,
       "end": 515.18,
       "names": [
+        {
+          "n": 104,
+          "name": "Vasu",
+          "en": "Lives in every being."
+        },
         {
           "n": 105,
           "name": "VasuMana",
@@ -1061,11 +1061,6 @@ window.STOTRAM = {
           "n": 113,
           "name": "Vrishakritha",
           "en": "Born to uphold Dharma."
-        },
-        {
-          "n": 114,
-          "name": "Rudhra",
-          "en": "Drives away sadness and the reasons for it."
         }
       ],
       "shloka": 12
@@ -1080,6 +1075,11 @@ window.STOTRAM = {
       "start": 515.71,
       "end": 525.2,
       "names": [
+        {
+          "n": 114,
+          "name": "Rudhra",
+          "en": "Drives away sadness and the reasons for it."
+        },
         {
           "n": 115,
           "name": "Bahusiras",
@@ -1119,11 +1119,6 @@ window.STOTRAM = {
           "n": 122,
           "name": "Mahathapa",
           "en": "Extremely knowledgeable."
-        },
-        {
-          "n": 123,
-          "name": "Sarvaga",
-          "en": "Goes every where."
         }
       ],
       "shloka": 13
@@ -1138,6 +1133,11 @@ window.STOTRAM = {
       "start": 525.75,
       "end": 528.97,
       "names": [
+        {
+          "n": 123,
+          "name": "Sarvaga",
+          "en": "Goes every where."
+        },
         {
           "n": 124,
           "name": "Sarvavid-bhanu",
@@ -1182,11 +1182,6 @@ window.STOTRAM = {
           "n": 132,
           "name": "Kavi",
           "en": "Sees everything."
-        },
-        {
-          "n": 133,
-          "name": "Lokadhyaksha",
-          "en": "Presides over the Universe."
         }
       ],
       "shloka": 14
@@ -1201,6 +1196,11 @@ window.STOTRAM = {
       "start": 529.51,
       "end": 538.67,
       "names": [
+        {
+          "n": 133,
+          "name": "Lokadhyaksha",
+          "en": "Presides over the Universe."
+        },
         {
           "n": 134,
           "name": "Suradyaksha",
@@ -1235,11 +1235,6 @@ window.STOTRAM = {
           "n": 140,
           "name": "Chathur Bhuja",
           "en": "Has four hands."
-        },
-        {
-          "n": 141,
-          "name": "Brajishnu",
-          "en": "In the form of light; or He who is the light."
         }
       ],
       "shloka": 15
@@ -1254,6 +1249,11 @@ window.STOTRAM = {
       "start": 539.22,
       "end": 547.49,
       "names": [
+        {
+          "n": 141,
+          "name": "Brajishnu",
+          "en": "In the form of light; or He who is the light."
+        },
         {
           "n": 142,
           "name": "Bhojana",
@@ -1298,11 +1298,6 @@ window.STOTRAM = {
           "n": 150,
           "name": "Punarvasu",
           "en": "In every being as its controller."
-        },
-        {
-          "n": 151,
-          "name": "Upendra",
-          "en": "Indra to Indra himself."
         }
       ],
       "shloka": 16
@@ -1317,6 +1312,11 @@ window.STOTRAM = {
       "start": 548.0,
       "end": 556.54,
       "names": [
+        {
+          "n": 151,
+          "name": "Upendra",
+          "en": "Indra to Indra himself."
+        },
         {
           "n": 152,
           "name": "Vamana",
@@ -1371,11 +1371,6 @@ window.STOTRAM = {
           "n": 162,
           "name": "Yama",
           "en": "Controls others."
-        },
-        {
-          "n": 163,
-          "name": "Vedya",
-          "en": "Can be known."
         }
       ],
       "shloka": 17
@@ -1390,6 +1385,11 @@ window.STOTRAM = {
       "start": 557.08,
       "end": 565.62,
       "names": [
+        {
+          "n": 163,
+          "name": "Vedya",
+          "en": "Can be known."
+        },
         {
           "n": 164,
           "name": "Vaidya",
@@ -1434,11 +1434,6 @@ window.STOTRAM = {
           "n": 172,
           "name": "Mahabala",
           "en": "Very strong."
-        },
-        {
-          "n": 173,
-          "name": "Maha Buddhi",
-          "en": "Has tremendous knowledge."
         }
       ],
       "shloka": 18
@@ -1453,6 +1448,11 @@ window.STOTRAM = {
       "start": 566.03,
       "end": 574.7,
       "names": [
+        {
+          "n": 173,
+          "name": "Maha Buddhi",
+          "en": "Has tremendous knowledge."
+        },
         {
           "n": 174,
           "name": "Maha Veerya",
@@ -1487,11 +1487,6 @@ window.STOTRAM = {
           "n": 180,
           "name": "Mahadri Drik",
           "en": "Lifted large mountains."
-        },
-        {
-          "n": 181,
-          "name": "Maheshvasa",
-          "en": "A great archer."
         }
       ],
       "shloka": 19
@@ -1506,6 +1501,11 @@ window.STOTRAM = {
       "start": 575.23,
       "end": 584.05,
       "names": [
+        {
+          "n": 181,
+          "name": "Maheshvasa",
+          "en": "A great archer."
+        },
         {
           "n": 182,
           "name": "Mahee Bhartha",
@@ -1540,11 +1540,6 @@ window.STOTRAM = {
           "n": 188,
           "name": "Govidam Pathi",
           "en": "The leader of those who know Vedas."
-        },
-        {
-          "n": 189,
-          "name": "Mareechi",
-          "en": "In the form of light."
         }
       ],
       "shloka": 20
@@ -1559,6 +1554,11 @@ window.STOTRAM = {
       "start": 584.56,
       "end": 592.5,
       "names": [
+        {
+          "n": 189,
+          "name": "Mareechi",
+          "en": "In the form of light."
+        },
         {
           "n": 190,
           "name": "Dhamana",
@@ -1598,11 +1598,6 @@ window.STOTRAM = {
           "n": 197,
           "name": "Prajapathi",
           "en": "The chief of people."
-        },
-        {
-          "n": 198,
-          "name": "Amruthyu",
-          "en": "Does not have death."
         }
       ],
       "shloka": 21
@@ -1617,6 +1612,11 @@ window.STOTRAM = {
       "start": 592.99,
       "end": 602.14,
       "names": [
+        {
+          "n": 198,
+          "name": "Amruthyu",
+          "en": "Does not have death."
+        },
         {
           "n": 199,
           "name": "Sarvadrikh",
@@ -1666,11 +1666,6 @@ window.STOTRAM = {
           "n": 208,
           "name": "Surariha",
           "en": "Destroys the enemies of devas."
-        },
-        {
-          "n": 209,
-          "name": "Guru",
-          "en": "A teacher of all knowledge."
         }
       ],
       "shloka": 22
@@ -1685,6 +1680,11 @@ window.STOTRAM = {
       "start": 602.69,
       "end": 611.2,
       "names": [
+        {
+          "n": 209,
+          "name": "Guru",
+          "en": "A teacher of all knowledge."
+        },
         {
           "n": 210,
           "name": "Guru-Thama",
@@ -1724,16 +1724,6 @@ window.STOTRAM = {
           "n": 217,
           "name": "Vachaspathi Udharathi",
           "en": "The supreme personification of knowledge."
-        },
-        {
-          "n": 218,
-          "name": "Agrani",
-          "en": "Takes one to a higher life."
-        },
-        {
-          "n": 219,
-          "name": "Grammani",
-          "en": "Appoints Pancha Bhutas."
         }
       ],
       "shloka": 23
@@ -1748,6 +1738,16 @@ window.STOTRAM = {
       "start": 611.67,
       "end": 621.92,
       "names": [
+        {
+          "n": 218,
+          "name": "Agrani",
+          "en": "Takes one to a higher life."
+        },
+        {
+          "n": 219,
+          "name": "Grammani",
+          "en": "Appoints Pancha Bhutas."
+        },
         {
           "n": 220,
           "name": "Shriman",
@@ -1787,16 +1787,6 @@ window.STOTRAM = {
           "n": 227,
           "name": "Sahasrapath",
           "en": "Has thousand feet."
-        },
-        {
-          "n": 228,
-          "name": "Avarthana",
-          "en": "Rotates the wheel of life."
-        },
-        {
-          "n": 229,
-          "name": "Nivrithathma",
-          "en": "Not attached to life."
         }
       ],
       "shloka": 24
@@ -1811,6 +1801,16 @@ window.STOTRAM = {
       "start": 622.46,
       "end": 630.57,
       "names": [
+        {
+          "n": 228,
+          "name": "Avarthana",
+          "en": "Rotates the wheel of life."
+        },
+        {
+          "n": 229,
+          "name": "Nivrithathma",
+          "en": "Not attached to life."
+        },
         {
           "n": 230,
           "name": "Samvritha",
@@ -1840,16 +1840,6 @@ window.STOTRAM = {
           "n": 235,
           "name": "Dharanidhara",
           "en": "Supports the earth in the form of Adi sesha."
-        },
-        {
-          "n": 236,
-          "name": "Suprasadha",
-          "en": "Mercy personified."
-        },
-        {
-          "n": 237,
-          "name": "Prasannathma",
-          "en": "Forever clear headed."
         }
       ],
       "shloka": 25
@@ -1864,6 +1854,16 @@ window.STOTRAM = {
       "start": 631.11,
       "end": 639.97,
       "names": [
+        {
+          "n": 236,
+          "name": "Suprasadha",
+          "en": "Mercy personified."
+        },
+        {
+          "n": 237,
+          "name": "Prasannathma",
+          "en": "Forever clear headed."
+        },
         {
           "n": 238,
           "name": "Viswa Drik",
@@ -1908,16 +1908,6 @@ window.STOTRAM = {
           "n": 246,
           "name": "Nara",
           "en": "Shows the path."
-        },
-        {
-          "n": 247,
-          "name": "Asangyeya",
-          "en": "Beyond counting or He who is infinite."
-        },
-        {
-          "n": 248,
-          "name": "Aprameyatman",
-          "en": "Beyond knowledge."
         }
       ],
       "shloka": 26
@@ -1932,6 +1922,16 @@ window.STOTRAM = {
       "start": 640.47,
       "end": 649.32,
       "names": [
+        {
+          "n": 247,
+          "name": "Asangyeya",
+          "en": "Beyond counting or He who is infinite."
+        },
+        {
+          "n": 248,
+          "name": "Aprameyatman",
+          "en": "Beyond knowledge."
+        },
         {
           "n": 249,
           "name": "Visishta",
@@ -1966,16 +1966,6 @@ window.STOTRAM = {
           "n": 255,
           "name": "Siddhi Sadhana",
           "en": "Wants and the reason for wants."
-        },
-        {
-          "n": 256,
-          "name": "Vrishahi",
-          "en": "Shines like day."
-        },
-        {
-          "n": 257,
-          "name": "Vrishabha",
-          "en": "Showers all wishes on his devotees."
         }
       ],
       "shloka": 27
@@ -1990,6 +1980,16 @@ window.STOTRAM = {
       "start": 649.89,
       "end": 657.76,
       "names": [
+        {
+          "n": 256,
+          "name": "Vrishahi",
+          "en": "Shines like day."
+        },
+        {
+          "n": 257,
+          "name": "Vrishabha",
+          "en": "Showers all wishes on his devotees."
+        },
         {
           "n": 258,
           "name": "Vishnu",
@@ -2024,16 +2024,6 @@ window.STOTRAM = {
           "n": 264,
           "name": "Shruthisagara",
           "en": "The ocean in which all Shrutis lead."
-        },
-        {
-          "n": 265,
-          "name": "Subhuja",
-          "en": "Has good arms."
-        },
-        {
-          "n": 266,
-          "name": "Dhurdhara",
-          "en": "Carries everything but not carried by anybody or He who is impossible to carry."
         }
       ],
       "shloka": 28
@@ -2048,6 +2038,16 @@ window.STOTRAM = {
       "start": 658.3,
       "end": 666.38,
       "names": [
+        {
+          "n": 265,
+          "name": "Subhuja",
+          "en": "Has good arms."
+        },
+        {
+          "n": 266,
+          "name": "Dhurdhara",
+          "en": "Carries everything but not carried by anybody or He who is impossible to carry."
+        },
         {
           "n": 267,
           "name": "Vagmi",
@@ -2087,16 +2087,6 @@ window.STOTRAM = {
           "n": 274,
           "name": "Prakasana",
           "en": "Makes everything shine."
-        },
-        {
-          "n": 275,
-          "name": "Ojastejodyuthidhara",
-          "en": "Has strength, valor and luster."
-        },
-        {
-          "n": 276,
-          "name": "Prakasathma",
-          "en": "The soul of luster or He who makes others shine."
         }
       ],
       "shloka": 29
@@ -2111,6 +2101,16 @@ window.STOTRAM = {
       "start": 666.88,
       "end": 676.13,
       "names": [
+        {
+          "n": 275,
+          "name": "Ojastejodyuthidhara",
+          "en": "Has strength, valor and luster."
+        },
+        {
+          "n": 276,
+          "name": "Prakasathma",
+          "en": "The soul of luster or He who makes others shine."
+        },
         {
           "n": 277,
           "name": "Prathapana",
@@ -2140,16 +2140,6 @@ window.STOTRAM = {
           "n": 282,
           "name": "Bhaskaradyuthi",
           "en": "Has light like the sun."
-        },
-        {
-          "n": 283,
-          "name": "Amruthamsurbhava",
-          "en": "Made moon appear from the Ocean of milk."
-        },
-        {
-          "n": 284,
-          "name": "Bhanu",
-          "en": "Shines himself."
         }
       ],
       "shloka": 30
@@ -2164,6 +2154,16 @@ window.STOTRAM = {
       "start": 676.65,
       "end": 684.63,
       "names": [
+        {
+          "n": 283,
+          "name": "Amruthamsurbhava",
+          "en": "Made moon appear from the Ocean of milk."
+        },
+        {
+          "n": 284,
+          "name": "Bhanu",
+          "en": "Shines himself."
+        },
         {
           "n": 285,
           "name": "Shasabindu",
@@ -2188,16 +2188,6 @@ window.STOTRAM = {
           "n": 289,
           "name": "Sathya Dharma Parakrama",
           "en": "Truth, Dharma and valorous."
-        },
-        {
-          "n": 290,
-          "name": "Bhootha Bhava Bhannatha",
-          "en": "The lord of past, present and future."
-        },
-        {
-          "n": 291,
-          "name": "Pavana",
-          "en": "Cleans in the form of wind."
         }
       ],
       "shloka": 31
@@ -2212,6 +2202,16 @@ window.STOTRAM = {
       "start": 685.17,
       "end": 693.66,
       "names": [
+        {
+          "n": 290,
+          "name": "Bhootha Bhava Bhannatha",
+          "en": "The lord of past, present and future."
+        },
+        {
+          "n": 291,
+          "name": "Pavana",
+          "en": "Cleans in the form of wind."
+        },
         {
           "n": 292,
           "name": "Paavana",
@@ -2251,16 +2251,6 @@ window.STOTRAM = {
           "n": 299,
           "name": "Prabhu",
           "en": "Stands tall."
-        },
-        {
-          "n": 300,
-          "name": "Yugadhi Krit",
-          "en": "Created the divisions of time."
-        },
-        {
-          "n": 301,
-          "name": "Yuga Vartha",
-          "en": "Makes time periods come again and again."
         }
       ],
       "shloka": 32
@@ -2275,6 +2265,16 @@ window.STOTRAM = {
       "start": 694.15,
       "end": 702.17,
       "names": [
+        {
+          "n": 300,
+          "name": "Yugadhi Krit",
+          "en": "Created the divisions of time."
+        },
+        {
+          "n": 301,
+          "name": "Yuga Vartha",
+          "en": "Makes time periods come again and again."
+        },
         {
           "n": 302,
           "name": "Naika Maya",
@@ -2304,16 +2304,6 @@ window.STOTRAM = {
           "n": 307,
           "name": "Anantha Jit",
           "en": "For ever victorious."
-        },
-        {
-          "n": 308,
-          "name": "Ishta",
-          "en": "Liked by every one."
-        },
-        {
-          "n": 309,
-          "name": "Avisishta",
-          "en": "Does not have any one above him."
         }
       ],
       "shloka": 33
@@ -2328,6 +2318,16 @@ window.STOTRAM = {
       "start": 702.72,
       "end": 711.44,
       "names": [
+        {
+          "n": 308,
+          "name": "Ishta",
+          "en": "Liked by every one."
+        },
+        {
+          "n": 309,
+          "name": "Avisishta",
+          "en": "Does not have any one above him."
+        },
         {
           "n": 310,
           "name": "Sishteshta",
@@ -2367,16 +2367,6 @@ window.STOTRAM = {
           "n": 317,
           "name": "Mahee Dhara",
           "en": "Supports the earth."
-        },
-        {
-          "n": 318,
-          "name": "Achyutha",
-          "en": "Never changes."
-        },
-        {
-          "n": 319,
-          "name": "Pradhitha",
-          "en": "Famous."
         }
       ],
       "shloka": 34
@@ -2391,6 +2381,16 @@ window.STOTRAM = {
       "start": 711.95,
       "end": 719.83,
       "names": [
+        {
+          "n": 318,
+          "name": "Achyutha",
+          "en": "Never changes."
+        },
+        {
+          "n": 319,
+          "name": "Pradhitha",
+          "en": "Famous."
+        },
         {
           "n": 320,
           "name": "Prana",
@@ -2425,16 +2425,6 @@ window.STOTRAM = {
           "n": 326,
           "name": "Prathishtitha",
           "en": "Has become stable."
-        },
-        {
-          "n": 327,
-          "name": "Skandha",
-          "en": "The ambrosia."
-        },
-        {
-          "n": 328,
-          "name": "Skandha Dhara",
-          "en": "Supports the path of the righteous."
         }
       ],
       "shloka": 35
@@ -2449,6 +2439,16 @@ window.STOTRAM = {
       "start": 720.41,
       "end": 728.64,
       "names": [
+        {
+          "n": 327,
+          "name": "Skandha",
+          "en": "The ambrosia."
+        },
+        {
+          "n": 328,
+          "name": "Skandha Dhara",
+          "en": "Supports the path of the righteous."
+        },
         {
           "n": 329,
           "name": "Dhurya",
@@ -2483,16 +2483,6 @@ window.STOTRAM = {
           "n": 335,
           "name": "Purandhara",
           "en": "Destroyed cities of Asuras."
-        },
-        {
-          "n": 336,
-          "name": "Ashoka",
-          "en": "Never sad."
-        },
-        {
-          "n": 337,
-          "name": "Stharana",
-          "en": "Helps one to cross the sea of life."
         }
       ],
       "shloka": 36
@@ -2507,6 +2497,16 @@ window.STOTRAM = {
       "start": 729.07,
       "end": 737.57,
       "names": [
+        {
+          "n": 336,
+          "name": "Ashoka",
+          "en": "Never sad."
+        },
+        {
+          "n": 337,
+          "name": "Stharana",
+          "en": "Helps one to cross the sea of life."
+        },
         {
           "n": 338,
           "name": "Sthara",
@@ -2546,16 +2546,6 @@ window.STOTRAM = {
           "n": 345,
           "name": "Padhma Nibhekshana",
           "en": "Has two lotus like eyes."
-        },
-        {
-          "n": 346,
-          "name": "Padhma Nabha",
-          "en": "Has the lotus on his belly."
-        },
-        {
-          "n": 347,
-          "name": "Aravindaksha",
-          "en": "Has beautiful lotus like eyes."
         }
       ],
       "shloka": 37
@@ -2570,6 +2560,16 @@ window.STOTRAM = {
       "start": 738.05,
       "end": 746.61,
       "names": [
+        {
+          "n": 346,
+          "name": "Padhma Nabha",
+          "en": "Has the lotus on his belly."
+        },
+        {
+          "n": 347,
+          "name": "Aravindaksha",
+          "en": "Has beautiful lotus like eyes."
+        },
         {
           "n": 348,
           "name": "Padhma Garbha",
@@ -2604,16 +2604,6 @@ window.STOTRAM = {
           "n": 354,
           "name": "Garuda Dwaja",
           "en": "Has Garuda in his flag."
-        },
-        {
-          "n": 355,
-          "name": "Athula",
-          "en": "Has no equals."
-        },
-        {
-          "n": 356,
-          "name": "Sharabha",
-          "en": "Lives as soul in beings."
         }
       ],
       "shloka": 38
@@ -2628,6 +2618,16 @@ window.STOTRAM = {
       "start": 747.11,
       "end": 755.27,
       "names": [
+        {
+          "n": 355,
+          "name": "Athula",
+          "en": "Has no equals."
+        },
+        {
+          "n": 356,
+          "name": "Sharabha",
+          "en": "Lives as soul in beings."
+        },
         {
           "n": 357,
           "name": "Bheema",
@@ -2657,16 +2657,6 @@ window.STOTRAM = {
           "n": 362,
           "name": "Samithinjaya",
           "en": "Wins in all wars."
-        },
-        {
-          "n": 363,
-          "name": "Vikshara",
-          "en": "Never destroyed."
-        },
-        {
-          "n": 364,
-          "name": "Rohitha",
-          "en": "Took the form of red fish called Rohita; or He who is red like the inside of lotus."
         }
       ],
       "shloka": 39
@@ -2681,6 +2671,16 @@ window.STOTRAM = {
       "start": 755.8,
       "end": 764.4,
       "names": [
+        {
+          "n": 363,
+          "name": "Vikshara",
+          "en": "Never destroyed."
+        },
+        {
+          "n": 364,
+          "name": "Rohitha",
+          "en": "Took the form of red fish called Rohita; or He who is red like the inside of lotus."
+        },
         {
           "n": 365,
           "name": "Maarga",
@@ -2720,16 +2720,6 @@ window.STOTRAM = {
           "n": 372,
           "name": "Amithasana",
           "en": "Takes immeasurable food."
-        },
-        {
-          "n": 373,
-          "name": "Udbhava",
-          "en": "The reason for the birth of the worlds."
-        },
-        {
-          "n": 374,
-          "name": "Ksobhana",
-          "en": "During creation churns Purusha and Prakrithi."
         }
       ],
       "shloka": 40
@@ -2744,6 +2734,16 @@ window.STOTRAM = {
       "start": 764.95,
       "end": 773.43,
       "names": [
+        {
+          "n": 373,
+          "name": "Udbhava",
+          "en": "The reason for the birth of the worlds."
+        },
+        {
+          "n": 374,
+          "name": "Ksobhana",
+          "en": "During creation churns Purusha and Prakrithi."
+        },
         {
           "n": 375,
           "name": "Deva",
@@ -2788,16 +2788,6 @@ window.STOTRAM = {
           "n": 383,
           "name": "Guha",
           "en": "Hides everything by illusion."
-        },
-        {
-          "n": 384,
-          "name": "Vyavasaya",
-          "en": "Personification of knowledge."
-        },
-        {
-          "n": 385,
-          "name": "Vyavasthana",
-          "en": "Not bound by any limitations."
         }
       ],
       "shloka": 41
@@ -2812,6 +2802,16 @@ window.STOTRAM = {
       "start": 773.94,
       "end": 782.82,
       "names": [
+        {
+          "n": 384,
+          "name": "Vyavasaya",
+          "en": "Personification of knowledge."
+        },
+        {
+          "n": 385,
+          "name": "Vyavasthana",
+          "en": "Not bound by any limitations."
+        },
         {
           "n": 386,
           "name": "Samsthana",
@@ -2851,16 +2851,6 @@ window.STOTRAM = {
           "n": 393,
           "name": "Shubekshana",
           "en": "Has a blissful sight; or He whose sight gives all persons their wants."
-        },
-        {
-          "n": 394,
-          "name": "Raama",
-          "en": "Makes others to be happy with him."
-        },
-        {
-          "n": 395,
-          "name": "Virama",
-          "en": "The ultimate end of everything."
         }
       ],
       "shloka": 42
@@ -2875,6 +2865,16 @@ window.STOTRAM = {
       "start": 783.32,
       "end": 792.47,
       "names": [
+        {
+          "n": 394,
+          "name": "Raama",
+          "en": "Makes others to be happy with him."
+        },
+        {
+          "n": 395,
+          "name": "Virama",
+          "en": "The ultimate end of everything."
+        },
         {
           "n": 396,
           "name": "Viratha",
@@ -2919,16 +2919,6 @@ window.STOTRAM = {
           "n": 404,
           "name": "Dharma Vidhuttama",
           "en": "Greatest among those who know Dharma."
-        },
-        {
-          "n": 405,
-          "name": "Vaikunta",
-          "en": "Keeps the five Bhutas bound together at the beginning of creation; or He who removes all obstacles in the way of devotees to attain Him."
-        },
-        {
-          "n": 406,
-          "name": "Purusha",
-          "en": "In front of every thing or He who washes off all sins or He who is the soul in all beings."
         }
       ],
       "shloka": 43
@@ -2943,6 +2933,16 @@ window.STOTRAM = {
       "start": 792.98,
       "end": 801.64,
       "names": [
+        {
+          "n": 405,
+          "name": "Vaikunta",
+          "en": "Keeps the five Bhutas bound together at the beginning of creation; or He who removes all obstacles in the way of devotees to attain Him."
+        },
+        {
+          "n": 406,
+          "name": "Purusha",
+          "en": "In front of every thing or He who washes off all sins or He who is the soul in all beings."
+        },
         {
           "n": 407,
           "name": "Prana",
@@ -2987,11 +2987,6 @@ window.STOTRAM = {
           "n": 415,
           "name": "Adokshaja",
           "en": "Never gets exhausted by use by his devotees or He who never dries up."
-        },
-        {
-          "n": 416,
-          "name": "Hrithu",
-          "en": "The seasons."
         }
       ],
       "shloka": 44
@@ -3006,6 +3001,11 @@ window.STOTRAM = {
       "start": 802.17,
       "end": 810.61,
       "names": [
+        {
+          "n": 416,
+          "name": "Hrithu",
+          "en": "The seasons."
+        },
         {
           "n": 417,
           "name": "Sudarshana",
@@ -3050,11 +3050,6 @@ window.STOTRAM = {
           "n": 425,
           "name": "ViswaDakshina",
           "en": "An expert in all things or He who is more powerful than all others."
-        },
-        {
-          "n": 426,
-          "name": "Visthara",
-          "en": "Makes all the world broaden in Him."
         }
       ],
       "shloka": 45
@@ -3069,6 +3064,11 @@ window.STOTRAM = {
       "start": 811.18,
       "end": 819.89,
       "names": [
+        {
+          "n": 426,
+          "name": "Visthara",
+          "en": "Makes all the world broaden in Him."
+        },
         {
           "n": 427,
           "name": "StavaraStanu",
@@ -3108,11 +3108,6 @@ window.STOTRAM = {
           "n": 434,
           "name": "Mahadhana",
           "en": "Has great wealth."
-        },
-        {
-          "n": 435,
-          "name": "Anirvinna",
-          "en": "Does not hate others."
         }
       ],
       "shloka": 46
@@ -3127,6 +3122,11 @@ window.STOTRAM = {
       "start": 820.4,
       "end": 829.27,
       "names": [
+        {
+          "n": 435,
+          "name": "Anirvinna",
+          "en": "Does not hate others."
+        },
         {
           "n": 436,
           "name": "Stavishta",
@@ -3171,11 +3171,6 @@ window.STOTRAM = {
           "n": 444,
           "name": "Sameehana",
           "en": "Likes his jobs like creation."
-        },
-        {
-          "n": 445,
-          "name": "Yagna",
-          "en": "Personification of Sacrifice."
         }
       ],
       "shloka": 47
@@ -3190,6 +3185,11 @@ window.STOTRAM = {
       "start": 829.79,
       "end": 838.79,
       "names": [
+        {
+          "n": 445,
+          "name": "Yagna",
+          "en": "Personification of Sacrifice."
+        },
         {
           "n": 446,
           "name": "Ijhya",
@@ -3234,11 +3234,6 @@ window.STOTRAM = {
           "n": 454,
           "name": "Gnanamuuttamam",
           "en": "Not born, ever existing, giver of all that is needed and personification of right knowledge."
-        },
-        {
-          "n": 455,
-          "name": "Suvritha",
-          "en": "Has great penance."
         }
       ],
       "shloka": 48
@@ -3253,6 +3248,11 @@ window.STOTRAM = {
       "start": 839.37,
       "end": 847.27,
       "names": [
+        {
+          "n": 455,
+          "name": "Suvritha",
+          "en": "Has great penance."
+        },
         {
           "n": 456,
           "name": "Sumukha",
@@ -3297,11 +3297,6 @@ window.STOTRAM = {
           "n": 464,
           "name": "Vidharana",
           "en": "Tears off, those who do sins."
-        },
-        {
-          "n": 465,
-          "name": "Swaapana",
-          "en": "Makes all beings sleep by illusion."
         }
       ],
       "shloka": 49
@@ -3316,6 +3311,11 @@ window.STOTRAM = {
       "start": 847.86,
       "end": 856.46,
       "names": [
+        {
+          "n": 465,
+          "name": "Swaapana",
+          "en": "Makes all beings sleep by illusion."
+        },
         {
           "n": 466,
           "name": "Swa Wasa",
@@ -3360,11 +3360,6 @@ window.STOTRAM = {
           "n": 474,
           "name": "Dhaneswara",
           "en": "The God of wealth."
-        },
-        {
-          "n": 475,
-          "name": "Dharma Gupa",
-          "en": "Protects Dharma."
         }
       ],
       "shloka": 50
@@ -3379,6 +3374,11 @@ window.STOTRAM = {
       "start": 856.98,
       "end": 864.97,
       "names": [
+        {
+          "n": 475,
+          "name": "Dharma Gupa",
+          "en": "Protects Dharma."
+        },
         {
           "n": 476,
           "name": "Dharma Krith",
@@ -3655,11 +3655,6 @@ window.STOTRAM = {
           "n": 520,
           "name": "Anthaka",
           "en": "Brings about end of everything."
-        },
-        {
-          "n": 521,
-          "name": "Ajha",
-          "en": "The beginning and in the form of Manmadha."
         }
       ],
       "shloka": 55
@@ -3674,6 +3669,11 @@ window.STOTRAM = {
       "start": 895.87,
       "end": 904.75,
       "names": [
+        {
+          "n": 521,
+          "name": "Ajha",
+          "en": "The beginning and in the form of Manmadha."
+        },
         {
           "n": 522,
           "name": "Maharha",
@@ -3718,11 +3718,6 @@ window.STOTRAM = {
           "n": 530,
           "name": "Trivikrama",
           "en": "Measured the worlds in three steps."
-        },
-        {
-          "n": 531,
-          "name": "Maharshi Kapilacharya",
-          "en": "The sage Kapila."
         }
       ],
       "shloka": 56
@@ -3737,6 +3732,11 @@ window.STOTRAM = {
       "start": 905.27,
       "end": 913.42,
       "names": [
+        {
+          "n": 531,
+          "name": "Maharshi Kapilacharya",
+          "en": "The sage Kapila."
+        },
         {
           "n": 532,
           "name": "Krithagna",
@@ -3766,16 +3766,6 @@ window.STOTRAM = {
           "n": 537,
           "name": "Krithantha Krit",
           "en": "Destroys the world created by Himself."
-        },
-        {
-          "n": 538,
-          "name": "Mahavaraha",
-          "en": "Took the shape of Varaha."
-        },
-        {
-          "n": 539,
-          "name": "Govinda",
-          "en": "Attained by Vedic words."
         }
       ],
       "shloka": 57
@@ -3790,6 +3780,16 @@ window.STOTRAM = {
       "start": 913.92,
       "end": 922.46,
       "names": [
+        {
+          "n": 538,
+          "name": "Mahavaraha",
+          "en": "Took the shape of Varaha."
+        },
+        {
+          "n": 539,
+          "name": "Govinda",
+          "en": "Attained by Vedic words."
+        },
         {
           "n": 540,
           "name": "Sushena",
@@ -3824,16 +3824,6 @@ window.STOTRAM = {
           "n": 546,
           "name": "Chakra Gathadhara",
           "en": "Keeps the holy Wheel and Holy Mace to save the world."
-        },
-        {
-          "n": 547,
-          "name": "Vedhasa",
-          "en": "Creates or He who gives immeasurable happiness and wealth to his devotees."
-        },
-        {
-          "n": 548,
-          "name": "Swanga",
-          "en": "The instrument reason and cause for existence."
         }
       ],
       "shloka": 58
@@ -3848,6 +3838,16 @@ window.STOTRAM = {
       "start": 923.0,
       "end": 932.29,
       "names": [
+        {
+          "n": 547,
+          "name": "Vedhasa",
+          "en": "Creates or He who gives immeasurable happiness and wealth to his devotees."
+        },
+        {
+          "n": 548,
+          "name": "Swanga",
+          "en": "The instrument reason and cause for existence."
+        },
         {
           "n": 549,
           "name": "Ajitha",
@@ -3892,21 +3892,6 @@ window.STOTRAM = {
           "n": 557,
           "name": "Maha Manaa",
           "en": "Performs creation, upkeep and destruction by a thought in his great mind."
-        },
-        {
-          "n": 558,
-          "name": "Bhagawan",
-          "en": "The storehouse of wealth, Dharma, fame, riches, renunciation and Moksha."
-        },
-        {
-          "n": 559,
-          "name": "Bhagagna",
-          "en": "Destroys wealth during deluge."
-        },
-        {
-          "n": 560,
-          "name": "Anandi",
-          "en": "The personification of pleasure."
         }
       ],
       "shloka": 59
@@ -3921,6 +3906,21 @@ window.STOTRAM = {
       "start": 932.82,
       "end": 941.36,
       "names": [
+        {
+          "n": 558,
+          "name": "Bhagawan",
+          "en": "The storehouse of wealth, Dharma, fame, riches, renunciation and Moksha."
+        },
+        {
+          "n": 559,
+          "name": "Bhagagna",
+          "en": "Destroys wealth during deluge."
+        },
+        {
+          "n": 560,
+          "name": "Anandi",
+          "en": "The personification of pleasure."
+        },
         {
           "n": 561,
           "name": "Vanamali",
@@ -3950,21 +3950,6 @@ window.STOTRAM = {
           "n": 566,
           "name": "Gathisathama",
           "en": "The truth and He whom every one attains."
-        },
-        {
-          "n": 567,
-          "name": "Sudhanva",
-          "en": "Has the holy bow called Saranga which is personification of our senses."
-        },
-        {
-          "n": 568,
-          "name": "Kkhanda Parasu",
-          "en": "Has axe as a weapon to kill enemies."
-        },
-        {
-          "n": 569,
-          "name": "Dharuna",
-          "en": "Cruel to those who prevent the right path."
         }
       ],
       "shloka": 60
@@ -3979,6 +3964,21 @@ window.STOTRAM = {
       "start": 941.86,
       "end": 949.76,
       "names": [
+        {
+          "n": 567,
+          "name": "Sudhanva",
+          "en": "Has the holy bow called Saranga which is personification of our senses."
+        },
+        {
+          "n": 568,
+          "name": "Kkhanda Parasu",
+          "en": "Has axe as a weapon to kill enemies."
+        },
+        {
+          "n": 569,
+          "name": "Dharuna",
+          "en": "Cruel to those who prevent the right path."
+        },
         {
           "n": 570,
           "name": "Dhravina Pradha",
@@ -3998,7 +3998,20 @@ window.STOTRAM = {
           "n": 573,
           "name": "Vachaspathirayonija",
           "en": "Was not born and is the Lord of knowledge."
-        },
+        }
+      ],
+      "shloka": 61
+    },
+    {
+      "id": "stotram-092",
+      "n": 92,
+      "section": "stotram",
+      "sa": "त्रिसामा सामगः साम निर्वाणं भेषजं भिषक् । संन्यासकृच्छमः शान्तो निष्ठा शान्तिः परायणम् ॥ ६२॥",
+      "iast": "trisāmā sāmagaḥ sāma nirvāṇaṃ bheṣajaṃ bhiṣak | saṃnyāsakṛcchamaḥ śānto niṣṭhā śāntiḥ parāyaṇam || 62||",
+      "en": "The three Sama hymns praise Him. He sings the Sama and is the Sama. He is freedom, the medicine, and the physician. He taught renunciation, is calm, peace itself, and the last refuge.",
+      "start": 950.27,
+      "end": 959.28,
+      "names": [
         {
           "n": 574,
           "name": "Thrisama",
@@ -4018,20 +4031,7 @@ window.STOTRAM = {
           "n": 577,
           "name": "Nirvana",
           "en": "Beyond all sadness."
-        }
-      ],
-      "shloka": 61
-    },
-    {
-      "id": "stotram-092",
-      "n": 92,
-      "section": "stotram",
-      "sa": "त्रिसामा सामगः साम निर्वाणं भेषजं भिषक् । संन्यासकृच्छमः शान्तो निष्ठा शान्तिः परायणम् ॥ ६२॥",
-      "iast": "trisāmā sāmagaḥ sāma nirvāṇaṃ bheṣajaṃ bhiṣak | saṃnyāsakṛcchamaḥ śānto niṣṭhā śāntiḥ parāyaṇam || 62||",
-      "en": "The three Sama hymns praise Him. He sings the Sama and is the Sama. He is freedom, the medicine, and the physician. He taught renunciation, is calm, peace itself, and the last refuge.",
-      "start": 950.27,
-      "end": 959.28,
-      "names": [
+        },
         {
           "n": 578,
           "name": "Beshaja",
@@ -4071,7 +4071,20 @@ window.STOTRAM = {
           "n": 585,
           "name": "Paarayana",
           "en": "In the high pedestal and never returns to bodily pleasures."
-        },
+        }
+      ],
+      "shloka": 62
+    },
+    {
+      "id": "stotram-093",
+      "n": 93,
+      "section": "stotram",
+      "sa": "शुभाङ्गः शान्तिदः स्रष्टा कुमुदः कुवलेशयः । गोहितो गोपतिर्गोप्ता वृषभाक्षो वृषप्रियः ॥ ६३॥",
+      "iast": "śubhāṅgaḥ śāntidaḥ sraṣṭā kumudaḥ kuvaleśayaḥ | gohito gopatirgoptā vṛṣabhākṣo vṛṣapriyaḥ || 63||",
+      "en": "His form is beautiful. He gives peace and creates. He delights in the earth and rests on the waters. He is the friend, Lord, and protector of the earth (and of cows). His eyes bless, and He loves dharma.",
+      "start": 959.85,
+      "end": 968.1,
+      "names": [
         {
           "n": 586,
           "name": "Shubhanga",
@@ -4091,20 +4104,7 @@ window.STOTRAM = {
           "n": 589,
           "name": "Kumuda",
           "en": "Happy to be in the world."
-        }
-      ],
-      "shloka": 62
-    },
-    {
-      "id": "stotram-093",
-      "n": 93,
-      "section": "stotram",
-      "sa": "शुभाङ्गः शान्तिदः स्रष्टा कुमुदः कुवलेशयः । गोहितो गोपतिर्गोप्ता वृषभाक्षो वृषप्रियः ॥ ६३॥",
-      "iast": "śubhāṅgaḥ śāntidaḥ sraṣṭā kumudaḥ kuvaleśayaḥ | gohito gopatirgoptā vṛṣabhākṣo vṛṣapriyaḥ || 63||",
-      "en": "His form is beautiful. He gives peace and creates. He delights in the earth and rests on the waters. He is the friend, Lord, and protector of the earth (and of cows). His eyes bless, and He loves dharma.",
-      "start": 959.85,
-      "end": 968.1,
-      "names": [
+        },
         {
           "n": 590,
           "name": "Kuvalesaya",
@@ -4134,7 +4134,20 @@ window.STOTRAM = {
           "n": 595,
           "name": "Vrisha Priya",
           "en": "Loves Dharma."
-        },
+        }
+      ],
+      "shloka": 63
+    },
+    {
+      "id": "stotram-094",
+      "n": 94,
+      "section": "stotram",
+      "sa": "अनिवर्ती निवृत्तात्मा सङ्क्षेप्ता क्षेमकृच्छिवः । श्रीवत्सवक्षाः श्रीवासः श्रीपतिः श्रीमतांवरः ॥ ६४॥",
+      "iast": "anivartī nivṛttātmā saṅkṣeptā kṣemakṛcchivaḥ | śrīvatsavakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṃvaraḥ || 64||",
+      "en": "He never turns back from what is right. His Self is withdrawn from the world. He draws the universe in, does good, and is auspicious. He bears the Srivatsa, is Lakshmi’s home, her Lord, and the best of the glorious.",
+      "start": 968.59,
+      "end": 977.39,
+      "names": [
         {
           "n": 596,
           "name": "Anivarthee",
@@ -4154,20 +4167,7 @@ window.STOTRAM = {
           "n": 599,
           "name": "Kshemakritha",
           "en": "Keeps those recognized by Him comfortable."
-        }
-      ],
-      "shloka": 63
-    },
-    {
-      "id": "stotram-094",
-      "n": 94,
-      "section": "stotram",
-      "sa": "अनिवर्ती निवृत्तात्मा सङ्क्षेप्ता क्षेमकृच्छिवः । श्रीवत्सवक्षाः श्रीवासः श्रीपतिः श्रीमतांवरः ॥ ६४॥",
-      "iast": "anivartī nivṛttātmā saṅkṣeptā kṣemakṛcchivaḥ | śrīvatsavakṣāḥ śrīvāsaḥ śrīpatiḥ śrīmatāṃvaraḥ || 64||",
-      "en": "He never turns back from what is right. His Self is withdrawn from the world. He draws the universe in, does good, and is auspicious. He bears the Srivatsa, is Lakshmi’s home, her Lord, and the best of the glorious.",
-      "start": 968.59,
-      "end": 977.39,
-      "names": [
+        },
         {
           "n": 600,
           "name": "Shiva",
@@ -4192,7 +4192,20 @@ window.STOTRAM = {
           "n": 604,
           "name": "Shrimatam Vara",
           "en": "Greatest among Gods."
-        },
+        }
+      ],
+      "shloka": 64
+    },
+    {
+      "id": "stotram-095",
+      "n": 95,
+      "section": "stotram",
+      "sa": "श्रीदः श्रीशः श्रीनिवासः श्रीनिधिः श्रीविभावनः । श्रीधरः श्रीकरः श्रेयः श्रीमाँल्लोकत्रयाश्रयः ॥ ६५॥",
+      "iast": "śrīdaḥ śrīśaḥ śrīnivāsaḥ śrīnidhiḥ śrīvibhāvanaḥ | śrīdharaḥ śrīkaraḥ śreyaḥ śrīmā~llokatrayāśrayaḥ || 65||",
+      "en": "He gives prosperity, is Lakshmi’s Lord, her home, and her treasure. He shares fortune, bears her, makes well-being, is the highest good, the glorious one, and the shelter of the three worlds.",
+      "start": 977.93,
+      "end": 986.79,
+      "names": [
         {
           "n": 605,
           "name": "Shridha",
@@ -4212,20 +4225,7 @@ window.STOTRAM = {
           "n": 608,
           "name": "Shri Nidhi",
           "en": "The treasure of all strengths."
-        }
-      ],
-      "shloka": 64
-    },
-    {
-      "id": "stotram-095",
-      "n": 95,
-      "section": "stotram",
-      "sa": "श्रीदः श्रीशः श्रीनिवासः श्रीनिधिः श्रीविभावनः । श्रीधरः श्रीकरः श्रेयः श्रीमाँल्लोकत्रयाश्रयः ॥ ६५॥",
-      "iast": "śrīdaḥ śrīśaḥ śrīnivāsaḥ śrīnidhiḥ śrīvibhāvanaḥ | śrīdharaḥ śrīkaraḥ śreyaḥ śrīmā~llokatrayāśrayaḥ || 65||",
-      "en": "He gives prosperity, is Lakshmi’s Lord, her home, and her treasure. He shares fortune, bears her, makes well-being, is the highest good, the glorious one, and the shelter of the three worlds.",
-      "start": 977.93,
-      "end": 986.79,
-      "names": [
+        },
         {
           "n": 609,
           "name": "Shrivibhavana",
@@ -4255,7 +4255,20 @@ window.STOTRAM = {
           "n": 614,
           "name": "Loka Trayasraya",
           "en": "He on whom the three worlds depend."
-        },
+        }
+      ],
+      "shloka": 65
+    },
+    {
+      "id": "stotram-096",
+      "n": 96,
+      "section": "stotram",
+      "sa": "स्वक्षः स्वङ्गः शतानन्दो नन्दिर्ज्योतिर्गणेश्वरः । विजितात्माऽविधेयात्मा सत्कीर्तिश्छिन्नसंशयः ॥ ६६॥",
+      "iast": "svakṣaḥ svaṅgaḥ śatānando nandirjyotirgaṇeśvaraḥ | vijitātmā'vidheyātmā satkīrtiśchinnasaṃśayaḥ || 66||",
+      "en": "His eyes and limbs are beautiful. He is endless bliss, joy itself, and Lord of the lights. He has mastered the mind, is under no one’s command, of true fame, and free of doubt.",
+      "start": 987.37,
+      "end": 996.45,
+      "names": [
         {
           "n": 615,
           "name": "Swaksha",
@@ -4275,20 +4288,7 @@ window.STOTRAM = {
           "n": 618,
           "name": "Nanda",
           "en": "Personification of supreme happiness."
-        }
-      ],
-      "shloka": 65
-    },
-    {
-      "id": "stotram-096",
-      "n": 96,
-      "section": "stotram",
-      "sa": "स्वक्षः स्वङ्गः शतानन्दो नन्दिर्ज्योतिर्गणेश्वरः । विजितात्माऽविधेयात्मा सत्कीर्तिश्छिन्नसंशयः ॥ ६६॥",
-      "iast": "svakṣaḥ svaṅgaḥ śatānando nandirjyotirgaṇeśvaraḥ | vijitātmā'vidheyātmā satkīrtiśchinnasaṃśayaḥ || 66||",
-      "en": "His eyes and limbs are beautiful. He is endless bliss, joy itself, and Lord of the lights. He has mastered the mind, is under no one’s command, of true fame, and free of doubt.",
-      "start": 987.37,
-      "end": 996.45,
-      "names": [
+        },
         {
           "n": 619,
           "name": "Jyothir ganeswara",
@@ -4313,7 +4313,20 @@ window.STOTRAM = {
           "n": 623,
           "name": "Chinna samsaya",
           "en": "Does not suspect or He who sees everything clearly."
-        },
+        }
+      ],
+      "shloka": 66
+    },
+    {
+      "id": "stotram-097",
+      "n": 97,
+      "section": "stotram",
+      "sa": "उदीर्णः सर्वतश्चक्षुरनीशः शाश्वतस्थिरः । भूशयो भूषणो भूतिर्विशोकः शोकनाशनः ॥ ६७॥",
+      "iast": "udīrṇaḥ sarvataścakṣuranīśaḥ śāśvatasthiraḥ | bhūśayo bhūṣaṇo bhūtirviśokaḥ śokanāśanaḥ || 67||",
+      "en": "He is risen above all, the eye in every place, and has no master. He is eternally still. He rests on the earth, is its ornament and its being, without sorrow, and the one who takes sorrow away.",
+      "start": 996.97,
+      "end": 1005.07,
+      "names": [
         {
           "n": 624,
           "name": "Uudheerna",
@@ -4333,20 +4346,7 @@ window.STOTRAM = {
           "n": 627,
           "name": "Saswatha sthira",
           "en": "Permanently stable."
-        }
-      ],
-      "shloka": 66
-    },
-    {
-      "id": "stotram-097",
-      "n": 97,
-      "section": "stotram",
-      "sa": "उदीर्णः सर्वतश्चक्षुरनीशः शाश्वतस्थिरः । भूशयो भूषणो भूतिर्विशोकः शोकनाशनः ॥ ६७॥",
-      "iast": "udīrṇaḥ sarvataścakṣuranīśaḥ śāśvatasthiraḥ | bhūśayo bhūṣaṇo bhūtirviśokaḥ śokanāśanaḥ || 67||",
-      "en": "He is risen above all, the eye in every place, and has no master. He is eternally still. He rests on the earth, is its ornament and its being, without sorrow, and the one who takes sorrow away.",
-      "start": 996.97,
-      "end": 1005.07,
-      "names": [
+        },
         {
           "n": 628,
           "name": "Bhoosa",
@@ -4371,7 +4371,20 @@ window.STOTRAM = {
           "n": 632,
           "name": "Shoka nasana",
           "en": "Destroys sadness of his devotees."
-        },
+        }
+      ],
+      "shloka": 67
+    },
+    {
+      "id": "stotram-098",
+      "n": 98,
+      "section": "stotram",
+      "sa": "अर्चिष्मानर्चितः कुम्भो विशुद्धात्मा विशोधनः । अनिरुद्धोऽप्रतिरथः प्रद्युम्नोऽमितविक्रमः ॥ ६८॥",
+      "iast": "arciṣmānarcitaḥ kumbho viśuddhātmā viśodhanaḥ | aniruddho'pratirathaḥ pradyumno'mitavikramaḥ || 68||",
+      "en": "He is radiant and worshipped, the vessel of all, of a pure Self, and the purifier. He is Aniruddha, a warrior without rival, Pradyumna, and of measureless valour.",
+      "start": 1005.58,
+      "end": 1013.86,
+      "names": [
         {
           "n": 633,
           "name": "Archishma",
@@ -4391,20 +4404,7 @@ window.STOTRAM = {
           "n": 636,
           "name": "Vishudhatma",
           "en": "Has supremely clean habits."
-        }
-      ],
-      "shloka": 67
-    },
-    {
-      "id": "stotram-098",
-      "n": 98,
-      "section": "stotram",
-      "sa": "अर्चिष्मानर्चितः कुम्भो विशुद्धात्मा विशोधनः । अनिरुद्धोऽप्रतिरथः प्रद्युम्नोऽमितविक्रमः ॥ ६८॥",
-      "iast": "arciṣmānarcitaḥ kumbho viśuddhātmā viśodhanaḥ | aniruddho'pratirathaḥ pradyumno'mitavikramaḥ || 68||",
-      "en": "He is radiant and worshipped, the vessel of all, of a pure Self, and the purifier. He is Aniruddha, a warrior without rival, Pradyumna, and of measureless valour.",
-      "start": 1005.58,
-      "end": 1013.86,
-      "names": [
+        },
         {
           "n": 637,
           "name": "Vishodhana",
@@ -4429,7 +4429,20 @@ window.STOTRAM = {
           "n": 641,
           "name": "Amitha vikrama",
           "en": "Has immeasurable fame."
-        },
+        }
+      ],
+      "shloka": 68
+    },
+    {
+      "id": "stotram-099",
+      "n": 99,
+      "section": "stotram",
+      "sa": "कालनेमिनिहा वीरः शौरिः शूरजनेश्वरः । त्रिलोकात्मा त्रिलोकेशः केशवः केशिहा हरिः ॥ ६९॥",
+      "iast": "kālaneminihā vīraḥ śauriḥ śūrajaneśvaraḥ | trilokātmā trilokeśaḥ keśavaḥ keśihā hariḥ || 69||",
+      "en": "He slew Kalanemi. He is the hero, son of Shura, and Lord of the brave. He is the Self and Lord of the three worlds, Keshava, slayer of the demon Keshi, and Hari who removes pain.",
+      "start": 1014.37,
+      "end": 1022.95,
+      "names": [
         {
           "n": 642,
           "name": "Kala neminiha",
@@ -4449,20 +4462,7 @@ window.STOTRAM = {
           "n": 645,
           "name": "Shoora janeswara",
           "en": "God for heroes like Indra."
-        }
-      ],
-      "shloka": 68
-    },
-    {
-      "id": "stotram-099",
-      "n": 99,
-      "section": "stotram",
-      "sa": "कालनेमिनिहा वीरः शौरिः शूरजनेश्वरः । त्रिलोकात्मा त्रिलोकेशः केशवः केशिहा हरिः ॥ ६९॥",
-      "iast": "kālaneminihā vīraḥ śauriḥ śūrajaneśvaraḥ | trilokātmā trilokeśaḥ keśavaḥ keśihā hariḥ || 69||",
-      "en": "He slew Kalanemi. He is the hero, son of Shura, and Lord of the brave. He is the Self and Lord of the three worlds, Keshava, slayer of the demon Keshi, and Hari who removes pain.",
-      "start": 1014.37,
-      "end": 1022.95,
-      "names": [
+        },
         {
           "n": 646,
           "name": "Thrilokathma",
@@ -4487,7 +4487,20 @@ window.STOTRAM = {
           "n": 650,
           "name": "Hari",
           "en": "Removes births and deaths with their cause or He who is green."
-        },
+        }
+      ],
+      "shloka": 69
+    },
+    {
+      "id": "stotram-100",
+      "n": 100,
+      "section": "stotram",
+      "sa": "कामदेवः कामपालः कामी कान्तः कृतागमः । अनिर्देश्यवपुर्विष्णुर्वीरोऽनन्तो धनञ्जयः ॥ ७०॥",
+      "iast": "kāmadevaḥ kāmapālaḥ kāmī kāntaḥ kṛtāgamaḥ | anirdeśyavapurviṣṇurvīro'nanto dhanañjayaḥ || 70||",
+      "en": "He is the desired God, the keeper of wishes, fulfilled, and lovely. He gave the scriptures. His form cannot be described. He is Vishnu, the hero, the endless, and Dhananjaya.",
+      "start": 1023.52,
+      "end": 1032.38,
+      "names": [
         {
           "n": 651,
           "name": "Kama deva",
@@ -4507,20 +4520,7 @@ window.STOTRAM = {
           "n": 654,
           "name": "Kaantha",
           "en": "Has attraction."
-        }
-      ],
-      "shloka": 69
-    },
-    {
-      "id": "stotram-100",
-      "n": 100,
-      "section": "stotram",
-      "sa": "कामदेवः कामपालः कामी कान्तः कृतागमः । अनिर्देश्यवपुर्विष्णुर्वीरोऽनन्तो धनञ्जयः ॥ ७०॥",
-      "iast": "kāmadevaḥ kāmapālaḥ kāmī kāntaḥ kṛtāgamaḥ | anirdeśyavapurviṣṇurvīro'nanto dhanañjayaḥ || 70||",
-      "en": "He is the desired God, the keeper of wishes, fulfilled, and lovely. He gave the scriptures. His form cannot be described. He is Vishnu, the hero, the endless, and Dhananjaya.",
-      "start": 1023.52,
-      "end": 1032.38,
-      "names": [
+        },
         {
           "n": 655,
           "name": "Krithagama",
@@ -4550,7 +4550,20 @@ window.STOTRAM = {
           "n": 660,
           "name": "Dhananjaya",
           "en": "Arjuna or He who wins the attraction over money."
-        },
+        }
+      ],
+      "shloka": 70
+    },
+    {
+      "id": "stotram-101",
+      "n": 101,
+      "section": "stotram",
+      "sa": "ब्रह्मण्यो ब्रह्मकृद् ब्रह्मा ब्रह्म ब्रह्मविवर्धनः । ब्रह्मविद् ब्राह्मणो ब्रह्मी ब्रह्मज्ञो ब्राह्मणप्रियः ॥ ७१॥",
+      "iast": "brahmaṇyo brahmakṛd brahmā brahma brahmavivardhanaḥ | brahmavid brāhmaṇo brahmī brahmajño brāhmaṇapriyaḥ || 71||",
+      "en": "He loves the Vedas and the good. He makes Brahman, is Brahma, is Brahman, and makes the Vedas grow. He knows the Veda, is the Brahmana, holds Brahman, knows Brahman, and is dear to the Brahmanas.",
+      "start": 1032.91,
+      "end": 1042.31,
+      "names": [
         {
           "n": 661,
           "name": "Brahmanya",
@@ -4570,20 +4583,7 @@ window.STOTRAM = {
           "n": 664,
           "name": "Brahmana",
           "en": "Brahmam."
-        }
-      ],
-      "shloka": 70
-    },
-    {
-      "id": "stotram-101",
-      "n": 101,
-      "section": "stotram",
-      "sa": "ब्रह्मण्यो ब्रह्मकृद् ब्रह्मा ब्रह्म ब्रह्मविवर्धनः । ब्रह्मविद् ब्राह्मणो ब्रह्मी ब्रह्मज्ञो ब्राह्मणप्रियः ॥ ७१॥",
-      "iast": "brahmaṇyo brahmakṛd brahmā brahma brahmavivardhanaḥ | brahmavid brāhmaṇo brahmī brahmajño brāhmaṇapriyaḥ || 71||",
-      "en": "He loves the Vedas and the good. He makes Brahman, is Brahma, is Brahman, and makes the Vedas grow. He knows the Veda, is the Brahmana, holds Brahman, knows Brahman, and is dear to the Brahmanas.",
-      "start": 1032.91,
-      "end": 1042.31,
-      "names": [
+        },
         {
           "n": 665,
           "name": "Brahma vivardhana",
@@ -4613,7 +4613,20 @@ window.STOTRAM = {
           "n": 670,
           "name": "Brahmana priya",
           "en": "Liked by Brahmins."
-        },
+        }
+      ],
+      "shloka": 71
+    },
+    {
+      "id": "stotram-102",
+      "n": 102,
+      "section": "stotram",
+      "sa": "महाक्रमो महाकर्मा महातेजा महोरगः । महाक्रतुर्महायज्वा महायज्ञो महाहविः ॥ ७२॥",
+      "iast": "mahākramo mahākarmā mahātejā mahoragaḥ | mahākraturmahāyajvā mahāyajño mahāhaviḥ || 72||",
+      "en": "His stride is great, His work is great, His light is great. He is the great serpent. He is the great rite, the great sacrificer, the great yajna, and the great offering.",
+      "start": 1042.82,
+      "end": 1051.01,
+      "names": [
         {
           "n": 671,
           "name": "Maha krama",
@@ -4633,20 +4646,7 @@ window.STOTRAM = {
           "n": 674,
           "name": "Mahoraga",
           "en": "Has the form of the great serpent."
-        }
-      ],
-      "shloka": 71
-    },
-    {
-      "id": "stotram-102",
-      "n": 102,
-      "section": "stotram",
-      "sa": "महाक्रमो महाकर्मा महातेजा महोरगः । महाक्रतुर्महायज्वा महायज्ञो महाहविः ॥ ७२॥",
-      "iast": "mahākramo mahākarmā mahātejā mahoragaḥ | mahākraturmahāyajvā mahāyajño mahāhaviḥ || 72||",
-      "en": "His stride is great, His work is great, His light is great. He is the great serpent. He is the great rite, the great sacrificer, the great yajna, and the great offering.",
-      "start": 1042.82,
-      "end": 1051.01,
-      "names": [
+        },
         {
           "n": 675,
           "name": "Maha krithu",
@@ -4666,16 +4666,6 @@ window.STOTRAM = {
           "n": 678,
           "name": "Maha havi",
           "en": "The greatest sacrificial offering in the yagna."
-        },
-        {
-          "n": 679,
-          "name": "Stavya",
-          "en": "Being praised by everybody."
-        },
-        {
-          "n": 680,
-          "name": "Sthava priya",
-          "en": "Likes being praised."
         }
       ],
       "shloka": 72
@@ -4690,6 +4680,16 @@ window.STOTRAM = {
       "start": 1051.58,
       "end": 1060.24,
       "names": [
+        {
+          "n": 679,
+          "name": "Stavya",
+          "en": "Being praised by everybody."
+        },
+        {
+          "n": 680,
+          "name": "Sthava priya",
+          "en": "Likes being praised."
+        },
         {
           "n": 681,
           "name": "Stotra",
@@ -4734,16 +4734,6 @@ window.STOTRAM = {
           "n": 689,
           "name": "Anamaya",
           "en": "Never becomes ill."
-        },
-        {
-          "n": 690,
-          "name": "Manojava",
-          "en": "As fast as the mind."
-        },
-        {
-          "n": 691,
-          "name": "Theertha kara",
-          "en": "Created methods for salvation of all beings in the world."
         }
       ],
       "shloka": 73
@@ -4758,6 +4748,16 @@ window.STOTRAM = {
       "start": 1060.67,
       "end": 1068.35,
       "names": [
+        {
+          "n": 690,
+          "name": "Manojava",
+          "en": "As fast as the mind."
+        },
+        {
+          "n": 691,
+          "name": "Theertha kara",
+          "en": "Created methods for salvation of all beings in the world."
+        },
         {
           "n": 692,
           "name": "Vasu rethas",
@@ -4792,16 +4792,6 @@ window.STOTRAM = {
           "n": 698,
           "name": "Havi",
           "en": "The sacrificial offering in the yagas."
-        },
-        {
-          "n": 699,
-          "name": "Sad Gadhi",
-          "en": "Attained by good people."
-        },
-        {
-          "n": 700,
-          "name": "Sad krithi",
-          "en": "Does good action."
         }
       ],
       "shloka": 74
@@ -4816,6 +4806,16 @@ window.STOTRAM = {
       "start": 1068.85,
       "end": 1077.45,
       "names": [
+        {
+          "n": 699,
+          "name": "Sad Gadhi",
+          "en": "Attained by good people."
+        },
+        {
+          "n": 700,
+          "name": "Sad krithi",
+          "en": "Does good action."
+        },
         {
           "n": 701,
           "name": "Saththa",
@@ -4850,16 +4850,6 @@ window.STOTRAM = {
           "n": 707,
           "name": "Suyamuna",
           "en": "Surrounded by residents of Yamuna."
-        },
-        {
-          "n": 708,
-          "name": "Bhootavasa",
-          "en": "Keeps all beings in his caring sight."
-        },
-        {
-          "n": 709,
-          "name": "Vasudeva",
-          "en": "Hides the world by illusion."
         }
       ],
       "shloka": 75
@@ -4874,6 +4864,16 @@ window.STOTRAM = {
       "start": 1078.0,
       "end": 1086.61,
       "names": [
+        {
+          "n": 708,
+          "name": "Bhootavasa",
+          "en": "Keeps all beings in his caring sight."
+        },
+        {
+          "n": 709,
+          "name": "Vasudeva",
+          "en": "Hides the world by illusion."
+        },
         {
           "n": 710,
           "name": "Sarvasunilaya",
@@ -4908,16 +4908,6 @@ window.STOTRAM = {
           "n": 716,
           "name": "Aparajitha",
           "en": "Can not be won."
-        },
-        {
-          "n": 717,
-          "name": "Viswa Murthi",
-          "en": "Has the universe as his body."
-        },
-        {
-          "n": 718,
-          "name": "Maha Murthi",
-          "en": "Has a big body."
         }
       ],
       "shloka": 76
@@ -4932,6 +4922,16 @@ window.STOTRAM = {
       "start": 1087.15,
       "end": 1096.33,
       "names": [
+        {
+          "n": 717,
+          "name": "Viswa Murthi",
+          "en": "Has the universe as his body."
+        },
+        {
+          "n": 718,
+          "name": "Maha Murthi",
+          "en": "Has a big body."
+        },
         {
           "n": 719,
           "name": "Deepthamurthy",
@@ -4961,16 +4961,6 @@ window.STOTRAM = {
           "n": 724,
           "name": "Sathanana",
           "en": "Has several faces."
-        },
-        {
-          "n": 725,
-          "name": "Eka",
-          "en": "One."
-        },
-        {
-          "n": 726,
-          "name": "Naika",
-          "en": "Appears as in different forms by illusion."
         }
       ],
       "shloka": 77
@@ -4985,6 +4975,16 @@ window.STOTRAM = {
       "start": 1096.82,
       "end": 1105.14,
       "names": [
+        {
+          "n": 725,
+          "name": "Eka",
+          "en": "One."
+        },
+        {
+          "n": 726,
+          "name": "Naika",
+          "en": "Appears as in different forms by illusion."
+        },
         {
           "n": 727,
           "name": "Sava",
@@ -5034,16 +5034,6 @@ window.STOTRAM = {
           "n": 736,
           "name": "Bhaktha Vatsala",
           "en": "Loves his devotees."
-        },
-        {
-          "n": 737,
-          "name": "Suvarna varna",
-          "en": "Of a golden colour."
-        },
-        {
-          "n": 738,
-          "name": "Hemanga",
-          "en": "Has a golden body."
         }
       ],
       "shloka": 78
@@ -5058,6 +5048,16 @@ window.STOTRAM = {
       "start": 1105.67,
       "end": 1114.45,
       "names": [
+        {
+          "n": 737,
+          "name": "Suvarna varna",
+          "en": "Of a golden colour."
+        },
+        {
+          "n": 738,
+          "name": "Hemanga",
+          "en": "Has a golden body."
+        },
         {
           "n": 739,
           "name": "Varanga",
@@ -5097,16 +5097,6 @@ window.STOTRAM = {
           "n": 746,
           "name": "Chala",
           "en": "Moves in the form of wind for example."
-        },
-        {
-          "n": 747,
-          "name": "Amani",
-          "en": "Does not have pride and willing to be any thing."
-        },
-        {
-          "n": 748,
-          "name": "Manada",
-          "en": "By his illusion makes people love their body."
         }
       ],
       "shloka": 79
@@ -5121,6 +5111,16 @@ window.STOTRAM = {
       "start": 1114.96,
       "end": 1123.52,
       "names": [
+        {
+          "n": 747,
+          "name": "Amani",
+          "en": "Does not have pride and willing to be any thing."
+        },
+        {
+          "n": 748,
+          "name": "Manada",
+          "en": "By his illusion makes people love their body."
+        },
         {
           "n": 749,
           "name": "Manya",
@@ -5160,16 +5160,6 @@ window.STOTRAM = {
           "n": 756,
           "name": "Dhara Dhara",
           "en": "Carried the mountain."
-        },
-        {
-          "n": 757,
-          "name": "Thejovrisha",
-          "en": "Rains light."
-        },
-        {
-          "n": 758,
-          "name": "Dhythi dhara",
-          "en": "Has shining limbs."
         }
       ],
       "shloka": 80
@@ -5184,6 +5174,16 @@ window.STOTRAM = {
       "start": 1124.08,
       "end": 1132.25,
       "names": [
+        {
+          "n": 757,
+          "name": "Thejovrisha",
+          "en": "Rains light."
+        },
+        {
+          "n": 758,
+          "name": "Dhythi dhara",
+          "en": "Has shining limbs."
+        },
         {
           "n": 759,
           "name": "Sarva Sastra Bhritham Vara",
@@ -5213,16 +5213,6 @@ window.STOTRAM = {
           "n": 764,
           "name": "Gadhagraja",
           "en": "Appears before by Manthras or He who appeared before Gatha."
-        },
-        {
-          "n": 765,
-          "name": "Chatur murthy",
-          "en": "Has four forms."
-        },
-        {
-          "n": 766,
-          "name": "Chathur Bahu",
-          "en": "Has four arms."
         }
       ],
       "shloka": 81
@@ -5237,6 +5227,16 @@ window.STOTRAM = {
       "start": 1132.77,
       "end": 1141.49,
       "names": [
+        {
+          "n": 765,
+          "name": "Chatur murthy",
+          "en": "Has four forms."
+        },
+        {
+          "n": 766,
+          "name": "Chathur Bahu",
+          "en": "Has four arms."
+        },
         {
           "n": 767,
           "name": "Chatur Vyooha",
@@ -5266,16 +5266,6 @@ window.STOTRAM = {
           "n": 772,
           "name": "Eka Patha",
           "en": "Keeps all the worlds under one of his feet."
-        },
-        {
-          "n": 773,
-          "name": "Sama Vartha",
-          "en": "Rotates the wheel of birth and death."
-        },
-        {
-          "n": 774,
-          "name": "Nivrittatma",
-          "en": "Always available everywhere."
         }
       ],
       "shloka": 82
@@ -5290,6 +5280,16 @@ window.STOTRAM = {
       "start": 1142.03,
       "end": 1150.29,
       "names": [
+        {
+          "n": 773,
+          "name": "Sama Vartha",
+          "en": "Rotates the wheel of birth and death."
+        },
+        {
+          "n": 774,
+          "name": "Nivrittatma",
+          "en": "Always available everywhere."
+        },
         {
           "n": 775,
           "name": "Dur Jaya",
@@ -5324,16 +5324,6 @@ window.STOTRAM = {
           "n": 781,
           "name": "Durariha",
           "en": "Kills those adopting the wrong path."
-        },
-        {
-          "n": 782,
-          "name": "Shubhanga",
-          "en": "Has a beautiful body."
-        },
-        {
-          "n": 783,
-          "name": "Loka Saranga",
-          "en": "Understands the essence of the world."
         }
       ],
       "shloka": 83
@@ -5348,6 +5338,16 @@ window.STOTRAM = {
       "start": 1150.81,
       "end": 1158.94,
       "names": [
+        {
+          "n": 782,
+          "name": "Shubhanga",
+          "en": "Has a beautiful body."
+        },
+        {
+          "n": 783,
+          "name": "Loka Saranga",
+          "en": "Understands the essence of the world."
+        },
         {
           "n": 784,
           "name": "Suthanthu",
@@ -5377,16 +5377,6 @@ window.STOTRAM = {
           "n": 789,
           "name": "Kritha Agama",
           "en": "Created the Vedas."
-        },
-        {
-          "n": 790,
-          "name": "Udbhava",
-          "en": "Attains great births."
-        },
-        {
-          "n": 791,
-          "name": "Sundara",
-          "en": "The epitome of beauty."
         }
       ],
       "shloka": 84
@@ -5401,6 +5391,16 @@ window.STOTRAM = {
       "start": 1159.42,
       "end": 1167.86,
       "names": [
+        {
+          "n": 790,
+          "name": "Udbhava",
+          "en": "Attains great births."
+        },
+        {
+          "n": 791,
+          "name": "Sundara",
+          "en": "The epitome of beauty."
+        },
         {
           "n": 792,
           "name": "Sunda",
@@ -5440,16 +5440,6 @@ window.STOTRAM = {
           "n": 799,
           "name": "Sarva Vijjayi",
           "en": "Knows all and wins over all."
-        },
-        {
-          "n": 800,
-          "name": "Suvarna Bindu",
-          "en": "Has limbs of the body like Gold or He who is the God of Pranava."
-        },
-        {
-          "n": 801,
-          "name": "Akshobya",
-          "en": "Should not be disturbed."
         }
       ],
       "shloka": 85
@@ -5464,6 +5454,16 @@ window.STOTRAM = {
       "start": 1168.37,
       "end": 1176.45,
       "names": [
+        {
+          "n": 800,
+          "name": "Suvarna Bindu",
+          "en": "Has limbs of the body like Gold or He who is the God of Pranava."
+        },
+        {
+          "n": 801,
+          "name": "Akshobya",
+          "en": "Should not be disturbed."
+        },
         {
           "n": 802,
           "name": "Sarva Vagesware swara",
@@ -5488,16 +5488,6 @@ window.STOTRAM = {
           "n": 806,
           "name": "Maha Nidhi",
           "en": "He in Whom all wealth is saved."
-        },
-        {
-          "n": 807,
-          "name": "Kumudha",
-          "en": "Makes the earth happy."
-        },
-        {
-          "n": 808,
-          "name": "Kundara",
-          "en": "Recognizes results of good deeds."
         }
       ],
       "shloka": 86
@@ -5512,6 +5502,16 @@ window.STOTRAM = {
       "start": 1177.0,
       "end": 1184.88,
       "names": [
+        {
+          "n": 807,
+          "name": "Kumudha",
+          "en": "Makes the earth happy."
+        },
+        {
+          "n": 808,
+          "name": "Kundara",
+          "en": "Recognizes results of good deeds."
+        },
         {
           "n": 809,
           "name": "Kunda",
@@ -5551,16 +5551,6 @@ window.STOTRAM = {
           "n": 816,
           "name": "Sarvatho Muga",
           "en": "Has faces everywhere or He who can be approached from any where."
-        },
-        {
-          "n": 817,
-          "name": "Sulabha",
-          "en": "Can be easily attained."
-        },
-        {
-          "n": 818,
-          "name": "Suvritha",
-          "en": "Does great penance."
         }
       ],
       "shloka": 87
@@ -5575,6 +5565,16 @@ window.STOTRAM = {
       "start": 1185.4,
       "end": 1193.97,
       "names": [
+        {
+          "n": 817,
+          "name": "Sulabha",
+          "en": "Can be easily attained."
+        },
+        {
+          "n": 818,
+          "name": "Suvritha",
+          "en": "Does great penance."
+        },
         {
           "n": 819,
           "name": "Siddha",
@@ -5609,16 +5609,6 @@ window.STOTRAM = {
           "n": 825,
           "name": "Chanurandra Nishudhana",
           "en": "Killed Chanoora who belonged to Andhra."
-        },
-        {
-          "n": 826,
-          "name": "Sahasrarchi",
-          "en": "Has thousand rays."
-        },
-        {
-          "n": 827,
-          "name": "Satha Jihwa",
-          "en": "The fire God with seven tongues."
         }
       ],
       "shloka": 88
@@ -5633,6 +5623,16 @@ window.STOTRAM = {
       "start": 1194.49,
       "end": 1202.81,
       "names": [
+        {
+          "n": 826,
+          "name": "Sahasrarchi",
+          "en": "Has thousand rays."
+        },
+        {
+          "n": 827,
+          "name": "Satha Jihwa",
+          "en": "The fire God with seven tongues."
+        },
         {
           "n": 828,
           "name": "Sapthaida",
@@ -5667,16 +5667,6 @@ window.STOTRAM = {
           "n": 834,
           "name": "Bhaya Nasana",
           "en": "Destroys fear in good people."
-        },
-        {
-          "n": 835,
-          "name": "Anu",
-          "en": "Small like an atom."
-        },
-        {
-          "n": 836,
-          "name": "Brihat",
-          "en": "Extremely big."
         }
       ],
       "shloka": 89
@@ -5691,6 +5681,16 @@ window.STOTRAM = {
       "start": 1203.33,
       "end": 1211.92,
       "names": [
+        {
+          "n": 835,
+          "name": "Anu",
+          "en": "Small like an atom."
+        },
+        {
+          "n": 836,
+          "name": "Brihat",
+          "en": "Extremely big."
+        },
         {
           "n": 837,
           "name": "Krisa",
@@ -5740,16 +5740,6 @@ window.STOTRAM = {
           "n": 846,
           "name": "Vamsa Vardhana",
           "en": "Makes dynasties grow."
-        },
-        {
-          "n": 847,
-          "name": "Bhara Brit",
-          "en": "Carries heavy worlds."
-        },
-        {
-          "n": 848,
-          "name": "Khadhitha",
-          "en": "Called as ultimate truth by the Vedas."
         }
       ],
       "shloka": 90
@@ -5764,6 +5754,16 @@ window.STOTRAM = {
       "start": 1212.43,
       "end": 1220.99,
       "names": [
+        {
+          "n": 847,
+          "name": "Bhara Brit",
+          "en": "Carries heavy worlds."
+        },
+        {
+          "n": 848,
+          "name": "Khadhitha",
+          "en": "Called as ultimate truth by the Vedas."
+        },
         {
           "n": 849,
           "name": "Yogi",
@@ -5803,16 +5803,6 @@ window.STOTRAM = {
           "n": 856,
           "name": "Vayu Vahana",
           "en": "Makes winds move."
-        },
-        {
-          "n": 857,
-          "name": "Dhanur dhara",
-          "en": "A great archer in the form of Rama."
-        },
-        {
-          "n": 858,
-          "name": "Dhanur veda",
-          "en": "Knows the science of Archery."
         }
       ],
       "shloka": 91
@@ -5827,6 +5817,16 @@ window.STOTRAM = {
       "start": 1221.55,
       "end": 1229.46,
       "names": [
+        {
+          "n": 857,
+          "name": "Dhanur dhara",
+          "en": "A great archer in the form of Rama."
+        },
+        {
+          "n": 858,
+          "name": "Dhanur veda",
+          "en": "Knows the science of Archery."
+        },
         {
           "n": 859,
           "name": "Dhanda",
@@ -5866,16 +5866,6 @@ window.STOTRAM = {
           "n": 866,
           "name": "Ayama",
           "en": "Does not have fear of death."
-        },
-        {
-          "n": 867,
-          "name": "Sathva van",
-          "en": "Brave and valorous."
-        },
-        {
-          "n": 868,
-          "name": "Saathvika",
-          "en": "Soft natured."
         }
       ],
       "shloka": 92
@@ -5890,6 +5880,16 @@ window.STOTRAM = {
       "start": 1229.99,
       "end": 1238.2,
       "names": [
+        {
+          "n": 867,
+          "name": "Sathva van",
+          "en": "Brave and valorous."
+        },
+        {
+          "n": 868,
+          "name": "Saathvika",
+          "en": "Soft natured."
+        },
         {
           "n": 869,
           "name": "Satya",
@@ -5924,16 +5924,6 @@ window.STOTRAM = {
           "n": 875,
           "name": "Preethi vardhana",
           "en": "Increases devotion of his devotees."
-        },
-        {
-          "n": 876,
-          "name": "Vihaya sagatha",
-          "en": "Lives in the sky."
-        },
-        {
-          "n": 877,
-          "name": "Jyothi",
-          "en": "Glitters himself."
         }
       ],
       "shloka": 93
@@ -5948,6 +5938,16 @@ window.STOTRAM = {
       "start": 1238.74,
       "end": 1246.15,
       "names": [
+        {
+          "n": 876,
+          "name": "Vihaya sagatha",
+          "en": "Lives in the sky."
+        },
+        {
+          "n": 877,
+          "name": "Jyothi",
+          "en": "Glitters himself."
+        },
         {
           "n": 878,
           "name": "Suruchi",
@@ -5987,16 +5987,6 @@ window.STOTRAM = {
           "n": 885,
           "name": "Ravi lochana",
           "en": "Has the sun for his eyes."
-        },
-        {
-          "n": 886,
-          "name": "Anantha",
-          "en": "Limitless."
-        },
-        {
-          "n": 887,
-          "name": "Hutha bhuja",
-          "en": "Eats what is offered in fire sacrifice."
         }
       ],
       "shloka": 94
@@ -6011,6 +6001,16 @@ window.STOTRAM = {
       "start": 1246.62,
       "end": 1254.89,
       "names": [
+        {
+          "n": 886,
+          "name": "Anantha",
+          "en": "Limitless."
+        },
+        {
+          "n": 887,
+          "name": "Hutha bhuja",
+          "en": "Eats what is offered in fire sacrifice."
+        },
         {
           "n": 888,
           "name": "Bhoktha",
@@ -6050,11 +6050,6 @@ window.STOTRAM = {
           "n": 895,
           "name": "Adbhuta",
           "en": "The wonder."
-        },
-        {
-          "n": 896,
-          "name": "Sanaath",
-          "en": "From the very beginning."
         }
       ],
       "shloka": 95
@@ -6069,6 +6064,11 @@ window.STOTRAM = {
       "start": 1255.45,
       "end": 1263.0,
       "names": [
+        {
+          "n": 896,
+          "name": "Sanaath",
+          "en": "From the very beginning."
+        },
         {
           "n": 897,
           "name": "Sanathana thama",
@@ -6113,11 +6113,6 @@ window.STOTRAM = {
           "n": 905,
           "name": "Swasthi dakshina",
           "en": "Has the nature of giving good."
-        },
-        {
-          "n": 906,
-          "name": "Aroudhra",
-          "en": "Never cruel."
         }
       ],
       "shloka": 96
@@ -6132,6 +6127,11 @@ window.STOTRAM = {
       "start": 1263.49,
       "end": 1271.61,
       "names": [
+        {
+          "n": 906,
+          "name": "Aroudhra",
+          "en": "Never cruel."
+        },
         {
           "n": 907,
           "name": "Kundali",
@@ -6171,11 +6171,6 @@ window.STOTRAM = {
           "n": 914,
           "name": "Ssarvarikara",
           "en": "Creates darkness like night."
-        },
-        {
-          "n": 915,
-          "name": "Akroora",
-          "en": "Not cruel."
         }
       ],
       "shloka": 97
@@ -6190,6 +6185,11 @@ window.STOTRAM = {
       "start": 1272.1,
       "end": 1280.37,
       "names": [
+        {
+          "n": 915,
+          "name": "Akroora",
+          "en": "Not cruel."
+        },
         {
           "n": 916,
           "name": "Pesala",
@@ -6224,11 +6224,6 @@ window.STOTRAM = {
           "n": 922,
           "name": "Punya sravana keerthana",
           "en": "Increases boons to those who sing about him."
-        },
-        {
-          "n": 923,
-          "name": "Uthaarana",
-          "en": "Makes you climb the shore from ocean of misery."
         }
       ],
       "shloka": 98
@@ -6243,6 +6238,11 @@ window.STOTRAM = {
       "start": 1280.94,
       "end": 1289.35,
       "names": [
+        {
+          "n": 923,
+          "name": "Uthaarana",
+          "en": "Makes you climb the shore from ocean of misery."
+        },
         {
           "n": 924,
           "name": "Dushkrathiha",
@@ -6282,11 +6282,6 @@ window.STOTRAM = {
           "n": 931,
           "name": "Paryavasthitha",
           "en": "Spread every where."
-        },
-        {
-          "n": 932,
-          "name": "Anantha roopa",
-          "en": "Has countless forms or He who is Adisesha."
         }
       ],
       "shloka": 99
@@ -6301,6 +6296,11 @@ window.STOTRAM = {
       "start": 1289.87,
       "end": 1298.38,
       "names": [
+        {
+          "n": 932,
+          "name": "Anantha roopa",
+          "en": "Has countless forms or He who is Adisesha."
+        },
         {
           "n": 933,
           "name": "Anantha shree",
@@ -6340,11 +6340,6 @@ window.STOTRAM = {
           "n": 940,
           "name": "Dhisa",
           "en": "As Veda, points out the results of different actions."
-        },
-        {
-          "n": 941,
-          "name": "Anadhi",
-          "en": "Does not have a cause."
         }
       ],
       "shloka": 100
@@ -6359,6 +6354,11 @@ window.STOTRAM = {
       "start": 1298.91,
       "end": 1307.34,
       "names": [
+        {
+          "n": 941,
+          "name": "Anadhi",
+          "en": "Does not have a cause."
+        },
         {
           "n": 942,
           "name": "Bhor bhuva",
@@ -6398,16 +6398,6 @@ window.STOTRAM = {
           "n": 949,
           "name": "Bheema parakrama",
           "en": "Creates fear in his adversaries."
-        },
-        {
-          "n": 950,
-          "name": "Adhara Nilaya",
-          "en": "The basis of the basis."
-        },
-        {
-          "n": 951,
-          "name": "Adhatha",
-          "en": "Drinks all beings at the time of deluge or He who is the only one basis."
         }
       ],
       "shloka": 101
@@ -6422,6 +6412,16 @@ window.STOTRAM = {
       "start": 1307.87,
       "end": 1316.22,
       "names": [
+        {
+          "n": 950,
+          "name": "Adhara Nilaya",
+          "en": "The basis of the basis."
+        },
+        {
+          "n": 951,
+          "name": "Adhatha",
+          "en": "Drinks all beings at the time of deluge or He who is the only one basis."
+        },
         {
           "n": 952,
           "name": "Pushpa hasa",
@@ -6456,16 +6456,6 @@ window.STOTRAM = {
           "n": 958,
           "name": "Pana",
           "en": "Accepts all offerings to him and gives rewards."
-        },
-        {
-          "n": 959,
-          "name": "Pramana",
-          "en": "The lustrous personification of knowledge."
-        },
-        {
-          "n": 960,
-          "name": "Prana nilaya",
-          "en": "He in whom all souls live."
         }
       ],
       "shloka": 102
@@ -6480,6 +6470,16 @@ window.STOTRAM = {
       "start": 1316.77,
       "end": 1325.05,
       "names": [
+        {
+          "n": 959,
+          "name": "Pramana",
+          "en": "The lustrous personification of knowledge."
+        },
+        {
+          "n": 960,
+          "name": "Prana nilaya",
+          "en": "He in whom all souls live."
+        },
         {
           "n": 961,
           "name": "Prana brit",
@@ -6509,16 +6509,6 @@ window.STOTRAM = {
           "n": 966,
           "name": "Janma mrutyu jarathiga",
           "en": "Above birth, death and ageing."
-        },
-        {
-          "n": 967,
-          "name": "Bhurbhuva Swastharu",
-          "en": "Spread as a tree to Bhuu Loka, Bhuvar Loka, and Suvar Loka."
-        },
-        {
-          "n": 968,
-          "name": "Thara",
-          "en": "Makes us cross the sea of births and deaths."
         }
       ],
       "shloka": 103
@@ -6533,6 +6523,16 @@ window.STOTRAM = {
       "start": 1325.5,
       "end": 1334.15,
       "names": [
+        {
+          "n": 967,
+          "name": "Bhurbhuva Swastharu",
+          "en": "Spread as a tree to Bhuu Loka, Bhuvar Loka, and Suvar Loka."
+        },
+        {
+          "n": 968,
+          "name": "Thara",
+          "en": "Makes us cross the sea of births and deaths."
+        },
         {
           "n": 969,
           "name": "Savitha",
@@ -6567,16 +6567,6 @@ window.STOTRAM = {
           "n": 975,
           "name": "Yagna vahana",
           "en": "Carries forward Yagna."
-        },
-        {
-          "n": 976,
-          "name": "Yagna brit",
-          "en": "Accepts yagna."
-        },
-        {
-          "n": 977,
-          "name": "Yagna krit",
-          "en": "Created Yagna."
         }
       ],
       "shloka": 104
@@ -6591,6 +6581,16 @@ window.STOTRAM = {
       "start": 1334.63,
       "end": 1342.92,
       "names": [
+        {
+          "n": 976,
+          "name": "Yagna brit",
+          "en": "Accepts yagna."
+        },
+        {
+          "n": 977,
+          "name": "Yagna krit",
+          "en": "Created Yagna."
+        },
         {
           "n": 978,
           "name": "Yagni",
@@ -6625,16 +6625,6 @@ window.STOTRAM = {
           "n": 984,
           "name": "Annada",
           "en": "Eats food."
-        },
-        {
-          "n": 985,
-          "name": "Athma yoni",
-          "en": "The cause of all beings."
-        },
-        {
-          "n": 986,
-          "name": "Swayam jatha",
-          "en": "The cause of His own birth."
         }
       ],
       "shloka": 105
@@ -6649,6 +6639,16 @@ window.STOTRAM = {
       "start": 1343.42,
       "end": 1352.35,
       "names": [
+        {
+          "n": 985,
+          "name": "Athma yoni",
+          "en": "The cause of all beings."
+        },
+        {
+          "n": 986,
+          "name": "Swayam jatha",
+          "en": "The cause of His own birth."
+        },
         {
           "n": 987,
           "name": "Vaikhkhana",
@@ -6678,16 +6678,6 @@ window.STOTRAM = {
           "n": 992,
           "name": "Papa nasana",
           "en": "Destroys sin."
-        },
-        {
-          "n": 993,
-          "name": "Sankha brit",
-          "en": "Has a Conch called Pancha Janya."
-        },
-        {
-          "n": 994,
-          "name": "Nandaki",
-          "en": "Has the sword called Nandaka."
         }
       ],
       "shloka": 106
@@ -6702,6 +6692,16 @@ window.STOTRAM = {
       "start": 1352.9,
       "end": 1364.71,
       "names": [
+        {
+          "n": 993,
+          "name": "Sankha brit",
+          "en": "Has a Conch called Pancha Janya."
+        },
+        {
+          "n": 994,
+          "name": "Nandaki",
+          "en": "Has the sword called Nandaka."
+        },
         {
           "n": 995,
           "name": "Chakri",

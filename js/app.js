@@ -32,7 +32,11 @@
       Recitation.clearRange();
     }
     if (name === "listen") Recitation.clearRange();
-    if (name === "learn") renderLearn();
+    if (name === "learn") {
+      renderLearn();
+      watchPin();
+      window.scrollTo({ top: 0, behavior: "auto" });
+    }
     if (name === "listen") renderListen();
     if (name === "settings") renderSettings();
     if (name === "home") renderHome();
@@ -70,30 +74,86 @@
     return `${label} · ${i} of ${inSection.length}`;
   }
 
+  // Break each half-line at its daṇḍa, and after a completed verse, so the
+  // Sanskrit reads as it is written rather than as the box happens to wrap it.
+  function verseLines(sa) {
+    return sa
+      .replace(/\s*।\s*/g, " ।\n")
+      .replace(/(॥\s*[०-९\d]+\s*॥)\s*/g, "$1\n")
+      .replace(/\n+$/, "")
+      .trim();
+  }
+
+  const esc = (s) =>
+    String(s)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+
   function renderLearn() {
     const verse = currentLearn();
     $("learnKicker").textContent = learnKicker(verse);
     $("learnSlider").max = String(learnVerses.length);
     $("learnSlider").value = String(verse.n);
-    $("learnSa").textContent = verse.sa.replace(/\s*॥\s*/g, " ॥\n").trim();
+    $("learnSa").textContent = verseLines(verse.sa);
     $("learnIast").textContent = verse.iast;
     $("learnIast").hidden = !state.showIast;
     $("learnEn").textContent = verse.en;
+    $("pinBadge").textContent = verse.shloka ? String(verse.shloka) : "";
+    $("pinBadge").hidden = !verse.shloka;
     const names = $("learnNames");
     names.innerHTML = verse.names
       .map(
         (n) =>
-          `<li><span class="n">${n.n}</span><span class="nm">${n.name}</span><span class="en">${n.en}</span></li>`
+          `<li><span class="n">${n.n}</span><span class="nm">${esc(n.name)}</span><span class="en">${esc(n.en)}</span></li>`
       )
       .join("");
     $("learnNamesWrap").hidden = verse.names.length === 0;
+    $("learnNamesWrap").open = state.namesOpen !== false;
+    if (verse.names.length) {
+      const first = verse.names[0].n;
+      const last = verse.names[verse.names.length - 1].n;
+      $("learnNamesCount").textContent =
+        verse.names.length === 1 ? `${first}` : `${first}–${last}`;
+    } else {
+      $("learnNamesCount").textContent = "";
+    }
     const learned = learnedSet().has(verse.id);
     $("markLearned").textContent = learned ? "Learned" : "Mark as learned";
     $("markLearned").classList.toggle("is-on", learned);
+    $("markLearned").setAttribute("aria-pressed", learned ? "true" : "false");
     $("prevVerse").disabled = verse.n === 1;
     $("nextVerse").disabled = verse.n === learnVerses.length;
     updateLearnAudioLabel();
     syncPlayButtons();
+  }
+
+  // Show the śloka again whenever a new one is opened, however deep into the
+  // names the last one was read.
+  function goToVerse(index) {
+    const next = Math.max(0, Math.min(learnVerses.length - 1, index));
+    if (next === state.learnIndex) return;
+    Recitation.audio().pause();
+    Recitation.clearRange();
+    state = Store.write({ learnIndex: next });
+    renderLearn();
+    window.scrollTo({ top: 0, behavior: "auto" });
+  }
+
+  let pinWatcher = null;
+
+  function watchPin() {
+    if (pinWatcher) pinWatcher.disconnect();
+    if (!("IntersectionObserver" in window)) return;
+    const scrim = document.querySelector(".status-scrim");
+    const inset = scrim ? scrim.offsetHeight : 0;
+    pinWatcher = new IntersectionObserver(
+      ([entry]) => {
+        $("versePin").classList.toggle("is-pinned", !entry.isIntersecting);
+      },
+      { rootMargin: `-${inset + 1}px 0px 0px 0px`, threshold: 0 }
+    );
+    pinWatcher.observe($("pinSentinel"));
   }
 
   function updateLearnAudioLabel() {
@@ -110,6 +170,7 @@
     const on = Recitation.playing();
     document.querySelectorAll(".play-orb").forEach((btn) => {
       btn.classList.toggle("is-playing", on);
+      btn.setAttribute("aria-label", on ? "Pause" : btn.dataset.playLabel || "Play");
     });
   }
 
@@ -130,11 +191,6 @@
   function renderListen() {
     Recitation.buildTimeline();
     const track = $("prompterTrack");
-    const esc = (s) =>
-      String(s)
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;");
     track.innerHTML = Recitation.timeline
       .map((v, i) => {
         const sec = i === 0 || Recitation.timeline[i - 1].section !== v.section
@@ -221,25 +277,11 @@
   $("backBtn").onclick = () => setView("home");
   $("homeProgress").onclick = () => setView("learn");
 
-  $("learnSlider").oninput = (e) => {
-    Recitation.audio().pause();
-    Recitation.clearRange();
-    state = Store.write({ learnIndex: Number(e.target.value) - 1 });
-    renderLearn();
-  };
-  $("prevVerse").onclick = () => {
-    Recitation.audio().pause();
-    Recitation.clearRange();
-    state = Store.write({ learnIndex: Math.max(0, state.learnIndex - 1) });
-    renderLearn();
-  };
-  $("nextVerse").onclick = () => {
-    Recitation.audio().pause();
-    Recitation.clearRange();
-    state = Store.write({
-      learnIndex: Math.min(learnVerses.length - 1, state.learnIndex + 1),
-    });
-    renderLearn();
+  $("learnSlider").oninput = (e) => goToVerse(Number(e.target.value) - 1);
+  $("prevVerse").onclick = () => goToVerse(state.learnIndex - 1);
+  $("nextVerse").onclick = () => goToVerse(state.learnIndex + 1);
+  $("learnNamesWrap").ontoggle = () => {
+    state = Store.write({ namesOpen: $("learnNamesWrap").open });
   };
   $("markLearned").onclick = () => {
     const id = currentLearn().id;
@@ -253,7 +295,7 @@
     learnLoop = e.target.checked;
     Recitation.setLooping(learnLoop);
   };
-  $("learnPlay").onclick = async () => {
+  const toggleLearnAudio = async () => {
     if (Recitation.playing() && Recitation.audio().dataset.loopStart) {
       Recitation.audio().pause();
       syncPlayButtons();
@@ -263,6 +305,36 @@
     await playCurrentLearn();
     syncPlayButtons();
   };
+  $("learnPlay").onclick = toggleLearnAudio;
+  $("pinPlay").onclick = toggleLearnAudio;
+
+  // A flick sideways across the verse moves to the next or previous śloka.
+  let swipeX = 0;
+  let swipeY = 0;
+  let swiping = false;
+  $("learnCard").addEventListener(
+    "touchstart",
+    (e) => {
+      swiping = e.touches.length === 1;
+      if (!swiping) return;
+      swipeX = e.touches[0].clientX;
+      swipeY = e.touches[0].clientY;
+    },
+    { passive: true }
+  );
+  $("learnCard").addEventListener(
+    "touchend",
+    (e) => {
+      if (!swiping) return;
+      swiping = false;
+      const touch = e.changedTouches[0];
+      const dx = touch.clientX - swipeX;
+      const dy = touch.clientY - swipeY;
+      if (Math.abs(dx) < 70 || Math.abs(dx) < Math.abs(dy) * 1.8) return;
+      goToVerse(state.learnIndex + (dx < 0 ? 1 : -1));
+    },
+    { passive: true }
+  );
 
   $("listenPlay").onclick = async () => {
     if (!Recitation.hasSource()) {

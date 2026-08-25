@@ -25,6 +25,7 @@
   </head>
   <body>
     <div class="sanctum" aria-hidden="true"></div>
+    <div class="status-scrim" aria-hidden="true"></div>
     <div id="app" class="app">
       <header class="topbar">
         <button class="icon-btn" id="backBtn" type="button" hidden aria-label="Back">
@@ -91,10 +92,26 @@
           <input id="learnSlider" type="range" min="1" max="1" value="1" aria-label="Choose verse" />
         </div>
         <article class="verse-card" id="learnCard">
-          <p class="sanskrit" id="learnSa"></p>
-          <p class="iast" id="learnIast"></p>
+          <div class="pin-sentinel" id="pinSentinel" aria-hidden="true"></div>
+          <div class="verse-pin" id="versePin">
+            <div class="verse-pin-text">
+              <p class="sanskrit" id="learnSa"></p>
+              <p class="iast" id="learnIast"></p>
+            </div>
+            <div class="verse-pin-aside" aria-hidden="true">
+              <span class="pin-badge" id="pinBadge"></span>
+              <button class="play-orb pin-play" id="pinPlay" type="button" tabindex="-1" data-play-label="Play this verse" aria-label="Play this verse">
+                <svg class="icon-play" viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+                <svg class="icon-pause" viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path d="M7 5h4v14H7zM13 5h4v14h-4z" />
+                </svg>
+              </button>
+            </div>
+          </div>
           <div class="player-row">
-            <button class="play-orb" id="learnPlay" type="button" aria-label="Play this verse">
+            <button class="play-orb" id="learnPlay" type="button" data-play-label="Play this verse" aria-label="Play this verse">
               <svg class="icon-play" viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
                 <path d="M8 5v14l11-7z" />
               </svg>
@@ -115,11 +132,14 @@
             <p id="learnEn"></p>
           </div>
           <details class="names" id="learnNamesWrap">
-            <summary>Names in this verse</summary>
+            <summary>
+              <span>Names in this verse</span>
+              <span class="names-count" id="learnNamesCount"></span>
+            </summary>
             <ol id="learnNames"></ol>
           </details>
         </article>
-        <nav class="learn-nav">
+        <nav class="learn-nav" id="learnNav">
           <button class="text-btn" id="prevVerse" type="button">Previous</button>
           <button class="mark-btn" id="markLearned" type="button">Mark as learned</button>
           <button class="text-btn" id="nextVerse" type="button">Next</button>
@@ -138,7 +158,7 @@
           <input id="listenSeek" type="range" min="0" max="1000" value="0" aria-label="Recitation position" />
           <div class="listen-controls">
             <button class="icon-btn" id="listenBack" type="button" aria-label="Back ten seconds">−10s</button>
-            <button class="play-orb small" id="listenPlay" type="button" aria-label="Play recitation">
+            <button class="play-orb small" id="listenPlay" type="button" data-play-label="Play recitation" aria-label="Play recitation">
               <svg class="icon-play" viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
                 <path d="M8 5v14l11-7z" />
               </svg>

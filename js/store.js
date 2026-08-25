@@ -12,6 +12,7 @@ const Store = (() => {
     timeOffset: 0,
     audioName: "",
     fontScale: 1,
+    namesOpen: true,
   });
 
   function read() {

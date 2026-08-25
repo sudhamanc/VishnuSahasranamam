@@ -10,3 +10,4 @@ audio/*.wav
 audio/*.ogg
 audio/*.flac
 !audio/.gitkeep
+__pycache__
